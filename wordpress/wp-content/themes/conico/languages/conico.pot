@@ -1,0 +1,4078 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Conico\n"
+"POT-Creation-Date: 2017-09-28 10:27+0300\n"
+"PO-Revision-Date: 2016-08-10 09:33+0300\n"
+"Last-Translator: Anton Lokotkov <anton.lokotkov@aisconverse.com>\n"
+"Language-Team: Aisconverse <anton.lokotkov@aisconverse.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: basement/configs/settings.php:12 basement/configs/settings.php:15
+msgid "Favicon"
+msgstr ""
+
+#: basement/configs/settings.php:16
+msgid "Icon for browser page tab and user bookmarks"
+msgstr ""
+
+#: basement/configs/settings.php:23 basement/configs/settings.php:25
+#: basement/configs/settings.php:26
+msgid "Set favicon image"
+msgstr ""
+
+#: basement/configs/settings.php:24
+msgid "Remove favicon image"
+msgstr ""
+
+#: basement/configs/settings.php:35
+msgid "Google Map"
+msgstr ""
+
+#: basement/configs/settings.php:38
+msgid "Api key"
+msgstr ""
+
+#: basement/configs/settings.php:39
+msgid "To use the Google Map, you must include an API key"
+msgstr ""
+
+#: basement/configs/settings.php:52
+msgid "Social sharing"
+msgstr ""
+
+#: basement/configs/settings.php:55
+msgid "Social list"
+msgstr ""
+
+#: basement/configs/settings.php:56
+msgid "Select a social network"
+msgstr ""
+
+#: basement/configs/settings.php:61
+msgid " "
+msgstr ""
+
+#: basement/configs/settings.php:63
+msgid "Blogger"
+msgstr ""
+
+#: basement/configs/settings.php:64
+msgid "Delicious"
+msgstr ""
+
+#: basement/configs/settings.php:65
+msgid "Digg"
+msgstr ""
+
+#: basement/configs/settings.php:66
+msgid "Facebook"
+msgstr ""
+
+#: basement/configs/settings.php:67
+msgid "Google+"
+msgstr ""
+
+#: basement/configs/settings.php:68
+msgid "LinkedIn"
+msgstr ""
+
+#: basement/configs/settings.php:69
+msgid "LiveJournal"
+msgstr ""
+
+#: basement/configs/settings.php:70
+msgid "My World"
+msgstr ""
+
+#: basement/configs/settings.php:71
+msgid "Odnoklassniki"
+msgstr ""
+
+#: basement/configs/settings.php:72
+msgid "Pocket"
+msgstr ""
+
+#: basement/configs/settings.php:73
+msgid "Qzone"
+msgstr ""
+
+#: basement/configs/settings.php:74
+msgid "Reddit"
+msgstr ""
+
+#: basement/configs/settings.php:75
+msgid "Sina Weibo"
+msgstr ""
+
+#: basement/configs/settings.php:76
+msgid "Surfingbird"
+msgstr ""
+
+#: basement/configs/settings.php:77
+msgid "Telegram"
+msgstr ""
+
+#: basement/configs/settings.php:78
+msgid "Tencent Weibo"
+msgstr ""
+
+#: basement/configs/settings.php:79
+msgid "Tumblr"
+msgstr ""
+
+#: basement/configs/settings.php:80
+msgid "Twitter"
+msgstr ""
+
+#: basement/configs/settings.php:81
+msgid "Viber"
+msgstr ""
+
+#: basement/configs/settings.php:82
+msgid "VK"
+msgstr ""
+
+#: basement/configs/settings.php:83
+msgid "WhatsApp"
+msgstr ""
+
+#: basement/configs/settings.php:90
+#: inc/tgm/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: basement/configs/settings.php:91
+msgid "Set the view of social sharing block"
+msgstr ""
+
+#: basement/configs/settings.php:97
+msgid "Dropdown"
+msgstr ""
+
+#: basement/configs/settings.php:98
+msgid "Horizontal"
+msgstr ""
+
+#: comments.php:30 inc/visual-composer.php:1052
+msgid "Comment"
+msgstr ""
+
+#: comments.php:32
+msgid "Comments"
+msgstr ""
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:87
+msgid "Your name"
+msgstr ""
+
+#: comments.php:88
+msgid "Email address"
+msgstr ""
+
+#: comments.php:89
+msgid "Website"
+msgstr ""
+
+#: comments.php:93
+msgid "Your email address will not be published"
+msgstr ""
+
+#: comments.php:100
+msgid "Comment*"
+msgstr ""
+
+#: comments.php:102 comments.php:103
+msgid "Add Comment"
+msgstr ""
+
+#: comments.php:108
+msgid "Cancel Reply"
+msgstr ""
+
+#: image.php:27
+msgid "Previous Image"
+msgstr ""
+
+#: image.php:28
+msgid "Next Image"
+msgstr ""
+
+#: image.php:59 single.php:26
+msgid "Pages:"
+msgstr ""
+
+#: image.php:63 single.php:30
+msgid "Page"
+msgstr ""
+
+#: image.php:68 inc/list-comments-walker.php:61 inc/visual-composer.php:1009
+#: single.php:35 template-parts/main/content-post-template.php:180
+#: template-parts/main/content-search.php:54
+msgid "Edit"
+msgstr ""
+
+#: image.php:78
+msgctxt "Parent post link"
+msgid ""
+"<span class=\"meta-nav\">Published in </span><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+
+#: inc/back-compat.php:39 inc/back-compat.php:51 inc/back-compat.php:66
+#, php-format
+msgid ""
+"Conico requires at least WordPress version 4.7. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+
+#: inc/list-comments-walker.php:41
+#, php-format
+msgid "<span class=\"comment-date\">%s</span>"
+msgstr ""
+
+#: inc/list-comments-walker.php:45
+#, php-format
+msgid "<span class=\"comment-time\">%s</span>"
+msgstr ""
+
+#: inc/list-comments-walker.php:61
+#, php-format
+msgid "<div class=\"comment-author\">%s</div>"
+msgstr ""
+
+#: inc/list-comments-walker.php:74
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/no-basement/common.php:27
+msgid "Co&ntilde;ico"
+msgstr ""
+
+#: inc/no-basement/common.php:55
+msgid "Contact"
+msgstr ""
+
+#: inc/settings.php:96
+msgid "Header Menu"
+msgstr ""
+
+#: inc/settings.php:233 template-parts/main/content-404.php:17
+msgid "Page Not Found"
+msgstr ""
+
+#: inc/settings.php:384
+#, php-format
+msgid "Widget Area %s"
+msgstr ""
+
+#: inc/settings.php:386
+msgid "The area where widgets are displayed."
+msgstr ""
+
+#: inc/settings.php:417
+msgid "Media Image"
+msgstr ""
+
+#: inc/settings.php:420
+msgid "Media Video"
+msgstr ""
+
+#: inc/settings.php:423
+msgid "Media Audio"
+msgstr ""
+
+#: inc/settings.php:426 inc/visual-composer.php:949
+#: inc/visual-composer.php:1257 template-parts/header/search-form.php:19
+#: template-parts/page-title/blog-title.php:16
+#: template-parts/page-title/blog-title.php:82
+#: template-parts/page-title/title.php:19
+#: template-parts/page-title/title.php:47
+msgid "Search"
+msgstr ""
+
+#: inc/settings.php:429 inc/visual-composer.php:1050
+#: inc/visual-composer.php:1578
+msgid "Calendar"
+msgstr ""
+
+#: inc/settings.php:432
+msgid "Custom Menu"
+msgstr ""
+
+#: inc/settings.php:435 inc/visual-composer.php:1737
+msgid "Text"
+msgstr ""
+
+#: inc/settings.php:438
+msgid "Average Rating Filter"
+msgstr ""
+
+#: inc/settings.php:441 inc/visual-composer.php:1584
+msgid "Cart"
+msgstr ""
+
+#: inc/settings.php:444
+msgid "Filter by"
+msgstr ""
+
+#: inc/settings.php:447
+msgid "Filter by price"
+msgstr ""
+
+#: inc/settings.php:450
+msgid "Product Categories"
+msgstr ""
+
+#: inc/settings.php:453
+msgid "Products"
+msgstr ""
+
+#: inc/settings.php:456
+msgid "Product Search"
+msgstr ""
+
+#: inc/settings.php:459
+msgid "Recently Viewed Products"
+msgstr ""
+
+#: inc/settings.php:462
+msgid "Recent Reviews"
+msgstr ""
+
+#: inc/settings.php:465
+msgid "Top Rated Products"
+msgstr ""
+
+#: inc/settings.php:617
+msgid "Type paragraph"
+msgstr ""
+
+#: inc/settings.php:621
+msgid "Extra paragraph"
+msgstr ""
+
+#: inc/settings.php:626
+msgid "Lead paragraph"
+msgstr ""
+
+#: inc/settings.php:633
+msgid "Small text"
+msgstr ""
+
+#: inc/settings.php:786 inc/settings.php:788 inc/settings.php:790
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/settings.php:786
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/settings.php:788
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/settings.php:790
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/settings.php:956
+msgid "Classic Standard"
+msgstr ""
+
+#: inc/settings.php:957
+msgid "Classic Boxed"
+msgstr ""
+
+#: inc/settings.php:958
+msgid "Classic Fullwidth"
+msgstr ""
+
+#: inc/settings.php:959
+msgid "Creative Boxed"
+msgstr ""
+
+#: inc/settings.php:960
+msgid "Creative Fullwidth"
+msgstr ""
+
+#: inc/template-tags.php:116
+msgid "<i class=\"ais-b1l\"></i>"
+msgstr ""
+
+#: inc/template-tags.php:117
+msgid "<i class=\"ais-b1r\"></i>"
+msgstr ""
+
+#: inc/template-tags.php:297
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr ""
+
+#: inc/template-tags.php:321
+msgid "Add comment"
+msgstr ""
+
+#: inc/template-tags.php:323
+msgid "0"
+msgstr ""
+
+#: inc/template-tags.php:323
+msgid "1"
+msgstr ""
+
+#: inc/template-tags.php:323
+msgid "%"
+msgstr ""
+
+#: inc/template-tags.php:355
+msgid "Previous Post"
+msgstr ""
+
+#: inc/template-tags.php:356
+msgctxt "Previous"
+msgid "%title"
+msgstr ""
+
+#: inc/template-tags.php:377
+msgid "Next Post"
+msgstr ""
+
+#: inc/template-tags.php:378
+msgctxt "Next"
+msgid "%title"
+msgstr ""
+
+#: inc/template-tags.php:433
+msgid "Post tags"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:393
+#: inc/tgm/class-tgm-plugin-activation.php:912
+#: inc/tgm/class-tgm-plugin-activation.php:2618
+#: inc/tgm/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:394
+#: inc/tgm/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:395
+#: inc/tgm/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1019
+#: inc/tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1206
+#: inc/tgm/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3594
+#: inc/tgm/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s updated successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm/tgm.php:12
+msgid "Basement Framework"
+msgstr ""
+
+#: inc/tgm/tgm.php:18
+msgid "Basement Carousel"
+msgstr ""
+
+#: inc/tgm/tgm.php:24
+msgid "Basement Gallery"
+msgstr ""
+
+#: inc/tgm/tgm.php:30
+msgid "Basement Modal Windows"
+msgstr ""
+
+#: inc/tgm/tgm.php:36
+msgid "Basement Portfolio"
+msgstr ""
+
+#: inc/tgm/tgm.php:42
+msgid "Basement Shortcodes"
+msgstr ""
+
+#: inc/tgm/tgm.php:49
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#: inc/tgm/tgm.php:54
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/tgm/tgm.php:59
+msgid "Contact Form 7 MailChimp Extension"
+msgstr ""
+
+#: inc/tgm/tgm.php:64
+msgid "MCE Table Buttons"
+msgstr ""
+
+#: inc/tgm/tgm.php:69
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: inc/tgm/tgm.php:83
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/tgm/tgm.php:88
+msgid "Widget Importer & Exporter"
+msgstr ""
+
+#: inc/tgm/tgm.php:93
+msgid "Slider Revolution"
+msgstr ""
+
+#: inc/tgm/tgm.php:113
+#, php-format
+msgid ""
+"This theme recommends the following plugins: <a href=\"//wpml.org/purchase/"
+"\" target=\"_blank\" title=\"\"><i>WPML</i></a>, %1$s."
+msgid_plural ""
+"This theme recommends the following plugins:  <a href=\"//wpml.org/purchase/"
+"\" target=\"_blank\" title=\"\"><i>WPML</i></a>, %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/visual-composer.php:62
+msgid "Arrow"
+msgstr ""
+
+#: inc/visual-composer.php:71 inc/visual-composer.php:142
+msgid "Custom"
+msgstr ""
+
+#: inc/visual-composer.php:76 inc/visual-composer.php:120
+msgid "Informational"
+msgstr ""
+
+#: inc/visual-composer.php:85 inc/visual-composer.php:121
+#: inc/visual-composer.php:155 inc/visual-composer.php:1751
+msgid "Warning"
+msgstr ""
+
+#: inc/visual-composer.php:94 inc/visual-composer.php:122
+#: inc/visual-composer.php:154
+msgid "Success"
+msgstr ""
+
+#: inc/visual-composer.php:103 inc/visual-composer.php:123
+msgid "Error"
+msgstr ""
+
+#: inc/visual-composer.php:113 inc/visual-composer.php:181
+#: inc/visual-composer.php:198
+msgid "Feather"
+msgstr ""
+
+#: inc/visual-composer.php:114 inc/visual-composer.php:182
+#: inc/visual-composer.php:199
+msgid "Bootstrap"
+msgstr ""
+
+#: inc/visual-composer.php:115 inc/visual-composer.php:183
+#: inc/visual-composer.php:200
+msgid "Aisconverse"
+msgstr ""
+
+#: inc/visual-composer.php:116 inc/visual-composer.php:184
+#: inc/visual-composer.php:201
+msgid "Theme"
+msgstr ""
+
+#: inc/visual-composer.php:136
+msgid "Flat"
+msgstr ""
+
+#: inc/visual-composer.php:137
+msgid "Modern"
+msgstr ""
+
+#: inc/visual-composer.php:138
+msgid "Underlined"
+msgstr ""
+
+#: inc/visual-composer.php:139
+msgid "Classic"
+msgstr ""
+
+#: inc/visual-composer.php:140
+msgid "Outline"
+msgstr ""
+
+#: inc/visual-composer.php:141
+msgid "3d"
+msgstr ""
+
+#: inc/visual-composer.php:143
+msgid "Outline custom"
+msgstr ""
+
+#: inc/visual-composer.php:144
+msgid "Gradient"
+msgstr ""
+
+#: inc/visual-composer.php:145
+msgid "Gradient Custom"
+msgstr ""
+
+#: inc/visual-composer.php:153
+msgid "Primary"
+msgstr ""
+
+#: inc/visual-composer.php:156 inc/visual-composer.php:1659
+msgid "Info"
+msgstr ""
+
+#: inc/visual-composer.php:157
+msgid "Danger"
+msgstr ""
+
+#: inc/visual-composer.php:158
+msgid "Classic Grey"
+msgstr ""
+
+#: inc/visual-composer.php:159
+msgid "Classic Blue"
+msgstr ""
+
+#: inc/visual-composer.php:160
+msgid "Blue"
+msgstr ""
+
+#: inc/visual-composer.php:161
+msgid "Turquoise"
+msgstr ""
+
+#: inc/visual-composer.php:162
+msgid "Pink"
+msgstr ""
+
+#: inc/visual-composer.php:163
+msgid "Violet"
+msgstr ""
+
+#: inc/visual-composer.php:164
+msgid "Peacoc"
+msgstr ""
+
+#: inc/visual-composer.php:165
+msgid "Chino"
+msgstr ""
+
+#: inc/visual-composer.php:166
+msgid "Mulled Wine"
+msgstr ""
+
+#: inc/visual-composer.php:167
+msgid "Vista Blue"
+msgstr ""
+
+#: inc/visual-composer.php:168
+msgid "Black"
+msgstr ""
+
+#: inc/visual-composer.php:169
+msgid "Grey"
+msgstr ""
+
+#: inc/visual-composer.php:170
+msgid "Orange"
+msgstr ""
+
+#: inc/visual-composer.php:171
+msgid "Sky"
+msgstr ""
+
+#: inc/visual-composer.php:172
+msgid "Green"
+msgstr ""
+
+#: inc/visual-composer.php:173
+msgid "Juicy pink"
+msgstr ""
+
+#: inc/visual-composer.php:174
+msgid "Sandy brown"
+msgstr ""
+
+#: inc/visual-composer.php:175
+msgid "Purple"
+msgstr ""
+
+#: inc/visual-composer.php:176
+msgid "White"
+msgstr ""
+
+#: inc/visual-composer.php:191
+msgid "Light gray"
+msgstr ""
+
+#: inc/visual-composer.php:192
+msgid "Dark gray"
+msgstr ""
+
+#: inc/visual-composer.php:204
+msgid "Sharpicons"
+msgstr ""
+
+#: inc/visual-composer.php:250 inc/visual-composer.php:268
+#: inc/visual-composer.php:286 inc/visual-composer.php:304
+#: inc/visual-composer.php:352 inc/visual-composer.php:370
+#: inc/visual-composer.php:388 inc/visual-composer.php:406
+#: inc/visual-composer.php:699 inc/visual-composer.php:717
+#: inc/visual-composer.php:735 inc/visual-composer.php:753
+#: inc/visual-composer.php:836 inc/visual-composer.php:853
+#: inc/visual-composer.php:870 inc/visual-composer.php:887
+#: inc/visual-composer.php:906
+msgid "Icon"
+msgstr ""
+
+#: inc/visual-composer.php:262 inc/visual-composer.php:280
+#: inc/visual-composer.php:298 inc/visual-composer.php:316
+#: inc/visual-composer.php:364 inc/visual-composer.php:382
+#: inc/visual-composer.php:400 inc/visual-composer.php:418
+#: inc/visual-composer.php:711 inc/visual-composer.php:729
+#: inc/visual-composer.php:747 inc/visual-composer.php:765
+#: inc/visual-composer.php:849 inc/visual-composer.php:866
+#: inc/visual-composer.php:883 inc/visual-composer.php:900
+#: inc/visual-composer.php:919
+msgid "Select icon from library."
+msgstr ""
+
+#: inc/visual-composer.php:324
+msgid "Message text"
+msgstr ""
+
+#: inc/visual-composer.php:326
+msgid "<p>I am message box. Click edit button to change this text.</p>"
+msgstr ""
+
+#: inc/visual-composer.php:331 inc/visual-composer.php:424
+#: inc/visual-composer.php:772
+msgid "Extra class name"
+msgstr ""
+
+#: inc/visual-composer.php:333 inc/visual-composer.php:426
+#: inc/visual-composer.php:774
+msgid ""
+"Style particular content element differently - add a class name and refer "
+"to it in custom CSS."
+msgstr ""
+
+#: inc/visual-composer.php:337 inc/visual-composer.php:794
+msgid "CSS box"
+msgstr ""
+
+#: inc/visual-composer.php:339 inc/visual-composer.php:796
+msgid "Design Options"
+msgstr ""
+
+#: inc/visual-composer.php:437
+msgid "On hover action"
+msgstr ""
+
+#: inc/visual-composer.php:441
+msgid "None"
+msgstr ""
+
+#: inc/visual-composer.php:442
+msgid "Scroll image"
+msgstr ""
+
+#: inc/visual-composer.php:444
+msgid "Select action for hover action."
+msgstr ""
+
+#: inc/visual-composer.php:449
+msgid "Label"
+msgstr ""
+
+#: inc/visual-composer.php:452
+msgid "Sets the label for the image."
+msgstr ""
+
+#: inc/visual-composer.php:456
+msgid "Height"
+msgstr ""
+
+#: inc/visual-composer.php:459
+msgid "Sets the height of the container around the image in px."
+msgstr ""
+
+#: inc/visual-composer.php:473
+msgid "Embed Map?"
+msgstr ""
+
+#: inc/visual-composer.php:474
+msgid "Choose embed map or not."
+msgstr ""
+
+#: inc/visual-composer.php:478
+msgid "Yes"
+msgstr ""
+
+#: inc/visual-composer.php:479
+msgid "No"
+msgstr ""
+
+#: inc/visual-composer.php:484
+msgid "Map embed iframe"
+msgstr ""
+
+#: inc/visual-composer.php:488
+#, php-format
+msgid ""
+"Visit %s to create your map (Step by step: 1) Find location 2) Click the "
+"cog symbol in the lower right corner and select \"Share or embed map\" 3) "
+"On modal window select \"Embed map\" 4) Copy iframe code and paste it)."
+msgstr ""
+
+#: inc/visual-composer.php:488
+msgid "Google maps"
+msgstr ""
+
+#: inc/visual-composer.php:496
+msgid "Latitude"
+msgstr ""
+
+#: inc/visual-composer.php:499
+msgid ""
+"Set map center point latitude. Creates google map with custom parameters. "
+"You can get latitude and longitude here <a href=\"//www.latlong.net/\" "
+"target=\"_blank\" title=\"\">http://www.latlong.net/</a>"
+msgstr ""
+
+#: inc/visual-composer.php:508
+msgid "Longitude"
+msgstr ""
+
+#: inc/visual-composer.php:510
+msgid "Set map center point longitude."
+msgstr ""
+
+#: inc/visual-composer.php:519
+msgid "Zoom"
+msgstr ""
+
+#: inc/visual-composer.php:521
+msgid "Use zoom value from 0 to 19."
+msgstr ""
+
+#: inc/visual-composer.php:529
+msgid "Style"
+msgstr ""
+
+#: inc/visual-composer.php:530
+msgid "Choose the map style."
+msgstr ""
+
+#: inc/visual-composer.php:534
+msgid "Default"
+msgstr ""
+
+#: inc/visual-composer.php:535
+msgid "Shades of Grey"
+msgstr ""
+
+#: inc/visual-composer.php:536
+msgid "Ultra Light with Labels"
+msgstr ""
+
+#: inc/visual-composer.php:537
+msgid "Pastel Tones"
+msgstr ""
+
+#: inc/visual-composer.php:547
+msgid "Full screen controls"
+msgstr ""
+
+#: inc/visual-composer.php:548
+msgid "Enable map full screen controlls."
+msgstr ""
+
+#: inc/visual-composer.php:562
+msgid "Horizontal offset on large devices"
+msgstr ""
+
+#: inc/visual-composer.php:568 inc/visual-composer.php:580
+#: inc/visual-composer.php:596 inc/visual-composer.php:608
+#: inc/visual-composer.php:624 inc/visual-composer.php:636
+#: inc/visual-composer.php:653 inc/visual-composer.php:666
+msgid "Marker position"
+msgstr ""
+
+#: inc/visual-composer.php:574
+msgid "Vertical offset on large devices"
+msgstr ""
+
+#: inc/visual-composer.php:591
+msgid "Horizontal offset on medium devices"
+msgstr ""
+
+#: inc/visual-composer.php:602
+msgid "Vertical offset on medium devices"
+msgstr ""
+
+#: inc/visual-composer.php:619
+msgid "Horizontal offset on small devices"
+msgstr ""
+
+#: inc/visual-composer.php:630
+msgid "Vertical offset on small devices"
+msgstr ""
+
+#: inc/visual-composer.php:647
+msgid "Horizontal offset on extra small devices"
+msgstr ""
+
+#: inc/visual-composer.php:654
+msgid ""
+"All values are set in pixels (negative/positive values in a rectangular "
+"coordinate system). 0 - default value at which the marker is centered "
+"strictly on the map."
+msgstr ""
+
+#: inc/visual-composer.php:660
+msgid "Vertical offset on extra small devices"
+msgstr ""
+
+#: inc/visual-composer.php:675
+msgid "Control the marker position?"
+msgstr ""
+
+#: inc/visual-composer.php:677
+msgid "Marker positions (in px) on different screen sizes."
+msgstr ""
+
+#: inc/visual-composer.php:778
+msgid "Advanced on click action"
+msgstr ""
+
+#: inc/visual-composer.php:780
+msgid "Insert inline onclick javascript action."
+msgstr ""
+
+#: inc/visual-composer.php:784
+msgid "On click code"
+msgstr ""
+
+#: inc/visual-composer.php:786
+msgid "Enter onclick action code."
+msgstr ""
+
+#: inc/visual-composer.php:809
+msgid "Display Type"
+msgstr ""
+
+#: inc/visual-composer.php:812
+msgid "Block"
+msgstr ""
+
+#: inc/visual-composer.php:813
+msgid "Inline"
+msgstr ""
+
+#: inc/visual-composer.php:815
+msgid "Select the icon display type."
+msgstr ""
+
+#: inc/visual-composer.php:819
+msgid "Vertical align"
+msgstr ""
+
+#: inc/visual-composer.php:822
+msgid "Top"
+msgstr ""
+
+#: inc/visual-composer.php:823
+msgid "Middle"
+msgstr ""
+
+#: inc/visual-composer.php:824
+msgid "Bottom"
+msgstr ""
+
+#: inc/visual-composer.php:825
+msgid "Baseline"
+msgstr ""
+
+#: inc/visual-composer.php:826
+msgid "Super"
+msgstr ""
+
+#: inc/visual-composer.php:827
+msgid "Sub"
+msgstr ""
+
+#: inc/visual-composer.php:828
+msgid "Text top"
+msgstr ""
+
+#: inc/visual-composer.php:829
+msgid "Text bottom"
+msgstr ""
+
+#: inc/visual-composer.php:830
+msgid "Inherit"
+msgstr ""
+
+#: inc/visual-composer.php:832
+msgid "Sets the vertical alignment of the elements relative to each other."
+msgstr ""
+
+#: inc/visual-composer.php:939
+msgid "Asterisk"
+msgstr ""
+
+#: inc/visual-composer.php:940 inc/visual-composer.php:1335
+#: inc/visual-composer.php:1705
+msgid "Plus"
+msgstr ""
+
+#: inc/visual-composer.php:941 inc/visual-composer.php:1629
+msgid "Euro"
+msgstr ""
+
+#: inc/visual-composer.php:942
+msgid "Eur"
+msgstr ""
+
+#: inc/visual-composer.php:943 inc/visual-composer.php:1336
+#: inc/visual-composer.php:1692
+msgid "Minus"
+msgstr ""
+
+#: inc/visual-composer.php:944 inc/visual-composer.php:1286
+#: inc/visual-composer.php:1597
+msgid "Cloud"
+msgstr ""
+
+#: inc/visual-composer.php:945
+msgid "Envelope"
+msgstr ""
+
+#: inc/visual-composer.php:946 inc/visual-composer.php:1698
+msgid "Pencil"
+msgstr ""
+
+#: inc/visual-composer.php:947
+msgid "Glass"
+msgstr ""
+
+#: inc/visual-composer.php:948 inc/visual-composer.php:1507
+msgid "Music"
+msgstr ""
+
+#: inc/visual-composer.php:950 inc/visual-composer.php:1245
+#: inc/visual-composer.php:1654
+msgid "Heart"
+msgstr ""
+
+#: inc/visual-composer.php:951 inc/visual-composer.php:1314
+#: inc/visual-composer.php:1729
+msgid "Star"
+msgstr ""
+
+#: inc/visual-composer.php:952
+msgid "Star empty"
+msgstr ""
+
+#: inc/visual-composer.php:953 template-parts/header/account.php:38
+msgid "User"
+msgstr ""
+
+#: inc/visual-composer.php:954
+msgid "Film"
+msgstr ""
+
+#: inc/visual-composer.php:955
+msgid "Th large"
+msgstr ""
+
+#: inc/visual-composer.php:956
+msgid "Th"
+msgstr ""
+
+#: inc/visual-composer.php:957
+msgid "Th list"
+msgstr ""
+
+#: inc/visual-composer.php:958
+msgid "Ok"
+msgstr ""
+
+#: inc/visual-composer.php:959
+msgid "Remove"
+msgstr ""
+
+#: inc/visual-composer.php:960 inc/visual-composer.php:1258
+#: inc/visual-composer.php:1756
+msgid "Zoom in"
+msgstr ""
+
+#: inc/visual-composer.php:961 inc/visual-composer.php:1259
+#: inc/visual-composer.php:1757
+msgid "Zoom out"
+msgstr ""
+
+#: inc/visual-composer.php:962
+msgid "Off"
+msgstr ""
+
+#: inc/visual-composer.php:963 inc/visual-composer.php:1231
+#: inc/visual-composer.php:1724
+msgid "Signal"
+msgstr ""
+
+#: inc/visual-composer.php:964 inc/visual-composer.php:1244
+#: inc/visual-composer.php:1600
+msgid "Cog"
+msgstr ""
+
+#: inc/visual-composer.php:965 inc/visual-composer.php:1330
+#: inc/visual-composer.php:1742
+msgid "Trash"
+msgstr ""
+
+#: inc/visual-composer.php:966 inc/visual-composer.php:1655
+msgid "Home"
+msgstr ""
+
+#: inc/visual-composer.php:967 inc/visual-composer.php:1345
+#: inc/visual-composer.php:1638
+msgid "File"
+msgstr ""
+
+#: inc/visual-composer.php:968
+msgid "Time"
+msgstr ""
+
+#: inc/visual-composer.php:969
+msgid "Road"
+msgstr ""
+
+#: inc/visual-composer.php:970
+msgid "Download alt"
+msgstr ""
+
+#: inc/visual-composer.php:971 inc/visual-composer.php:1290
+#: inc/visual-composer.php:1513
+msgid "Download"
+msgstr ""
+
+#: inc/visual-composer.php:972 inc/visual-composer.php:1289
+msgid "Upload"
+msgstr ""
+
+#: inc/visual-composer.php:973 inc/visual-composer.php:1343
+#: inc/visual-composer.php:1657
+msgid "Inbox"
+msgstr ""
+
+#: inc/visual-composer.php:974 inc/visual-composer.php:1704
+msgid "Play circle"
+msgstr ""
+
+#: inc/visual-composer.php:975 inc/visual-composer.php:1279
+msgid "Repeat"
+msgstr ""
+
+#: inc/visual-composer.php:976
+msgid "Refresh"
+msgstr ""
+
+#: inc/visual-composer.php:977
+msgid "List alt"
+msgstr ""
+
+#: inc/visual-composer.php:978 inc/visual-composer.php:1227
+msgid "Lock"
+msgstr ""
+
+#: inc/visual-composer.php:979 inc/visual-composer.php:1329
+#: inc/visual-composer.php:1640
+msgid "Flag"
+msgstr ""
+
+#: inc/visual-composer.php:980 inc/visual-composer.php:1653
+msgid "Headphones"
+msgstr ""
+
+#: inc/visual-composer.php:981 inc/visual-composer.php:1750
+msgid "Volume off"
+msgstr ""
+
+#: inc/visual-composer.php:982
+msgid "Volume down"
+msgstr ""
+
+#: inc/visual-composer.php:983
+msgid "Volume up"
+msgstr ""
+
+#: inc/visual-composer.php:984
+msgid "Qrcode"
+msgstr ""
+
+#: inc/visual-composer.php:985
+msgid "Barcode"
+msgstr ""
+
+#: inc/visual-composer.php:986 inc/visual-composer.php:1306
+#: inc/visual-composer.php:1732
+msgid "Tag"
+msgstr ""
+
+#: inc/visual-composer.php:987 inc/visual-composer.php:1733
+msgid "Tags"
+msgstr ""
+
+#: inc/visual-composer.php:988 inc/visual-composer.php:1251
+#: inc/visual-composer.php:1568
+msgid "Book"
+msgstr ""
+
+#: inc/visual-composer.php:989 inc/visual-composer.php:1569
+msgid "Bookmark"
+msgstr ""
+
+#: inc/visual-composer.php:990 inc/visual-composer.php:1707
+msgid "Print"
+msgstr ""
+
+#: inc/visual-composer.php:991 inc/visual-composer.php:1238
+msgid "Camera"
+msgstr ""
+
+#: inc/visual-composer.php:992
+msgid "Font"
+msgstr ""
+
+#: inc/visual-composer.php:993 inc/visual-composer.php:1566
+msgid "Bold"
+msgstr ""
+
+#: inc/visual-composer.php:994 inc/visual-composer.php:1660
+msgid "Italic"
+msgstr ""
+
+#: inc/visual-composer.php:995
+msgid "Text height"
+msgstr ""
+
+#: inc/visual-composer.php:996
+msgid "Text width"
+msgstr ""
+
+#: inc/visual-composer.php:997 inc/visual-composer.php:1248
+#: inc/visual-composer.php:1540
+msgid "Align left"
+msgstr ""
+
+#: inc/visual-composer.php:998 inc/visual-composer.php:1249
+#: inc/visual-composer.php:1539
+msgid "Align center"
+msgstr ""
+
+#: inc/visual-composer.php:999 inc/visual-composer.php:1250
+#: inc/visual-composer.php:1541
+msgid "Align right"
+msgstr ""
+
+#: inc/visual-composer.php:1000 inc/visual-composer.php:1247
+msgid "Align justify"
+msgstr ""
+
+#: inc/visual-composer.php:1001 inc/visual-composer.php:1671
+msgid "List"
+msgstr ""
+
+#: inc/visual-composer.php:1002
+msgid "Indent left"
+msgstr ""
+
+#: inc/visual-composer.php:1003
+msgid "Indent right"
+msgstr ""
+
+#: inc/visual-composer.php:1004
+msgid "Facetime video"
+msgstr ""
+
+#: inc/visual-composer.php:1005 inc/visual-composer.php:1508
+msgid "Picture"
+msgstr ""
+
+#: inc/visual-composer.php:1006 inc/visual-composer.php:1679
+msgid "Map marker"
+msgstr ""
+
+#: inc/visual-composer.php:1007
+msgid "Adjust"
+msgstr ""
+
+#: inc/visual-composer.php:1008
+msgid "Tint"
+msgstr ""
+
+#: inc/visual-composer.php:1010 inc/visual-composer.php:1302
+#: inc/visual-composer.php:1722
+msgid "Share"
+msgstr ""
+
+#: inc/visual-composer.php:1011 inc/visual-composer.php:1337
+#: inc/visual-composer.php:1586
+msgid "Check"
+msgstr ""
+
+#: inc/visual-composer.php:1012 inc/visual-composer.php:1339
+#: inc/visual-composer.php:1695
+msgid "Move"
+msgstr ""
+
+#: inc/visual-composer.php:1013
+msgid "Step backward"
+msgstr ""
+
+#: inc/visual-composer.php:1014
+msgid "Fast backward"
+msgstr ""
+
+#: inc/visual-composer.php:1015
+msgid "Backward"
+msgstr ""
+
+#: inc/visual-composer.php:1016 inc/visual-composer.php:1273
+msgid "Play"
+msgstr ""
+
+#: inc/visual-composer.php:1017 inc/visual-composer.php:1274
+msgid "Pause"
+msgstr ""
+
+#: inc/visual-composer.php:1018 inc/visual-composer.php:1275
+msgid "Stop"
+msgstr ""
+
+#: inc/visual-composer.php:1019
+msgid "Forward"
+msgstr ""
+
+#: inc/visual-composer.php:1020 inc/visual-composer.php:1276
+msgid "Fast forward"
+msgstr ""
+
+#: inc/visual-composer.php:1021
+msgid "Step forward"
+msgstr ""
+
+#: inc/visual-composer.php:1022 inc/visual-composer.php:1624
+msgid "Eject"
+msgstr ""
+
+#: inc/visual-composer.php:1023 inc/visual-composer.php:1588
+msgid "Chevron left"
+msgstr ""
+
+#: inc/visual-composer.php:1024 inc/visual-composer.php:1589
+msgid "Chevron right"
+msgstr ""
+
+#: inc/visual-composer.php:1025
+msgid "Plus sign"
+msgstr ""
+
+#: inc/visual-composer.php:1026
+msgid "Minus sign"
+msgstr ""
+
+#: inc/visual-composer.php:1027
+msgid "Remove sign"
+msgstr ""
+
+#: inc/visual-composer.php:1028
+msgid "Ok sign"
+msgstr ""
+
+#: inc/visual-composer.php:1029
+msgid "Question sign"
+msgstr ""
+
+#: inc/visual-composer.php:1030
+msgid "Info sign"
+msgstr ""
+
+#: inc/visual-composer.php:1031
+msgid "Screenshot"
+msgstr ""
+
+#: inc/visual-composer.php:1032
+msgid "Remove circle"
+msgstr ""
+
+#: inc/visual-composer.php:1033
+msgid "Ok circle"
+msgstr ""
+
+#: inc/visual-composer.php:1034
+msgid "Ban circle"
+msgstr ""
+
+#: inc/visual-composer.php:1035 inc/visual-composer.php:1315
+#: inc/visual-composer.php:1548
+msgid "Arrow left"
+msgstr ""
+
+#: inc/visual-composer.php:1036 inc/visual-composer.php:1316
+#: inc/visual-composer.php:1549
+msgid "Arrow right"
+msgstr ""
+
+#: inc/visual-composer.php:1037 inc/visual-composer.php:1317
+msgid "Arrow up"
+msgstr ""
+
+#: inc/visual-composer.php:1038 inc/visual-composer.php:1318
+msgid "Arrow down"
+msgstr ""
+
+#: inc/visual-composer.php:1039
+msgid "Share alt"
+msgstr ""
+
+#: inc/visual-composer.php:1040
+msgid "Resize full"
+msgstr ""
+
+#: inc/visual-composer.php:1041
+msgid "Resize small"
+msgstr ""
+
+#: inc/visual-composer.php:1042
+msgid "Exclamation sign"
+msgstr ""
+
+#: inc/visual-composer.php:1043
+msgid "Gift"
+msgstr ""
+
+#: inc/visual-composer.php:1044
+msgid "Leaf"
+msgstr ""
+
+#: inc/visual-composer.php:1045 inc/visual-composer.php:1639
+msgid "Fire"
+msgstr ""
+
+#: inc/visual-composer.php:1046
+msgid "Eye open"
+msgstr ""
+
+#: inc/visual-composer.php:1047
+msgid "Eye close"
+msgstr ""
+
+#: inc/visual-composer.php:1048
+msgid "Warning sign"
+msgstr ""
+
+#: inc/visual-composer.php:1049
+msgid "Plane"
+msgstr ""
+
+#: inc/visual-composer.php:1051 inc/visual-composer.php:1713
+msgid "Random"
+msgstr ""
+
+#: inc/visual-composer.php:1053
+msgid "Magnet"
+msgstr ""
+
+#: inc/visual-composer.php:1054
+msgid "Chevron up"
+msgstr ""
+
+#: inc/visual-composer.php:1055
+msgid "Chevron down"
+msgstr ""
+
+#: inc/visual-composer.php:1056
+msgid "Retweet"
+msgstr ""
+
+#: inc/visual-composer.php:1057
+msgid "Shopping cart"
+msgstr ""
+
+#: inc/visual-composer.php:1058
+msgid "Folder close"
+msgstr ""
+
+#: inc/visual-composer.php:1059
+msgid "Folder open"
+msgstr ""
+
+#: inc/visual-composer.php:1060
+msgid "Resize vertical"
+msgstr ""
+
+#: inc/visual-composer.php:1061
+msgid "Resize horizontal"
+msgstr ""
+
+#: inc/visual-composer.php:1062
+msgid "Hdd"
+msgstr ""
+
+#: inc/visual-composer.php:1063 inc/visual-composer.php:1576
+msgid "Bullhorn"
+msgstr ""
+
+#: inc/visual-composer.php:1064 inc/visual-composer.php:1226
+#: inc/visual-composer.php:1564
+msgid "Bell"
+msgstr ""
+
+#: inc/visual-composer.php:1065
+msgid "Certificate"
+msgstr ""
+
+#: inc/visual-composer.php:1066
+msgid "Thumbs up"
+msgstr ""
+
+#: inc/visual-composer.php:1067
+msgid "Thumbs down"
+msgstr ""
+
+#: inc/visual-composer.php:1068
+msgid "Hand right"
+msgstr ""
+
+#: inc/visual-composer.php:1069
+msgid "Hand left"
+msgstr ""
+
+#: inc/visual-composer.php:1070
+msgid "Hand up"
+msgstr ""
+
+#: inc/visual-composer.php:1071
+msgid "Hand down"
+msgstr ""
+
+#: inc/visual-composer.php:1072
+msgid "Circle arrow-right"
+msgstr ""
+
+#: inc/visual-composer.php:1073
+msgid "Circle arrow-left"
+msgstr ""
+
+#: inc/visual-composer.php:1074
+msgid "Circle arrow-up"
+msgstr ""
+
+#: inc/visual-composer.php:1075
+msgid "Circle arrow-down"
+msgstr ""
+
+#: inc/visual-composer.php:1076 inc/visual-composer.php:1299
+#: inc/visual-composer.php:1646
+msgid "Globe"
+msgstr ""
+
+#: inc/visual-composer.php:1077 inc/visual-composer.php:1753
+msgid "Wrench"
+msgstr ""
+
+#: inc/visual-composer.php:1078
+msgid "Tasks"
+msgstr ""
+
+#: inc/visual-composer.php:1079
+msgid "Filter"
+msgstr ""
+
+#: inc/visual-composer.php:1080 inc/visual-composer.php:1296
+#: inc/visual-composer.php:1571
+msgid "Briefcase"
+msgstr ""
+
+#: inc/visual-composer.php:1081
+msgid "Fullscreen"
+msgstr ""
+
+#: inc/visual-composer.php:1082 inc/visual-composer.php:1612
+msgid "Dashboard"
+msgstr ""
+
+#: inc/visual-composer.php:1083 inc/visual-composer.php:1697
+msgid "Paperclip"
+msgstr ""
+
+#: inc/visual-composer.php:1084
+msgid "Heart empty"
+msgstr ""
+
+#: inc/visual-composer.php:1085 inc/visual-composer.php:1225
+msgid "Link"
+msgstr ""
+
+#: inc/visual-composer.php:1086 inc/visual-composer.php:1701
+msgid "Phone"
+msgstr ""
+
+#: inc/visual-composer.php:1087
+msgid "Pushpin"
+msgstr ""
+
+#: inc/visual-composer.php:1088
+msgid "Usd"
+msgstr ""
+
+#: inc/visual-composer.php:1089
+msgid "Gbp"
+msgstr ""
+
+#: inc/visual-composer.php:1090
+msgid "Sort"
+msgstr ""
+
+#: inc/visual-composer.php:1091
+msgid "Sort by-alphabet"
+msgstr ""
+
+#: inc/visual-composer.php:1092
+msgid "Sort by-alphabet-alt"
+msgstr ""
+
+#: inc/visual-composer.php:1093
+msgid "Sort by-order"
+msgstr ""
+
+#: inc/visual-composer.php:1094
+msgid "Sort by-order-alt"
+msgstr ""
+
+#: inc/visual-composer.php:1095
+msgid "Sort by-attributes"
+msgstr ""
+
+#: inc/visual-composer.php:1096
+msgid "Sort by-attributes-alt"
+msgstr ""
+
+#: inc/visual-composer.php:1097
+msgid "Unchecked"
+msgstr ""
+
+#: inc/visual-composer.php:1098 inc/visual-composer.php:1331
+msgid "Expand"
+msgstr ""
+
+#: inc/visual-composer.php:1099 inc/visual-composer.php:1601
+msgid "Collapse down"
+msgstr ""
+
+#: inc/visual-composer.php:1100 inc/visual-composer.php:1604
+msgid "Collapse up"
+msgstr ""
+
+#: inc/visual-composer.php:1101
+msgid "Log in"
+msgstr ""
+
+#: inc/visual-composer.php:1102 inc/visual-composer.php:1641
+msgid "Flash"
+msgstr ""
+
+#: inc/visual-composer.php:1103
+msgid "Log out"
+msgstr ""
+
+#: inc/visual-composer.php:1104
+msgid "New window"
+msgstr ""
+
+#: inc/visual-composer.php:1105 inc/visual-composer.php:1270
+msgid "Record"
+msgstr ""
+
+#: inc/visual-composer.php:1106
+msgid "Save"
+msgstr ""
+
+#: inc/visual-composer.php:1107 inc/visual-composer.php:1349
+msgid "Open"
+msgstr ""
+
+#: inc/visual-composer.php:1108
+msgid "Saved"
+msgstr ""
+
+#: inc/visual-composer.php:1109
+msgid "Import"
+msgstr ""
+
+#: inc/visual-composer.php:1110
+msgid "Export"
+msgstr ""
+
+#: inc/visual-composer.php:1111
+msgid "Send"
+msgstr ""
+
+#: inc/visual-composer.php:1112
+msgid "Floppy disk"
+msgstr ""
+
+#: inc/visual-composer.php:1113
+msgid "Floppy saved"
+msgstr ""
+
+#: inc/visual-composer.php:1114
+msgid "Floppy remove"
+msgstr ""
+
+#: inc/visual-composer.php:1115
+msgid "Floppy save"
+msgstr ""
+
+#: inc/visual-composer.php:1116
+msgid "Floppy open"
+msgstr ""
+
+#: inc/visual-composer.php:1117 inc/visual-composer.php:1610
+msgid "Credit card"
+msgstr ""
+
+#: inc/visual-composer.php:1118 inc/visual-composer.php:1741
+msgid "Transfer"
+msgstr ""
+
+#: inc/visual-composer.php:1119
+msgid "Cutlery"
+msgstr ""
+
+#: inc/visual-composer.php:1120 inc/visual-composer.php:1652
+msgid "Header"
+msgstr ""
+
+#: inc/visual-composer.php:1121
+msgid "Compressed"
+msgstr ""
+
+#: inc/visual-composer.php:1122
+msgid "Earphone"
+msgstr ""
+
+#: inc/visual-composer.php:1123
+msgid "Phone alt"
+msgstr ""
+
+#: inc/visual-composer.php:1124
+msgid "Tower"
+msgstr ""
+
+#: inc/visual-composer.php:1125
+msgid "Stats"
+msgstr ""
+
+#: inc/visual-composer.php:1126
+msgid "Sd video"
+msgstr ""
+
+#: inc/visual-composer.php:1127
+msgid "Hd video"
+msgstr ""
+
+#: inc/visual-composer.php:1128
+msgid "Subtitles"
+msgstr ""
+
+#: inc/visual-composer.php:1129
+msgid "Sound stereo"
+msgstr ""
+
+#: inc/visual-composer.php:1130
+msgid "Sound dolby"
+msgstr ""
+
+#: inc/visual-composer.php:1131
+msgid "Sound 5-1"
+msgstr ""
+
+#: inc/visual-composer.php:1132
+msgid "Sound 6-1"
+msgstr ""
+
+#: inc/visual-composer.php:1133
+msgid "Sound 7-1"
+msgstr ""
+
+#: inc/visual-composer.php:1134
+msgid "Copyright mark"
+msgstr ""
+
+#: inc/visual-composer.php:1135
+msgid "Registration mark"
+msgstr ""
+
+#: inc/visual-composer.php:1136 inc/visual-composer.php:1288
+#: inc/visual-composer.php:1595
+msgid "Cloud download"
+msgstr ""
+
+#: inc/visual-composer.php:1137 inc/visual-composer.php:1287
+#: inc/visual-composer.php:1596
+msgid "Cloud upload"
+msgstr ""
+
+#: inc/visual-composer.php:1138
+msgid "Tree conifer"
+msgstr ""
+
+#: inc/visual-composer.php:1139
+msgid "Tree deciduous"
+msgstr ""
+
+#: inc/visual-composer.php:1140
+msgid "Cd"
+msgstr ""
+
+#: inc/visual-composer.php:1141
+msgid "Save file"
+msgstr ""
+
+#: inc/visual-composer.php:1142
+msgid "Open file"
+msgstr ""
+
+#: inc/visual-composer.php:1143
+msgid "Level up"
+msgstr ""
+
+#: inc/visual-composer.php:1144
+msgid "Copy"
+msgstr ""
+
+#: inc/visual-composer.php:1145
+msgid "Paste"
+msgstr ""
+
+#: inc/visual-composer.php:1146
+msgid "Alert"
+msgstr ""
+
+#: inc/visual-composer.php:1147
+msgid "Equalizer"
+msgstr ""
+
+#: inc/visual-composer.php:1148
+msgid "King"
+msgstr ""
+
+#: inc/visual-composer.php:1149
+msgid "Queen"
+msgstr ""
+
+#: inc/visual-composer.php:1150
+msgid "Pawn"
+msgstr ""
+
+#: inc/visual-composer.php:1151
+msgid "Bishop"
+msgstr ""
+
+#: inc/visual-composer.php:1152
+msgid "Knight"
+msgstr ""
+
+#: inc/visual-composer.php:1153
+msgid "Baby formula"
+msgstr ""
+
+#: inc/visual-composer.php:1154
+msgid "Tent"
+msgstr ""
+
+#: inc/visual-composer.php:1155
+msgid "Blackboard"
+msgstr ""
+
+#: inc/visual-composer.php:1156
+msgid "Bed"
+msgstr ""
+
+#: inc/visual-composer.php:1157
+msgid "Apple"
+msgstr ""
+
+#: inc/visual-composer.php:1158
+msgid "Erase"
+msgstr ""
+
+#: inc/visual-composer.php:1159
+msgid "Hourglass"
+msgstr ""
+
+#: inc/visual-composer.php:1160
+msgid "Lamp"
+msgstr ""
+
+#: inc/visual-composer.php:1161
+msgid "Duplicate"
+msgstr ""
+
+#: inc/visual-composer.php:1162
+msgid "Piggy bank"
+msgstr ""
+
+#: inc/visual-composer.php:1163
+msgid "Scissors"
+msgstr ""
+
+#: inc/visual-composer.php:1164
+msgid "Bitcoin"
+msgstr ""
+
+#: inc/visual-composer.php:1165
+msgid "Btc"
+msgstr ""
+
+#: inc/visual-composer.php:1166
+msgid "Xbt"
+msgstr ""
+
+#: inc/visual-composer.php:1167 inc/visual-composer.php:1755
+msgid "Yen"
+msgstr ""
+
+#: inc/visual-composer.php:1168
+msgid "Jpy"
+msgstr ""
+
+#: inc/visual-composer.php:1169
+msgid "Ruble"
+msgstr ""
+
+#: inc/visual-composer.php:1170
+msgid "Rub"
+msgstr ""
+
+#: inc/visual-composer.php:1171
+msgid "Scale"
+msgstr ""
+
+#: inc/visual-composer.php:1172
+msgid "Ice lolly"
+msgstr ""
+
+#: inc/visual-composer.php:1173
+msgid "Ice lolly-tasted"
+msgstr ""
+
+#: inc/visual-composer.php:1174
+msgid "Education"
+msgstr ""
+
+#: inc/visual-composer.php:1175
+msgid "Option horizontal"
+msgstr ""
+
+#: inc/visual-composer.php:1176
+msgid "Option vertical"
+msgstr ""
+
+#: inc/visual-composer.php:1177
+msgid "Menu hamburger"
+msgstr ""
+
+#: inc/visual-composer.php:1178
+msgid "Modal window"
+msgstr ""
+
+#: inc/visual-composer.php:1179
+msgid "Oil"
+msgstr ""
+
+#: inc/visual-composer.php:1180
+msgid "Grain"
+msgstr ""
+
+#: inc/visual-composer.php:1181
+msgid "Sunglasses"
+msgstr ""
+
+#: inc/visual-composer.php:1182
+msgid "Text size"
+msgstr ""
+
+#: inc/visual-composer.php:1183
+msgid "Text color"
+msgstr ""
+
+#: inc/visual-composer.php:1184
+msgid "Text background"
+msgstr ""
+
+#: inc/visual-composer.php:1185
+msgid "Object align-top"
+msgstr ""
+
+#: inc/visual-composer.php:1186
+msgid "Object align-bottom"
+msgstr ""
+
+#: inc/visual-composer.php:1187
+msgid "Object align-horizontal"
+msgstr ""
+
+#: inc/visual-composer.php:1188
+msgid "Object align-left"
+msgstr ""
+
+#: inc/visual-composer.php:1189
+msgid "Object align-vertical"
+msgstr ""
+
+#: inc/visual-composer.php:1190
+msgid "Object align-right"
+msgstr ""
+
+#: inc/visual-composer.php:1191
+msgid "Triangle right"
+msgstr ""
+
+#: inc/visual-composer.php:1192
+msgid "Triangle left"
+msgstr ""
+
+#: inc/visual-composer.php:1193
+msgid "Triangle bottom"
+msgstr ""
+
+#: inc/visual-composer.php:1194
+msgid "Triangle top"
+msgstr ""
+
+#: inc/visual-composer.php:1195
+msgid "Console"
+msgstr ""
+
+#: inc/visual-composer.php:1196
+msgid "Superscript"
+msgstr ""
+
+#: inc/visual-composer.php:1197
+msgid "Subscript"
+msgstr ""
+
+#: inc/visual-composer.php:1198
+msgid "Menu left"
+msgstr ""
+
+#: inc/visual-composer.php:1199
+msgid "Menu right"
+msgstr ""
+
+#: inc/visual-composer.php:1200
+msgid "Menu down"
+msgstr ""
+
+#: inc/visual-composer.php:1201
+msgid "Menu up"
+msgstr ""
+
+#: inc/visual-composer.php:1220 inc/visual-composer.php:1636
+msgid "Eye"
+msgstr ""
+
+#: inc/visual-composer.php:1221
+msgid "Paper clip"
+msgstr ""
+
+#: inc/visual-composer.php:1222 inc/visual-composer.php:1488
+msgid "Mail"
+msgstr ""
+
+#: inc/visual-composer.php:1223
+msgid "Toggle"
+msgstr ""
+
+#: inc/visual-composer.php:1224
+msgid "Layout"
+msgstr ""
+
+#: inc/visual-composer.php:1228
+msgid "Unlock"
+msgstr ""
+
+#: inc/visual-composer.php:1229
+msgid "Ribbon"
+msgstr ""
+
+#: inc/visual-composer.php:1230 inc/visual-composer.php:1656
+msgid "Image"
+msgstr ""
+
+#: inc/visual-composer.php:1232 inc/visual-composer.php:1734
+msgid "Target"
+msgstr ""
+
+#: inc/visual-composer.php:1233 inc/visual-composer.php:1593
+msgid "Clipboard"
+msgstr ""
+
+#: inc/visual-composer.php:1234 inc/visual-composer.php:1235
+#: inc/visual-composer.php:1594
+msgid "Clock"
+msgstr ""
+
+#: inc/visual-composer.php:1236
+msgid "Watch"
+msgstr ""
+
+#: inc/visual-composer.php:1237
+msgid "Air play"
+msgstr ""
+
+#: inc/visual-composer.php:1239 inc/visual-composer.php:1490
+#: inc/visual-composer.php:1747
+msgid "Video"
+msgstr ""
+
+#: inc/visual-composer.php:1240
+msgid "Disc"
+msgstr ""
+
+#: inc/visual-composer.php:1241
+msgid "Printer"
+msgstr ""
+
+#: inc/visual-composer.php:1242 inc/visual-composer.php:1693
+msgid "Monitor"
+msgstr ""
+
+#: inc/visual-composer.php:1243
+msgid "Server"
+msgstr ""
+
+#: inc/visual-composer.php:1246
+msgid "Paragraph"
+msgstr ""
+
+#: inc/visual-composer.php:1252 inc/visual-composer.php:1666
+msgid "Layers"
+msgstr ""
+
+#: inc/visual-composer.php:1253
+msgid "Stack"
+msgstr ""
+
+#: inc/visual-composer.php:1254
+msgid "Stack 2"
+msgstr ""
+
+#: inc/visual-composer.php:1255
+msgid "Paper"
+msgstr ""
+
+#: inc/visual-composer.php:1256
+msgid "Paper stack"
+msgstr ""
+
+#: inc/visual-composer.php:1260
+msgid "Reply"
+msgstr ""
+
+#: inc/visual-composer.php:1261
+msgid "Circle plus"
+msgstr ""
+
+#: inc/visual-composer.php:1262
+msgid "Circle minus"
+msgstr ""
+
+#: inc/visual-composer.php:1263 inc/visual-composer.php:1591
+msgid "Circle check"
+msgstr ""
+
+#: inc/visual-composer.php:1264
+msgid "Circle cross"
+msgstr ""
+
+#: inc/visual-composer.php:1265
+msgid "Square plus"
+msgstr ""
+
+#: inc/visual-composer.php:1266
+msgid "Square minus"
+msgstr ""
+
+#: inc/visual-composer.php:1267
+msgid "Square check"
+msgstr ""
+
+#: inc/visual-composer.php:1268
+msgid "Square cross"
+msgstr ""
+
+#: inc/visual-composer.php:1269 inc/visual-composer.php:1691
+msgid "Microphone"
+msgstr ""
+
+#: inc/visual-composer.php:1271
+msgid "Skip back"
+msgstr ""
+
+#: inc/visual-composer.php:1272
+msgid "Rewind"
+msgstr ""
+
+#: inc/visual-composer.php:1277
+msgid "Skip forward"
+msgstr ""
+
+#: inc/visual-composer.php:1278
+msgid "Shuffle"
+msgstr ""
+
+#: inc/visual-composer.php:1280 inc/visual-composer.php:1505
+#: inc/visual-composer.php:1642
+msgid "Folder"
+msgstr ""
+
+#: inc/visual-composer.php:1281
+msgid "Umbrella"
+msgstr ""
+
+#: inc/visual-composer.php:1282 inc/visual-composer.php:1694
+msgid "Moon"
+msgstr ""
+
+#: inc/visual-composer.php:1283
+msgid "Thermometer"
+msgstr ""
+
+#: inc/visual-composer.php:1284
+msgid "Drop"
+msgstr ""
+
+#: inc/visual-composer.php:1285 inc/visual-composer.php:1730
+msgid "Sun"
+msgstr ""
+
+#: inc/visual-composer.php:1291 inc/visual-composer.php:1672
+msgid "Location"
+msgstr ""
+
+#: inc/visual-composer.php:1292
+msgid "Location 2"
+msgstr ""
+
+#: inc/visual-composer.php:1293 inc/visual-composer.php:1680
+msgid "Map"
+msgstr ""
+
+#: inc/visual-composer.php:1294
+msgid "Battery"
+msgstr ""
+
+#: inc/visual-composer.php:1295
+msgid "Head"
+msgstr ""
+
+#: inc/visual-composer.php:1297
+msgid "Speech bubble"
+msgstr ""
+
+#: inc/visual-composer.php:1298
+msgid "Anchor"
+msgstr ""
+
+#: inc/visual-composer.php:1300 inc/visual-composer.php:1570
+msgid "Box"
+msgstr ""
+
+#: inc/visual-composer.php:1301 inc/visual-composer.php:1714
+msgid "Reload"
+msgstr ""
+
+#: inc/visual-composer.php:1303
+msgid "Marquee"
+msgstr ""
+
+#: inc/visual-composer.php:1304
+msgid "Marquee plus"
+msgstr ""
+
+#: inc/visual-composer.php:1305
+msgid "Marquee minus"
+msgstr ""
+
+#: inc/visual-composer.php:1307
+msgid "Power"
+msgstr ""
+
+#: inc/visual-composer.php:1308 inc/visual-composer.php:1605
+msgid "Command"
+msgstr ""
+
+#: inc/visual-composer.php:1309
+msgid "Alt"
+msgstr ""
+
+#: inc/visual-composer.php:1310
+msgid "Esc"
+msgstr ""
+
+#: inc/visual-composer.php:1311
+msgid "Bar graph"
+msgstr ""
+
+#: inc/visual-composer.php:1312
+msgid "Bar graph-2"
+msgstr ""
+
+#: inc/visual-composer.php:1313
+msgid "Pie graph"
+msgstr ""
+
+#: inc/visual-composer.php:1319
+msgid "Volume"
+msgstr ""
+
+#: inc/visual-composer.php:1320
+msgid "Mute"
+msgstr ""
+
+#: inc/visual-composer.php:1321
+msgid "Content right"
+msgstr ""
+
+#: inc/visual-composer.php:1322
+msgid "Content left"
+msgstr ""
+
+#: inc/visual-composer.php:1323
+msgid "Grid"
+msgstr ""
+
+#: inc/visual-composer.php:1324
+msgid "Grid 2"
+msgstr ""
+
+#: inc/visual-composer.php:1325
+msgid "Columns"
+msgstr ""
+
+#: inc/visual-composer.php:1326
+msgid "Loader"
+msgstr ""
+
+#: inc/visual-composer.php:1327
+msgid "Bag"
+msgstr ""
+
+#: inc/visual-composer.php:1328 inc/visual-composer.php:1558
+msgid "Ban"
+msgstr ""
+
+#: inc/visual-composer.php:1332
+msgid "Contract"
+msgstr ""
+
+#: inc/visual-composer.php:1333
+msgid "Maximize"
+msgstr ""
+
+#: inc/visual-composer.php:1334
+msgid "Minimize"
+msgstr ""
+
+#: inc/visual-composer.php:1338
+msgid "Cross"
+msgstr ""
+
+#: inc/visual-composer.php:1340 inc/visual-composer.php:1615
+msgid "Delete"
+msgstr ""
+
+#: inc/visual-composer.php:1341 inc/visual-composer.php:1690
+msgid "Menu"
+msgstr ""
+
+#: inc/visual-composer.php:1342
+msgid "Archive"
+msgstr ""
+
+#: inc/visual-composer.php:1344
+msgid "Outbox"
+msgstr ""
+
+#: inc/visual-composer.php:1346
+msgid "File add"
+msgstr ""
+
+#: inc/visual-composer.php:1347
+msgid "File subtract"
+msgstr ""
+
+#: inc/visual-composer.php:1348
+msgid "Help"
+msgstr ""
+
+#: inc/visual-composer.php:1350
+msgid "Ellipsis"
+msgstr ""
+
+#: inc/visual-composer.php:1369
+msgid "Armchair chair streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1370
+msgid "Arrow streamline target"
+msgstr ""
+
+#: inc/visual-composer.php:1371
+msgid "Backpack streamline trekking"
+msgstr ""
+
+#: inc/visual-composer.php:1372
+msgid "Bag shopping streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1373
+msgid "Barbecue eat food streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1374
+msgid "Barista coffee espresso streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1375
+msgid "Bomb bug"
+msgstr ""
+
+#: inc/visual-composer.php:1376
+msgid "Book dowload streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1377
+msgid "Book read streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1378
+msgid "Caddie shop shopping streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1379
+msgid "Caddie shopping streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1380
+msgid "Camera photo polaroid streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1381
+msgid "Camera photo streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1382
+msgid "Camera streamline video"
+msgstr ""
+
+#: inc/visual-composer.php:1383
+msgid "Chaplin hat movie streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1384
+msgid "Chef food restaurant streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1385
+msgid "Clock streamline time"
+msgstr ""
+
+#: inc/visual-composer.php:1386
+msgid "Cocktail mojito streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1387
+msgid "Computer network streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1388
+msgid "Computer streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1389
+msgid "Cook pan pot streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1390
+msgid "Crop streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1391
+msgid "Crown king streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1392
+msgid "Danger death delete destroy skull stream"
+msgstr ""
+
+#: inc/visual-composer.php:1393
+msgid "Dashboard speed streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1394
+msgid "Database streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1395
+msgid "Delete garbage streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1396
+msgid "Earth globe streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1397
+msgid "Eat food fork knife streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1398
+msgid "Eat food hotdog streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1399
+msgid "Edit modify streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1400
+msgid "Email mail streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1401
+msgid "Envellope mail streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1402
+msgid "Eye dropper streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1403
+msgid "Factory lift streamline warehouse"
+msgstr ""
+
+#: inc/visual-composer.php:1404
+msgid "First aid medecine shield streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1405
+msgid "Happy smiley streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1406
+msgid "Headset sound streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1407
+msgid "Home house streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1408
+msgid "Ibook laptop"
+msgstr ""
+
+#: inc/visual-composer.php:1409
+msgid "Ink pen streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1410
+msgid "Ipad streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1411
+msgid "Iphone streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1412
+msgid "Ipod mini music streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1413
+msgid "Ipod music streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1414
+msgid "Link streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1415
+msgid "Lock locker streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1416
+msgid "Locker streamline unlock"
+msgstr ""
+
+#: inc/visual-composer.php:1417
+msgid "Macintosh"
+msgstr ""
+
+#: inc/visual-composer.php:1418
+msgid "Magic magic wand streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1419
+msgid "Magnet streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1420
+msgid "Man people streamline user"
+msgstr ""
+
+#: inc/visual-composer.php:1421
+msgid "Map pin streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1422
+msgid "Map streamline user"
+msgstr ""
+
+#: inc/visual-composer.php:1423
+msgid "Notebook streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1424
+msgid "Paint bucket streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1425
+msgid "Painting pallet streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1426
+msgid "Painting roll streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1427
+msgid "Pen streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1428
+msgid "Pen streamline 1"
+msgstr ""
+
+#: inc/visual-composer.php:1429
+msgid "Pen streamline 2"
+msgstr ""
+
+#: inc/visual-composer.php:1430
+msgid "Pen streamline 3"
+msgstr ""
+
+#: inc/visual-composer.php:1431
+msgid "Photo pictures streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1432
+msgid "Settings streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1433
+msgid "Settings streamline 1"
+msgstr ""
+
+#: inc/visual-composer.php:1434
+msgid "Settings streamline 2"
+msgstr ""
+
+#: inc/visual-composer.php:1435
+msgid "Shoes snickers streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1436
+msgid "Speech streamline talk user"
+msgstr ""
+
+#: inc/visual-composer.php:1437
+msgid "Stamp streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1438
+msgid "Streamline suitcase travel"
+msgstr ""
+
+#: inc/visual-composer.php:1439
+msgid "Streamline sync"
+msgstr ""
+
+#: inc/visual-composer.php:1440
+msgid "Streamline umbrella weather"
+msgstr ""
+
+#: inc/visual-composer.php:1441
+msgid "Browser streamline window"
+msgstr ""
+
+#: inc/visual-composer.php:1442
+msgid "Brush paint streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1443
+msgid "Bubble comment streamline talk"
+msgstr ""
+
+#: inc/visual-composer.php:1444
+msgid "Bubble love streamline talk"
+msgstr ""
+
+#: inc/visual-composer.php:1445
+msgid "Coffee streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1446
+msgid "Computer imac"
+msgstr ""
+
+#: inc/visual-composer.php:1447
+msgid "Computer imac 2"
+msgstr ""
+
+#: inc/visual-composer.php:1448
+msgid "Computer macintosh vintage"
+msgstr ""
+
+#: inc/visual-composer.php:1449
+msgid "Design graphic tablet streamline tablet"
+msgstr ""
+
+#: inc/visual-composer.php:1450
+msgid "Design pencil rule streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1451
+msgid "Diving leisure sea sport streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1452
+msgid "Drug medecine streamline syringue"
+msgstr ""
+
+#: inc/visual-composer.php:1453
+msgid "Food ice cream streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1454
+msgid "Frame picture streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1455
+msgid "Grid lines streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1456
+msgid "Handle streamline vector"
+msgstr ""
+
+#: inc/visual-composer.php:1457
+msgid "Ipod streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1458
+msgid "Japan streamline tea"
+msgstr ""
+
+#: inc/visual-composer.php:1459
+msgid "Laptop macbook streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1460
+msgid "Like love streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1461
+msgid "Micro record streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1462
+msgid "Monocle mustache streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1463
+msgid "Music note streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1464
+msgid "Music speaker streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1465
+msgid "Picture streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1466
+msgid "Picture streamline 1"
+msgstr ""
+
+#: inc/visual-composer.php:1467
+msgid "Receipt shopping streamline"
+msgstr ""
+
+#: inc/visual-composer.php:1468
+msgid "Remote control streamlin"
+msgstr ""
+
+#: inc/visual-composer.php:1487
+msgid "Support"
+msgstr ""
+
+#: inc/visual-composer.php:1489
+msgid "Tea"
+msgstr ""
+
+#: inc/visual-composer.php:1491
+msgid "Photo"
+msgstr ""
+
+#: inc/visual-composer.php:1492 inc/visual-composer.php:1611
+msgid "Crop"
+msgstr ""
+
+#: inc/visual-composer.php:1493
+msgid "Hand"
+msgstr ""
+
+#: inc/visual-composer.php:1494
+msgid "Wall"
+msgstr ""
+
+#: inc/visual-composer.php:1495
+msgid "Money"
+msgstr ""
+
+#: inc/visual-composer.php:1496 inc/visual-composer.php:1500
+msgid "Shopping"
+msgstr ""
+
+#: inc/visual-composer.php:1497
+msgid "Movie"
+msgstr ""
+
+#: inc/visual-composer.php:1498
+msgid "Album"
+msgstr ""
+
+#: inc/visual-composer.php:1499
+msgid "Shipping"
+msgstr ""
+
+#: inc/visual-composer.php:1501
+msgid "Dress"
+msgstr ""
+
+#: inc/visual-composer.php:1502
+msgid "Women"
+msgstr ""
+
+#: inc/visual-composer.php:1503
+msgid "T-shirt"
+msgstr ""
+
+#: inc/visual-composer.php:1504 inc/visual-composer.php:1617
+msgid "Document"
+msgstr ""
+
+#: inc/visual-composer.php:1506
+msgid "Mobile Phone"
+msgstr ""
+
+#: inc/visual-composer.php:1509
+msgid "Underwear"
+msgstr ""
+
+#: inc/visual-composer.php:1510
+msgid "Baseball"
+msgstr ""
+
+#: inc/visual-composer.php:1511
+msgid "Sneakers"
+msgstr ""
+
+#: inc/visual-composer.php:1512
+msgid "Users"
+msgstr ""
+
+#: inc/visual-composer.php:1514
+msgid "Computer"
+msgstr ""
+
+#: inc/visual-composer.php:1515
+msgid "Wallet"
+msgstr ""
+
+#: inc/visual-composer.php:1516
+msgid "Curve"
+msgstr ""
+
+#: inc/visual-composer.php:1535
+msgid "Account login"
+msgstr ""
+
+#: inc/visual-composer.php:1536
+msgid "Account logout"
+msgstr ""
+
+#: inc/visual-composer.php:1537
+msgid "Action redo"
+msgstr ""
+
+#: inc/visual-composer.php:1538
+msgid "Action undo"
+msgstr ""
+
+#: inc/visual-composer.php:1542
+msgid "Aperture"
+msgstr ""
+
+#: inc/visual-composer.php:1543
+msgid "Arrow bottom"
+msgstr ""
+
+#: inc/visual-composer.php:1544
+msgid "Arrow circle-bottom"
+msgstr ""
+
+#: inc/visual-composer.php:1545
+msgid "Arrow circle-left"
+msgstr ""
+
+#: inc/visual-composer.php:1546
+msgid "Arrow circle-right"
+msgstr ""
+
+#: inc/visual-composer.php:1547
+msgid "Arrow circle-top"
+msgstr ""
+
+#: inc/visual-composer.php:1550
+msgid "Arrow thick-bottom"
+msgstr ""
+
+#: inc/visual-composer.php:1551
+msgid "Arrow thick-left"
+msgstr ""
+
+#: inc/visual-composer.php:1552
+msgid "Arrow thick-right"
+msgstr ""
+
+#: inc/visual-composer.php:1553
+msgid "Arrow thick-top"
+msgstr ""
+
+#: inc/visual-composer.php:1554
+msgid "Arrow top"
+msgstr ""
+
+#: inc/visual-composer.php:1555
+msgid "Audio spectrum"
+msgstr ""
+
+#: inc/visual-composer.php:1556
+msgid "Audio"
+msgstr ""
+
+#: inc/visual-composer.php:1557
+msgid "Badge"
+msgstr ""
+
+#: inc/visual-composer.php:1559
+msgid "Bar chart"
+msgstr ""
+
+#: inc/visual-composer.php:1560
+msgid "Basket"
+msgstr ""
+
+#: inc/visual-composer.php:1561
+msgid "Battery empty"
+msgstr ""
+
+#: inc/visual-composer.php:1562
+msgid "Battery full"
+msgstr ""
+
+#: inc/visual-composer.php:1563
+msgid "Beaker"
+msgstr ""
+
+#: inc/visual-composer.php:1565
+msgid "Bluetooth"
+msgstr ""
+
+#: inc/visual-composer.php:1567
+msgid "Bolt"
+msgstr ""
+
+#: inc/visual-composer.php:1572
+msgid "British pound"
+msgstr ""
+
+#: inc/visual-composer.php:1573
+msgid "Browser"
+msgstr ""
+
+#: inc/visual-composer.php:1574
+msgid "Brush"
+msgstr ""
+
+#: inc/visual-composer.php:1575
+msgid "Bug"
+msgstr ""
+
+#: inc/visual-composer.php:1577
+msgid "Calculator"
+msgstr ""
+
+#: inc/visual-composer.php:1579
+msgid "Camera slr"
+msgstr ""
+
+#: inc/visual-composer.php:1580
+msgid "Caret bottom"
+msgstr ""
+
+#: inc/visual-composer.php:1581
+msgid "Caret left"
+msgstr ""
+
+#: inc/visual-composer.php:1582
+msgid "Caret right"
+msgstr ""
+
+#: inc/visual-composer.php:1583
+msgid "Caret top"
+msgstr ""
+
+#: inc/visual-composer.php:1585
+msgid "Chat"
+msgstr ""
+
+#: inc/visual-composer.php:1587
+msgid "Chevron bottom"
+msgstr ""
+
+#: inc/visual-composer.php:1590
+msgid "Chevron top"
+msgstr ""
+
+#: inc/visual-composer.php:1592
+msgid "Circle x"
+msgstr ""
+
+#: inc/visual-composer.php:1598
+msgid "Cloudy"
+msgstr ""
+
+#: inc/visual-composer.php:1599
+msgid "Code"
+msgstr ""
+
+#: inc/visual-composer.php:1602
+msgid "Collapse left"
+msgstr ""
+
+#: inc/visual-composer.php:1603
+msgid "Collapse right"
+msgstr ""
+
+#: inc/visual-composer.php:1606
+msgid "Comment square"
+msgstr ""
+
+#: inc/visual-composer.php:1607
+msgid "Compass"
+msgstr ""
+
+#: inc/visual-composer.php:1608
+msgid "Contrast"
+msgstr ""
+
+#: inc/visual-composer.php:1609
+msgid "Copywriting"
+msgstr ""
+
+#: inc/visual-composer.php:1613
+msgid "Data transfer-download"
+msgstr ""
+
+#: inc/visual-composer.php:1614
+msgid "Data transfer-upload"
+msgstr ""
+
+#: inc/visual-composer.php:1616
+msgid "Dial"
+msgstr ""
+
+#: inc/visual-composer.php:1618
+msgid "Dollar"
+msgstr ""
+
+#: inc/visual-composer.php:1619
+msgid "Double quote-sans-left"
+msgstr ""
+
+#: inc/visual-composer.php:1620
+msgid "Double quote-sans-right"
+msgstr ""
+
+#: inc/visual-composer.php:1621
+msgid "Double quote-serif-left"
+msgstr ""
+
+#: inc/visual-composer.php:1622
+msgid "Double quote-serif-right"
+msgstr ""
+
+#: inc/visual-composer.php:1623
+msgid "Droplet"
+msgstr ""
+
+#: inc/visual-composer.php:1625
+msgid "Elevator"
+msgstr ""
+
+#: inc/visual-composer.php:1626
+msgid "Ellipses"
+msgstr ""
+
+#: inc/visual-composer.php:1627
+msgid "Envelope closed"
+msgstr ""
+
+#: inc/visual-composer.php:1628
+msgid "Envelope open"
+msgstr ""
+
+#: inc/visual-composer.php:1630
+msgid "Excerpt"
+msgstr ""
+
+#: inc/visual-composer.php:1631
+msgid "Expand down"
+msgstr ""
+
+#: inc/visual-composer.php:1632
+msgid "Expand left"
+msgstr ""
+
+#: inc/visual-composer.php:1633
+msgid "Expand right"
+msgstr ""
+
+#: inc/visual-composer.php:1634
+msgid "Expand up"
+msgstr ""
+
+#: inc/visual-composer.php:1635
+msgid "External link"
+msgstr ""
+
+#: inc/visual-composer.php:1637
+msgid "Eyedropper"
+msgstr ""
+
+#: inc/visual-composer.php:1643
+msgid "Fork"
+msgstr ""
+
+#: inc/visual-composer.php:1644
+msgid "Fullscreen enter"
+msgstr ""
+
+#: inc/visual-composer.php:1645
+msgid "Fullscreen exit"
+msgstr ""
+
+#: inc/visual-composer.php:1647
+msgid "Graph"
+msgstr ""
+
+#: inc/visual-composer.php:1648
+msgid "Grid four-up"
+msgstr ""
+
+#: inc/visual-composer.php:1649
+msgid "Grid three-up"
+msgstr ""
+
+#: inc/visual-composer.php:1650
+msgid "Grid two-up"
+msgstr ""
+
+#: inc/visual-composer.php:1651
+msgid "Hard drive"
+msgstr ""
+
+#: inc/visual-composer.php:1658
+msgid "Infinity"
+msgstr ""
+
+#: inc/visual-composer.php:1661
+msgid "Justify center"
+msgstr ""
+
+#: inc/visual-composer.php:1662
+msgid "Justify left"
+msgstr ""
+
+#: inc/visual-composer.php:1663
+msgid "Justify right"
+msgstr ""
+
+#: inc/visual-composer.php:1664
+msgid "Key"
+msgstr ""
+
+#: inc/visual-composer.php:1665
+msgid "Laptop"
+msgstr ""
+
+#: inc/visual-composer.php:1667
+msgid "Lightbulb"
+msgstr ""
+
+#: inc/visual-composer.php:1668
+msgid "Link broken"
+msgstr ""
+
+#: inc/visual-composer.php:1669
+msgid "Link intact"
+msgstr ""
+
+#: inc/visual-composer.php:1670
+msgid "List rich"
+msgstr ""
+
+#: inc/visual-composer.php:1673
+msgid "Lock locked"
+msgstr ""
+
+#: inc/visual-composer.php:1674
+msgid "Lock unlocked"
+msgstr ""
+
+#: inc/visual-composer.php:1675
+msgid "Loop circular"
+msgstr ""
+
+#: inc/visual-composer.php:1676
+msgid "Loop square"
+msgstr ""
+
+#: inc/visual-composer.php:1677
+msgid "Loop"
+msgstr ""
+
+#: inc/visual-composer.php:1678
+msgid "Magnifying glass"
+msgstr ""
+
+#: inc/visual-composer.php:1681
+msgid "Media pause"
+msgstr ""
+
+#: inc/visual-composer.php:1682
+msgid "Media play"
+msgstr ""
+
+#: inc/visual-composer.php:1683
+msgid "Media record"
+msgstr ""
+
+#: inc/visual-composer.php:1684
+msgid "Media skip-backward"
+msgstr ""
+
+#: inc/visual-composer.php:1685
+msgid "Media skip-forward"
+msgstr ""
+
+#: inc/visual-composer.php:1686
+msgid "Media step-backward"
+msgstr ""
+
+#: inc/visual-composer.php:1687
+msgid "Media step-forward"
+msgstr ""
+
+#: inc/visual-composer.php:1688
+msgid "Media stop"
+msgstr ""
+
+#: inc/visual-composer.php:1689
+msgid "Medical cross"
+msgstr ""
+
+#: inc/visual-composer.php:1696
+msgid "Musical note"
+msgstr ""
+
+#: inc/visual-composer.php:1699
+msgid "People"
+msgstr ""
+
+#: inc/visual-composer.php:1700
+msgid "Person"
+msgstr ""
+
+#: inc/visual-composer.php:1702
+msgid "Pie chart"
+msgstr ""
+
+#: inc/visual-composer.php:1703
+msgid "Pin"
+msgstr ""
+
+#: inc/visual-composer.php:1706
+msgid "Power standby"
+msgstr ""
+
+#: inc/visual-composer.php:1708
+msgid "Project"
+msgstr ""
+
+#: inc/visual-composer.php:1709
+msgid "Pulse"
+msgstr ""
+
+#: inc/visual-composer.php:1710
+msgid "Puzzle piece"
+msgstr ""
+
+#: inc/visual-composer.php:1711
+msgid "Question mark"
+msgstr ""
+
+#: inc/visual-composer.php:1712
+msgid "Rain"
+msgstr ""
+
+#: inc/visual-composer.php:1715
+msgid "Resize both"
+msgstr ""
+
+#: inc/visual-composer.php:1716
+msgid "Resize height"
+msgstr ""
+
+#: inc/visual-composer.php:1717
+msgid "Resize width"
+msgstr ""
+
+#: inc/visual-composer.php:1718
+msgid "Rss alt"
+msgstr ""
+
+#: inc/visual-composer.php:1719
+msgid "Rss"
+msgstr ""
+
+#: inc/visual-composer.php:1720
+msgid "Script"
+msgstr ""
+
+#: inc/visual-composer.php:1721
+msgid "Share boxed"
+msgstr ""
+
+#: inc/visual-composer.php:1723
+msgid "Shield"
+msgstr ""
+
+#: inc/visual-composer.php:1725
+msgid "Signpost"
+msgstr ""
+
+#: inc/visual-composer.php:1726
+msgid "Sort ascending"
+msgstr ""
+
+#: inc/visual-composer.php:1727
+msgid "Sort descending"
+msgstr ""
+
+#: inc/visual-composer.php:1728
+msgid "Spreadsheet"
+msgstr ""
+
+#: inc/visual-composer.php:1731
+msgid "Tablet"
+msgstr ""
+
+#: inc/visual-composer.php:1735
+msgid "Task"
+msgstr ""
+
+#: inc/visual-composer.php:1736
+msgid "Terminal"
+msgstr ""
+
+#: inc/visual-composer.php:1738
+msgid "Thumb down"
+msgstr ""
+
+#: inc/visual-composer.php:1739
+msgid "Thumb up"
+msgstr ""
+
+#: inc/visual-composer.php:1740
+msgid "Timer"
+msgstr ""
+
+#: inc/visual-composer.php:1743
+msgid "Underline"
+msgstr ""
+
+#: inc/visual-composer.php:1744
+msgid "Vertical align-bottom"
+msgstr ""
+
+#: inc/visual-composer.php:1745
+msgid "Vertical align-center"
+msgstr ""
+
+#: inc/visual-composer.php:1746
+msgid "Vertical align-top"
+msgstr ""
+
+#: inc/visual-composer.php:1748
+msgid "Volume high"
+msgstr ""
+
+#: inc/visual-composer.php:1749
+msgid "Volume low"
+msgstr ""
+
+#: inc/visual-composer.php:1752
+msgid "Wifi"
+msgstr ""
+
+#: inc/visual-composer.php:1754
+msgid "X"
+msgstr ""
+
+#: searchform.php:15
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:16 template-parts/header/search-form.php:17
+msgid "What you search?"
+msgstr ""
+
+#: template-parts/blocks/user-bio.php:33
+msgid "All Posts"
+msgstr ""
+
+#: template-parts/header/account.php:49
+msgid "My Account"
+msgstr ""
+
+#: template-parts/header/menu-simple.php:28
+msgid "01"
+msgstr ""
+
+#: template-parts/header/search.php:35
+msgid "Open Search Modal Window"
+msgstr ""
+
+#: template-parts/main/content-404.php:16
+msgid "404"
+msgstr ""
+
+#: template-parts/main/content-404.php:18
+msgid ""
+"Unfortunately the content you are looking for is not here or translation of "
+"the page has not been created. There may be a misspelling in your web "
+"address or you may have clicked a link for content that no longer exists."
+msgstr ""
+
+#: template-parts/main/content-404.php:19
+msgid "BACK TO HOME"
+msgstr ""
+
+#: template-parts/main/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/main/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/main/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/main/content-post-template.php:146
+msgid ", "
+msgstr ""
+
+#: template-parts/page-title/blog-title.php:20
+#: template-parts/page-title/blog-title.php:24
+#: template-parts/page-title/blog-title.php:86
+#: template-parts/page-title/blog-title.php:90
+#: template-parts/page-title/title.php:23
+#: template-parts/page-title/title.php:51
+msgid "Our Blog"
+msgstr ""
+
+#: template-parts/page-title/blog-title.php:36
+#: template-parts/page-title/blog-title.php:100
+#: template-parts/page-title/title.php:26
+#: template-parts/page-title/title.php:54
+msgid "Daily Archives"
+msgstr ""
+
+#: template-parts/page-title/blog-title.php:38
+#: template-parts/page-title/blog-title.php:102
+#: template-parts/page-title/title.php:28
+#: template-parts/page-title/title.php:56
+msgid "Monthly Archives"
+msgstr ""
+
+#: template-parts/page-title/blog-title.php:40
+#: template-parts/page-title/blog-title.php:104
+#: template-parts/page-title/title.php:30
+#: template-parts/page-title/title.php:58
+msgid "Yearly Archives"
+msgstr ""
+
+#: template-parts/page-title/blog-title.php:43
+#: template-parts/page-title/blog-title.php:55
+#: template-parts/page-title/blog-title.php:107
+#: template-parts/page-title/blog-title.php:123
+msgid "All posts by"
+msgstr ""
+
+#: template-parts/page-title/blog-title.php:45
+#: template-parts/page-title/blog-title.php:57
+#: template-parts/page-title/blog-title.php:109
+msgid "Category"
+msgstr ""
+
+#: template-parts/page-title/blog-title.php:47
+#: template-parts/page-title/blog-title.php:52
+#: template-parts/page-title/blog-title.php:59
+#: template-parts/page-title/blog-title.php:111
+#: template-parts/page-title/page-title.php:28
+#: template-parts/page-title/title.php:32
+#: template-parts/page-title/title.php:60
+msgid "Archives"
+msgstr ""
+
+#: template-parts/page-title/blog-title.php:65
+#: template-parts/page-title/blog-title.php:115
+msgid "Tag Archive"
+msgstr ""
+
+#: template-parts/page-title/blog-title.php:75
+#: template-parts/page-title/blog-title.php:125
+#: template-parts/page-title/title.php:41
+#: template-parts/page-title/title.php:65
+msgid "Page not found"
+msgstr ""
+
+#: template-parts/page-title/page-title.php:24
+msgid "Category posts"
+msgstr ""
+
+#: template-parts/page-title/page-title.php:26
+msgid "Tag posts"
+msgstr ""
+
+#: template-parts/page-title/page-title.php:30
+msgid "Author posts"
+msgstr ""
+
+#: template-parts/page-title/page-title.php:94
+msgid "/"
+msgstr ""
+
+#: template-parts/page-title/page-title.php:117
+msgid "Search Results"
+msgstr ""
+
+#: template-parts/page-title/title.php:63
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Conico"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://conicowp.aisconverse.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Conico Multipurpose WordPress Theme for Creative, Business or eCommerce "
+"websites. It is Visual Composer and WPML compatible and offer great user "
+"experience. Fully responsive and available for all screen sizes. Theme "
+"focuses on displaying a high quality content and can be customized easily "
+"to suit your needs."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "the Aisconverse team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://aisconverse.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page - Error 404"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog Home - Classic Boxed"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog Home - Classic Fullwidth"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog Home - Classic Standard"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog Home - Creative Boxed"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog Home - Creative Fullwidth"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page - Header Light"
+msgstr ""
