@@ -1,0 +1,166 @@
+@mixin pagination_hidden {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute !important;
+	left: -9999px;
+	top: -99999px;
+}
+@mixin pagination_visible {
+	opacity: 1;
+	visibility: visible;
+	position: relative !important;
+	top: auto;
+	left: auto;
+}
+
+
+
+@mixin arrow_hidden {
+	opacity: 0;
+	visibility: hidden;
+}
+@mixin arrow_visible {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+
+.basement-carousel-wrap-block.basement-carousel-dots-visible-xs,
+.basement-carousel-wrap-block.basement-carousel-dots-visible-sm,
+.basement-carousel-wrap-block.basement-carousel-dots-visible-md,
+.basement-carousel-wrap-block.basement-carousel-dots-visible-lg {
+	div[id*="basement-carousel-paginate"] {
+		@include pagination_hidden;
+	}
+}
+
+
+
+.basement-carousel-wrap-block.basement-carousel-arrows-visible-xs,
+.basement-carousel-wrap-block.basement-carousel-arrows-visible-sm,
+.basement-carousel-wrap-block.basement-carousel-arrows-visible-md,
+.basement-carousel-wrap-block.basement-carousel-arrows-visible-lg {
+	a[id*="basement-carousel-arrow"] {
+		@include arrow_hidden;
+	}
+}
+
+
+
+@media screen and (min-width: 1331px) {
+
+	.basement-carousel-wrap-block.basement-carousel-dots-hidden-lg {
+		div[id*="basement-carousel-paginate"] {
+			@include pagination_hidden;
+		}
+	}
+
+	.basement-carousel-wrap-block.basement-carousel-dots-visible-lg {
+		div[id*="basement-carousel-paginate"] {
+			@include pagination_visible;
+		}
+	}
+
+
+	.basement-carousel-wrap-block.basement-carousel-arrows-hidden-lg {
+		a[id*="basement-carousel-arrow"] {
+			@include arrow_hidden;
+		}
+	}
+
+
+	.basement-carousel-wrap-block.basement-carousel-arrows-visible-lg {
+		a[id*="basement-carousel-arrow"] {
+			@include arrow_visible;
+		}
+	}
+
+
+
+}
+
+@media screen and (max-width: 1330px) {
+
+	.basement-carousel-wrap-block.basement-carousel-dots-hidden-md {
+		div[id*="basement-carousel-paginate"] {
+			@include pagination_hidden;
+		}
+	}
+
+	.basement-carousel-wrap-block.basement-carousel-dots-visible-md {
+		div[id*="basement-carousel-paginate"] {
+			@include pagination_visible;
+		}
+	}
+
+
+	.basement-carousel-wrap-block.basement-carousel-arrows-hidden-md {
+		a[id*="basement-carousel-arrow"] {
+			@include arrow_hidden;
+		}
+	}
+
+	.basement-carousel-wrap-block.basement-carousel-arrows-visible-md {
+		a[id*="basement-carousel-arrow"] {
+			@include arrow_visible;
+		}
+	}
+
+}
+
+@media screen and (max-width: 992px) {
+
+	.basement-carousel-wrap-block.basement-carousel-dots-hidden-sm {
+		div[id*="basement-carousel-paginate"] {
+			@include pagination_hidden;
+		}
+	}
+
+	.basement-carousel-wrap-block.basement-carousel-dots-visible-sm {
+		div[id*="basement-carousel-paginate"] {
+			@include pagination_visible;
+		}
+	}
+
+
+	.basement-carousel-wrap-block.basement-carousel-arrows-hidden-sm {
+		a[id*="basement-carousel-arrow"] {
+			@include arrow_hidden;
+		}
+	}
+	.basement-carousel-wrap-block.basement-carousel-arrows-visible-sm {
+		a[id*="basement-carousel-arrow"] {
+			@include arrow_visible;
+		}
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+
+	.basement-carousel-wrap-block.basement-carousel-dots-hidden-xs {
+		div[id*="basement-carousel-paginate"] {
+			@include pagination_hidden;
+		}
+	}
+
+	.basement-carousel-wrap-block.basement-carousel-dots-visible-xs {
+		div[id*="basement-carousel-paginate"] {
+			@include pagination_visible;
+		}
+	}
+
+
+	.basement-carousel-wrap-block.basement-carousel-arrows-hidden-xs {
+		a[id*="basement-carousel-arrow"] {
+			@include arrow_hidden;
+		}
+	}
+
+	.basement-carousel-wrap-block.basement-carousel-arrows-visible-xs {
+		a[id*="basement-carousel-arrow"] {
+			@include arrow_visible;
+		}
+	}
+}

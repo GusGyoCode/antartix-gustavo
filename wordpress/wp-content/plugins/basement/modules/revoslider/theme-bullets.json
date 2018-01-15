@@ -1,0 +1,179 @@
+[
+  {
+    "id": 5016,
+    "default": true,
+    "name": "Conico",
+    "handle": "conico",
+    "markup": {
+      "bullets": "<span class=\"tp-bullet-inner\"><\/span>"
+    },
+    "css": {
+      "arrows": "",
+      "bullets": ".conico.tp-bullets .tp-bullet .tp-bullet-inner{font-size:##fs##px;width:##width##px;height:##height##px;color:rgba(##bordercolor##);border-color:rgba(##bordercolor##);}"
+    },
+    "settings": {
+      "width": {
+        "thumbs": "200",
+        "arrows": "160",
+        "bullets": "160",
+        "tabs": "160"
+      },
+      "height": {
+        "thumbs": "130",
+        "arrows": "160",
+        "bullets": "160",
+        "tabs": "31"
+      },
+      "original": {
+        "css": {
+          "arrows": "",
+          "bullets": ".conico.tp-bullets .tp-bullet .tp-bullet-inner{font-size:##fs##px;width:##width##px;height:##height##px;color:rgba(##bordercolor##);border-color:rgba(##bordercolor##);}"
+        },
+        "markup": {
+          "arrows": "",
+          "bullets": ""
+        }
+      },
+      "placeholders": [
+        {
+          "title": "Width",
+          "handle": "width",
+          "type": "custom",
+          "nav-type": "bullets",
+          "data": {
+            "custom": "12"
+          }
+        },
+        {
+          "title": "Height",
+          "handle": "height",
+          "type": "custom",
+          "nav-type": "bullets",
+          "data": {
+            "custom": "12"
+          }
+        },
+        {
+          "title": "Font size",
+          "handle": "fs",
+          "type": "custom",
+          "nav-type": "bullets",
+          "data": {
+            "custom": "12"
+          }
+        },
+        {
+          "title": "Background color",
+          "handle": "bordercolor",
+          "type": "color-rgba",
+          "nav-type": "bullets",
+          "data": {
+            "color-rgba": "rgba(26,26,26,1)"
+          }
+        }
+
+
+      ],
+      "presets": [
+        {
+          "name": "Conico 1",
+          "handle": "theme_1",
+          "type": "bullets",
+          "values": {
+            "ph-conico-bullets-width-custom": "10",
+            "ph-conico-bullets-height-custom": "10",
+            "ph-conico-bullets-bordercolor-color-rgba": "rgba(26,26,26,1)",
+            "ph-conico-bullets-fs-custom": "10"
+          }
+        },
+        {
+          "name": "Conico 2",
+          "handle": "theme_2",
+          "type": "bullets",
+          "values": {
+            "ph-conico-bullets-width-custom": "13",
+            "ph-conico-bullets-height-custom": "13",
+            "ph-conico-bullets-bordercolor-color-rgba": "rgba(26,26,26,1)",
+            "ph-conico-bullets-fs-custom": "14"
+          }
+        },
+
+
+
+
+
+        {
+          "name": "Conico 3",
+          "handle": "theme_3",
+          "type": "bullets",
+          "values": {
+            "ph-conico-bullets-width-custom": "10",
+            "ph-conico-bullets-height-custom": "10",
+            "ph-conico-bullets-bordercolor-color-rgba": "rgba(127,127,127,0.5)",
+            "ph-conico-bullets-fs-custom": "10"
+          }
+        },
+        {
+          "name": "Conico 4",
+          "handle": "theme_4",
+          "type": "bullets",
+          "values": {
+            "ph-conico-bullets-width-custom": "12",
+            "ph-conico-bullets-height-custom": "12",
+            "ph-conico-bullets-bordercolor-color-rgba": "rgba(127,127,127,0.5)",
+            "ph-conico-bullets-fs-custom": "12"
+          }
+        },
+        {
+          "name": "Conico 5",
+          "handle": "theme_5",
+          "type": "bullets",
+          "values": {
+            "ph-conico-bullets-width-custom": "13",
+            "ph-conico-bullets-height-custom": "13",
+            "ph-conico-bullets-bordercolor-color-rgba": "rgba(127,127,127,0.5)",
+            "ph-conico-bullets-fs-custom": "14"
+          }
+        },
+
+
+
+
+        {
+          "name": "Conico 6",
+          "handle": "theme_6",
+          "type": "bullets",
+          "values": {
+            "ph-conico-bullets-width-custom": "10",
+            "ph-conico-bullets-height-custom": "10",
+            "ph-conico-bullets-bordercolor-color-rgba": "rgba(255,255,255,1)",
+            "ph-conico-bullets-fs-custom": "10"
+          }
+        },
+        {
+          "name": "Conico 7",
+          "handle": "theme_7",
+          "type": "bullets",
+          "values": {
+            "ph-conico-bullets-width-custom": "12",
+            "ph-conico-bullets-height-custom": "12",
+            "ph-conico-bullets-bordercolor-color-rgba": "rgba(255,255,255,1)",
+            "ph-conico-bullets-fs-custom": "12"
+          }
+        },
+        {
+          "name": "Conico 8",
+          "handle": "theme_8",
+          "type": "bullets",
+          "values": {
+            "ph-conico-bullets-width-custom": "13",
+            "ph-conico-bullets-height-custom": "13",
+            "ph-conico-bullets-bordercolor-color-rgba": "rgba(255,255,255,1)",
+            "ph-conico-bullets-fs-custom": "14"
+          }
+        }
+
+      ]
+    }
+  }
+]

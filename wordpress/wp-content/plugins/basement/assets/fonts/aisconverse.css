@@ -1,0 +1,340 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "aisconverse";
+  src:url("aisconverse/aisconverse.eot");
+  src:url("aisconverse/aisconverse.eot?#iefix") format("embedded-opentype"),
+    url("aisconverse/aisconverse.woff") format("woff"),
+    url("aisconverse/aisconverse.ttf") format("truetype"),
+    url("aisconverse/aisconverse.svg#aisconverse") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "aisconverse" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="aisconverse_icon"]:before,
+[class*=" aisconverse_icon"]:before {
+  font-family: "aisconverse" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.aisconverse_icon.armchair_chair_streamline:before {
+  content: "a";
+}
+.aisconverse_icon.arrow_streamline_target:before {
+  content: "b";
+}
+.aisconverse_icon.backpack_streamline_trekking:before {
+  content: "c";
+}
+.aisconverse_icon.bag_shopping_streamline:before {
+  content: "d";
+}
+.aisconverse_icon.barbecue_eat_food_streamline:before {
+  content: "e";
+}
+.aisconverse_icon.barista_coffee_espresso_streamline:before {
+  content: "f";
+}
+.aisconverse_icon.bomb_bug:before {
+  content: "g";
+}
+.aisconverse_icon.book_dowload_streamline:before {
+  content: "h";
+}
+.aisconverse_icon.book_read_streamline:before {
+  content: "i";
+}
+.aisconverse_icon.caddie_shop_shopping_streamline:before {
+  content: "j";
+}
+.aisconverse_icon.caddie_shopping_streamline:before {
+  content: "k";
+}
+.aisconverse_icon.camera_photo_polaroid_streamline:before {
+  content: "l";
+}
+.aisconverse_icon.camera_photo_streamline:before {
+  content: "m";
+}
+.aisconverse_icon.camera_streamline_video:before {
+  content: "n";
+}
+.aisconverse_icon.chaplin_hat_movie_streamline:before {
+  content: "o";
+}
+.aisconverse_icon.chef_food_restaurant_streamline:before {
+  content: "p";
+}
+.aisconverse_icon.clock_streamline_time:before {
+  content: "q";
+}
+.aisconverse_icon.cocktail_mojito_streamline:before {
+  content: "r";
+}
+.aisconverse_icon.computer_network_streamline:before {
+  content: "s";
+}
+.aisconverse_icon.computer_streamline:before {
+  content: "t";
+}
+.aisconverse_icon.cook_pan_pot_streamline:before {
+  content: "u";
+}
+.aisconverse_icon.crop_streamline:before {
+  content: "v";
+}
+.aisconverse_icon.crown_king_streamline:before {
+  content: "w";
+}
+.aisconverse_icon.danger_death_delete_destroy_skull_stream:before {
+  content: "x";
+}
+.aisconverse_icon.dashboard_speed_streamline:before {
+  content: "y";
+}
+.aisconverse_icon.database_streamline:before {
+  content: "z";
+}
+.aisconverse_icon.delete_garbage_streamline:before {
+  content: "A";
+}
+.aisconverse_icon.earth_globe_streamline:before {
+  content: "B";
+}
+.aisconverse_icon.eat_food_fork_knife_streamline:before {
+  content: "C";
+}
+.aisconverse_icon.eat_food_hotdog_streamline:before {
+  content: "D";
+}
+.aisconverse_icon.edit_modify_streamline:before {
+  content: "E";
+}
+.aisconverse_icon.email_mail_streamline:before {
+  content: "F";
+}
+.aisconverse_icon.envellope_mail_streamline:before {
+  content: "G";
+}
+.aisconverse_icon.eye_dropper_streamline:before {
+  content: "H";
+}
+.aisconverse_icon.factory_lift_streamline_warehouse:before {
+  content: "I";
+}
+.aisconverse_icon.first_aid_medecine_shield_streamline:before {
+  content: "J";
+}
+.aisconverse_icon.happy_smiley_streamline:before {
+  content: "K";
+}
+.aisconverse_icon.headset_sound_streamline:before {
+  content: "L";
+}
+.aisconverse_icon.home_house_streamline:before {
+  content: "M";
+}
+.aisconverse_icon.ibook_laptop:before {
+  content: "N";
+}
+.aisconverse_icon.ink_pen_streamline:before {
+  content: "O";
+}
+.aisconverse_icon.ipad_streamline:before {
+  content: "P";
+}
+.aisconverse_icon.iphone_streamline:before {
+  content: "Q";
+}
+.aisconverse_icon.ipod_mini_music_streamline:before {
+  content: "R";
+}
+.aisconverse_icon.ipod_music_streamline:before {
+  content: "S";
+}
+.aisconverse_icon.link_streamline:before {
+  content: "T";
+}
+.aisconverse_icon.lock_locker_streamline:before {
+  content: "U";
+}
+.aisconverse_icon.locker_streamline_unlock:before {
+  content: "V";
+}
+.aisconverse_icon.macintosh:before {
+  content: "W";
+}
+.aisconverse_icon.magic_magic_wand_streamline:before {
+  content: "X";
+}
+.aisconverse_icon.magnet_streamline:before {
+  content: "Y";
+}
+.aisconverse_icon.man_people_streamline_user:before {
+  content: "Z";
+}
+.aisconverse_icon.map_pin_streamline:before {
+  content: "0";
+}
+.aisconverse_icon.map_streamline_user:before {
+  content: "1";
+}
+.aisconverse_icon.notebook_streamline:before {
+  content: "2";
+}
+.aisconverse_icon.paint_bucket_streamline:before {
+  content: "3";
+}
+.aisconverse_icon.painting_pallet_streamline:before {
+  content: "4";
+}
+.aisconverse_icon.painting_roll_streamline:before {
+  content: "5";
+}
+.aisconverse_icon.pen_streamline:before {
+  content: "6";
+}
+.aisconverse_icon.pen_streamline_1:before {
+  content: "7";
+}
+.aisconverse_icon.pen_streamline_2:before {
+  content: "8";
+}
+.aisconverse_icon.pen_streamline_3:before {
+  content: "9";
+}
+.aisconverse_icon.photo_pictures_streamline:before {
+  content: "!";
+}
+.aisconverse_icon.settings_streamline:before {
+  content: "\"";
+}
+.aisconverse_icon.settings_streamline_1:before {
+  content: "#";
+}
+.aisconverse_icon.settings_streamline_2:before {
+  content: "$";
+}
+.aisconverse_icon.shoes_snickers_streamline:before {
+  content: "%";
+}
+.aisconverse_icon.speech_streamline_talk_user:before {
+  content: "&";
+}
+.aisconverse_icon.stamp_streamline:before {
+  content: "'";
+}
+.aisconverse_icon.streamline_suitcase_travel:before {
+  content: "(";
+}
+.aisconverse_icon.streamline_sync:before {
+  content: ")";
+}
+.aisconverse_icon.streamline_umbrella_weather:before {
+  content: "*";
+}
+.aisconverse_icon.browser_streamline_window:before {
+  content: "+";
+}
+.aisconverse_icon.brush_paint_streamline:before {
+  content: ",";
+}
+.aisconverse_icon.bubble_comment_streamline_talk:before {
+  content: "-";
+}
+.aisconverse_icon.bubble_love_streamline_talk:before {
+  content: ".";
+}
+.aisconverse_icon.coffee_streamline:before {
+  content: "/";
+}
+.aisconverse_icon.computer_imac:before {
+  content: ":";
+}
+.aisconverse_icon.computer_imac_2:before {
+  content: ";";
+}
+.aisconverse_icon.computer_macintosh_vintage:before {
+  content: "<";
+}
+.aisconverse_icon.design_graphic_tablet_streamline_tablet:before {
+  content: "=";
+}
+.aisconverse_icon.design_pencil_rule_streamline:before {
+  content: ">";
+}
+.aisconverse_icon.diving_leisure_sea_sport_streamline:before {
+  content: "?";
+}
+.aisconverse_icon.drug_medecine_streamline_syringue:before {
+  content: "@";
+}
+.aisconverse_icon.food_ice_cream_streamline:before {
+  content: "[";
+}
+.aisconverse_icon.frame_picture_streamline:before {
+  content: "]";
+}
+.aisconverse_icon.grid_lines_streamline:before {
+  content: "^";
+}
+.aisconverse_icon.handle_streamline_vector:before {
+  content: "_";
+}
+.aisconverse_icon.ipod_streamline:before {
+  content: "`";
+}
+.aisconverse_icon.japan_streamline_tea:before {
+  content: "{";
+}
+.aisconverse_icon.laptop_macbook_streamline:before {
+  content: "|";
+}
+.aisconverse_icon.like_love_streamline:before {
+  content: "}";
+}
+.aisconverse_icon.micro_record_streamline:before {
+  content: "~";
+}
+.aisconverse_icon.monocle_mustache_streamline:before {
+  content: "\\";
+}
+.aisconverse_icon.music_note_streamline:before {
+  content: "\e000";
+}
+.aisconverse_icon.music_speaker_streamline:before {
+  content: "\e001";
+}
+.aisconverse_icon.picture_streamline:before {
+  content: "\e002";
+}
+.aisconverse_icon.picture_streamline_1:before {
+  content: "\e003";
+}
+.aisconverse_icon.receipt_shopping_streamline:before {
+  content: "\e004";
+}
+.aisconverse_icon.remote_control_streamline:before {
+  content: "\e005";
+}

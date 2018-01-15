@@ -1,0 +1,962 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Basement Carousel plugin\n"
+"POT-Creation-Date: 2017-03-24 12:03+0300\n"
+"PO-Revision-Date: 2017-03-24 12:03+0300\n"
+"Last-Translator: Anton <ant.lokotkov@gmail.com>\n"
+"Language-Team: Basement\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr__;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../modules/cpt/carousel-bg.php:11
+msgid "Background input config is broken"
+msgstr "Ошибка конфигурации поля"
+
+#: ../modules/cpt/carousel-bg.php:53
+msgid "Choose Image"
+msgstr "Выбрать изображение"
+
+#: ../modules/cpt/carousel-bg.php:64
+msgid "Delete Image"
+msgstr "Удалить изобажение"
+
+#: ../modules/cpt/carousel-bg.php:79 ../modules/cpt/carousel-settings.php:1236
+msgid "Color"
+msgstr "Цвет"
+
+#: ../modules/cpt/carousel-bg.php:93
+msgid "Alpha color opacity"
+msgstr "Прозрачность цвета"
+
+#: ../modules/cpt/carousel-bg.php:97
+msgid "Only fractional values between 0 and 1 (Example 0.5)"
+msgstr "Только дробные значения между 0 и 1 (Например 0.5)"
+
+#: ../modules/cpt/carousel-bg.php:115
+msgid "Repeat"
+msgstr "Повторять"
+
+#: ../modules/cpt/carousel-bg.php:121 ../modules/cpt/carousel-bg.php:152
+#: ../modules/cpt/carousel-bg.php:184 ../modules/cpt/carousel-bg.php:220
+#: ../modules/cpt/carousel-settings.php:467
+#: ../modules/cpt/carousel-settings.php:582
+#: ../modules/cpt/carousel-settings.php:754
+#: ../modules/cpt/carousel-settings.php:1115
+#: ../modules/cpt/carousel-settings.php:1213
+#: ../modules/cpt/carousel-settings.php:1223
+#: ../modules/cpt/carousel-settings.php:1388
+msgid "Nope"
+msgstr "Нет"
+
+#: ../modules/cpt/carousel-bg.php:122
+msgid "Do not repeat"
+msgstr "Не повторять"
+
+#: ../modules/cpt/carousel-bg.php:123
+msgid "Tile"
+msgstr "Замостить"
+
+#: ../modules/cpt/carousel-bg.php:124
+msgid "Tile horizontally"
+msgstr "Замостить по горизонтали"
+
+#: ../modules/cpt/carousel-bg.php:125
+msgid "Tile vertically"
+msgstr "Замостить по вертикали"
+
+#: ../modules/cpt/carousel-bg.php:146
+msgid "Attachment"
+msgstr "Наложить"
+
+#: ../modules/cpt/carousel-bg.php:153 ../modules/cpt/carousel-settings.php:938
+msgid "Scroll"
+msgstr "Прокрутка"
+
+#: ../modules/cpt/carousel-bg.php:154 ../modules/cpt/carousel-settings.php:322
+#: ../modules/cpt/carousel-settings.php:1467
+msgid "Fixed"
+msgstr "Фиксированная"
+
+#: ../modules/cpt/carousel-bg.php:178
+msgid "Position"
+msgstr "Позиция"
+
+#: ../modules/cpt/carousel-bg.php:185
+msgid "Left & top"
+msgstr "Слева сверху"
+
+#: ../modules/cpt/carousel-bg.php:186
+msgid "Left & center"
+msgstr "Слева по центру"
+
+#: ../modules/cpt/carousel-bg.php:187
+msgid "Left & bottom"
+msgstr "Слева снизу"
+
+#: ../modules/cpt/carousel-bg.php:188
+msgid "Center & top"
+msgstr "По центру сверху"
+
+#: ../modules/cpt/carousel-bg.php:189
+msgid "Center & center"
+msgstr "В центре"
+
+#: ../modules/cpt/carousel-bg.php:190
+msgid "Center & bottom"
+msgstr "По центру и снизу"
+
+#: ../modules/cpt/carousel-bg.php:191
+msgid "Right & top"
+msgstr "Справа вверху"
+
+#: ../modules/cpt/carousel-bg.php:192
+msgid "Right & center"
+msgstr "Справа по центру"
+
+#: ../modules/cpt/carousel-bg.php:193
+msgid "Right & bottom"
+msgstr "Справа внизу"
+
+#: ../modules/cpt/carousel-bg.php:214
+msgid "Size"
+msgstr "Размер"
+
+#: ../modules/cpt/carousel-bg.php:221 ../modules/cpt/carousel-settings.php:123
+#: ../modules/cpt/carousel-settings.php:321
+#: ../modules/cpt/carousel-settings.php:430
+#: ../modules/cpt/carousel-settings.php:1465
+msgid "Auto"
+msgstr "Автоматически"
+
+#: ../modules/cpt/carousel-bg.php:222 ../modules/cpt/carousel-settings.php:941
+msgid "Cover"
+msgstr ""
+
+#: ../modules/cpt/carousel-bg.php:223
+msgid "Contain"
+msgstr ""
+
+#: ../modules/cpt/carousel-preview.php:32
+msgid "Preview"
+msgstr "Превью"
+
+#: ../modules/cpt/carousel-preview.php:51
+msgid "In the preview shows only an approximate carousel will look like!"
+msgstr ""
+"В превью отображается приблизительный вид карусели, который может отличаться "
+"от выводимой на сайте!"
+
+#: ../modules/cpt/carousel-settings.php:32
+msgid "Parameters"
+msgstr "Параметры"
+
+#: ../modules/cpt/carousel-settings.php:60
+msgid "Style settings for carousel row"
+msgstr "Стилевые настройки для блока"
+
+#: ../modules/cpt/carousel-settings.php:67
+msgid "Row stretch"
+msgstr "Растяжение блока"
+
+#: ../modules/cpt/carousel-settings.php:68
+msgid "Select stretching options for row and content."
+msgstr "Выберите опцию растяжения блока и контента."
+
+#: ../modules/cpt/carousel-settings.php:73
+msgid "Extra css classes"
+msgstr "Дополнительные классы"
+
+#: ../modules/cpt/carousel-settings.php:74
+msgid "Adds extra CSS classes to carousel classes list."
+msgstr "Добавьте дополнительные классы в список."
+
+#: ../modules/cpt/carousel-settings.php:79
+msgid "Padding"
+msgstr "Внутренние отступы"
+
+#: ../modules/cpt/carousel-settings.php:80
+msgid "Adds padding to carousel."
+msgstr "Добавить внутренние отступы для карусели."
+
+#: ../modules/cpt/carousel-settings.php:85
+msgid "Margin"
+msgstr "Внешние отступы"
+
+#: ../modules/cpt/carousel-settings.php:86
+msgid "Adds margin to carousel."
+msgstr "Добавить внешние отступы для карусели."
+
+#: ../modules/cpt/carousel-settings.php:91
+msgid "Border"
+msgstr "Рамка"
+
+#: ../modules/cpt/carousel-settings.php:92
+msgid "Adds border to carousel."
+msgstr "Добавить рамку для карусели."
+
+#: ../modules/cpt/carousel-settings.php:97
+msgid "Border radius"
+msgstr "Скругление углов"
+
+#: ../modules/cpt/carousel-settings.php:98
+msgid "Adds border radius to carousel."
+msgstr "Добавляет скругления для карусели"
+
+#: ../modules/cpt/carousel-settings.php:103
+msgid "Background"
+msgstr "Фон"
+
+#: ../modules/cpt/carousel-settings.php:110
+msgid "General settings carousel"
+msgstr "Основные настройки карусели"
+
+#: ../modules/cpt/carousel-settings.php:117
+msgid "Height carousel"
+msgstr "Высота карусели"
+
+#: ../modules/cpt/carousel-settings.php:118
+msgid "Sets the height of the carousel. Use integer value w/o \"px\"."
+msgstr ""
+"Устанавливает высоту карусели. Используйте только целые значение без \"px\"."
+
+#: ../modules/cpt/carousel-settings.php:124
+msgid "Determines whether the carousel should scroll automatically or not."
+msgstr "Определяет, должна ли карусель быть автоматической или нет."
+
+#: ../modules/cpt/carousel-settings.php:135
+msgid "Width carousel"
+msgstr "Ширина карусели"
+
+#: ../modules/cpt/carousel-settings.php:136
+msgid "The width of the carousel."
+msgstr "Устанавливает ширину карусели."
+
+#: ../modules/cpt/carousel-settings.php:141
+msgid "Cookie"
+msgstr "Кукисы"
+
+#: ../modules/cpt/carousel-settings.php:142
+msgid ""
+"Determines whether the carousel should start at its last viewed position."
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:147
+msgid "Responsive"
+msgstr "Адаптивность"
+
+#: ../modules/cpt/carousel-settings.php:148
+msgid ""
+"Determines whether the carousel should be responsive. If yes, the items will "
+"be resized to fill the carousel."
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:153
+msgid "Direction"
+msgstr "Направление"
+
+#: ../modules/cpt/carousel-settings.php:154
+msgid "The direction to scroll the carousel."
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:159
+msgid "Circular"
+msgstr "Круговая"
+
+#: ../modules/cpt/carousel-settings.php:160
+msgid "Determines whether the carousel should be circular."
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:165
+msgid "Pause On Hover"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:166
+msgid ""
+"Determines whether the timeout between transitions should be paused "
+"\"onMouseOver\" (only applies when the carousel scrolls automatically)."
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:171
+msgid "Effects"
+msgstr "Эффекты"
+
+#: ../modules/cpt/carousel-settings.php:172
+msgid "Indicates which effect to use for the transition."
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:177
+msgid "Easing"
+msgstr "Сглаживание цикла"
+
+#: ../modules/cpt/carousel-settings.php:178
+msgid "Indicates which easing function to use for the transition. jQuery."
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:183
+msgid "Duration"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:184
+msgid ""
+"Determines the duration of the transition in milliseconds. (Default 500ms)."
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:191
+msgid "Setting items carousel"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:214
+msgid "Height"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:215
+msgid "The height of the items. Use only integer value w/o \"px\" or \"%\"."
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:220
+msgid "Width"
+msgstr "Ширина"
+
+#: ../modules/cpt/carousel-settings.php:221
+msgid "The width of the items. Use integer value w/o \"px\"."
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:226
+msgid "Visible"
+msgstr "Видимость"
+
+#: ../modules/cpt/carousel-settings.php:227
+msgid "The number of visible items."
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:232
+msgid "Min"
+msgstr "Мин"
+
+#: ../modules/cpt/carousel-settings.php:233
+msgid "The number of min visible items."
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:238
+msgid "Max"
+msgstr "Макс."
+
+#: ../modules/cpt/carousel-settings.php:239
+msgid "The number of max visible items."
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:244
+msgid "Start"
+msgstr "Старт"
+
+#: ../modules/cpt/carousel-settings.php:245
+msgid "The nth item to start the carousel."
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:250
+msgid "Scroll Items"
+msgstr "Прокрутка элементов"
+
+#: ../modules/cpt/carousel-settings.php:251
+msgid "The number of items to scroll."
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:278
+msgid "Setting arrows &amp; dots"
+msgstr "Настройка стрелок и точек"
+
+#: ../modules/cpt/carousel-settings.php:285
+msgid "Layout"
+msgstr "Слой"
+
+#: ../modules/cpt/carousel-settings.php:286
+msgid "An exemplary display of arrows and points in the carousel."
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:291
+msgid "Dots settings"
+msgstr "Настройка точек"
+
+#: ../modules/cpt/carousel-settings.php:292
+msgid "Sets the style, color, size and position of the dots."
+msgstr "Задает стиль, цвет, размер и положение точек."
+
+#: ../modules/cpt/carousel-settings.php:297
+msgid "Arrows settings"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:298
+msgid "Sets the style, color, size and position of the arrows."
+msgstr "Определяет стиль,цвет ,размер и позицию стрелок."
+
+#: ../modules/cpt/carousel-settings.php:431
+msgid "Variable"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:432
+msgid "100%"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:468
+msgid "W/o background"
+msgstr "Без фона"
+
+#: ../modules/cpt/carousel-settings.php:469
+msgid "With background"
+msgstr "С фоном"
+
+#: ../modules/cpt/carousel-settings.php:478
+#: ../modules/cpt/carousel-settings.php:592
+msgid "Light"
+msgstr "Светлый"
+
+#: ../modules/cpt/carousel-settings.php:479
+#: ../modules/cpt/carousel-settings.php:593
+msgid "Standart"
+msgstr "Стандартный"
+
+#: ../modules/cpt/carousel-settings.php:480
+#: ../modules/cpt/carousel-settings.php:594
+msgid "Dark"
+msgstr "Тёмный"
+
+#: ../modules/cpt/carousel-settings.php:489
+#: ../modules/cpt/carousel-settings.php:602
+msgid "Small"
+msgstr "Маленький"
+
+#: ../modules/cpt/carousel-settings.php:490
+#: ../modules/cpt/carousel-settings.php:603
+msgid "Medium"
+msgstr "Средний"
+
+#: ../modules/cpt/carousel-settings.php:491
+#: ../modules/cpt/carousel-settings.php:604
+msgid "Large"
+msgstr "Большой"
+
+#: ../modules/cpt/carousel-settings.php:500
+#: ../modules/cpt/carousel-settings.php:612
+msgid "Inside"
+msgstr "Внутри"
+
+#: ../modules/cpt/carousel-settings.php:501
+#: ../modules/cpt/carousel-settings.php:613
+msgid "Outside"
+msgstr "Снаружи"
+
+#: ../modules/cpt/carousel-settings.php:502
+msgid "In row"
+msgstr "В строке"
+
+#: ../modules/cpt/carousel-settings.php:511
+#: ../modules/cpt/carousel-settings.php:621
+#: ../modules/cpt/carousel-settings.php:1149
+#: ../modules/cpt/carousel-settings.php:1196
+#: ../modules/cpt/carousel-settings.php:1323
+#: ../modules/cpt/carousel-settings.php:1372
+msgid "Top"
+msgstr "Сверху"
+
+#: ../modules/cpt/carousel-settings.php:512
+#: ../modules/cpt/carousel-settings.php:622
+#: ../modules/cpt/carousel-settings.php:1157
+#: ../modules/cpt/carousel-settings.php:1204
+#: ../modules/cpt/carousel-settings.php:1331
+#: ../modules/cpt/carousel-settings.php:1380
+msgid "Bottom"
+msgstr "Снизу"
+
+#: ../modules/cpt/carousel-settings.php:513
+msgid "Side"
+msgstr "По стороне"
+
+#: ../modules/cpt/carousel-settings.php:522
+#: ../modules/cpt/carousel-settings.php:630
+#: ../modules/cpt/carousel-settings.php:756
+#: ../modules/cpt/carousel-settings.php:846
+#: ../modules/cpt/carousel-settings.php:1145
+#: ../modules/cpt/carousel-settings.php:1192
+#: ../modules/cpt/carousel-settings.php:1319
+#: ../modules/cpt/carousel-settings.php:1368
+msgid "Left"
+msgstr "Слева"
+
+#: ../modules/cpt/carousel-settings.php:523
+#: ../modules/cpt/carousel-settings.php:631
+#: ../modules/cpt/carousel-settings.php:755
+msgid "Center"
+msgstr "По центру"
+
+#: ../modules/cpt/carousel-settings.php:524
+#: ../modules/cpt/carousel-settings.php:632
+#: ../modules/cpt/carousel-settings.php:757
+#: ../modules/cpt/carousel-settings.php:847
+#: ../modules/cpt/carousel-settings.php:1153
+#: ../modules/cpt/carousel-settings.php:1200
+#: ../modules/cpt/carousel-settings.php:1327
+#: ../modules/cpt/carousel-settings.php:1376
+msgid "Right"
+msgstr "Справа"
+
+#: ../modules/cpt/carousel-settings.php:583
+msgid "Dots"
+msgstr "Точки"
+
+#: ../modules/cpt/carousel-settings.php:584
+msgid "Numbers"
+msgstr "Цифры"
+
+#: ../modules/cpt/carousel-settings.php:724
+#: ../modules/cpt/carousel-settings.php:786
+#: ../modules/cpt/carousel-settings.php:817
+#: ../modules/cpt/carousel-settings.php:877
+#: ../modules/cpt/carousel-settings.php:906
+msgid "No"
+msgstr "Нет"
+
+#: ../modules/cpt/carousel-settings.php:725
+#: ../modules/cpt/carousel-settings.php:787
+#: ../modules/cpt/carousel-settings.php:816
+#: ../modules/cpt/carousel-settings.php:876
+#: ../modules/cpt/carousel-settings.php:907
+msgid "Yes"
+msgstr "Да"
+
+#: ../modules/cpt/carousel-settings.php:936
+msgid "Fade"
+msgstr "Затухание"
+
+#: ../modules/cpt/carousel-settings.php:937
+msgid "Crossfade"
+msgstr "Плавный переход"
+
+#: ../modules/cpt/carousel-settings.php:939
+msgid "None"
+msgstr "Ничего"
+
+#: ../modules/cpt/carousel-settings.php:940
+msgid "Directscroll"
+msgstr "Прямая прокрутка"
+
+#: ../modules/cpt/carousel-settings.php:942
+msgid "Cover-fade"
+msgstr "Быстрое затухание"
+
+#: ../modules/cpt/carousel-settings.php:943
+msgid "Uncover"
+msgstr "Без затухания"
+
+#: ../modules/cpt/carousel-settings.php:944
+msgid "Uncover-fade"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:973
+msgid "Swing"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:974
+msgid "Linear"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:975
+msgid "Quadratic"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:976
+msgid "Cubic"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:977
+msgid "Elastic"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:1116
+msgid "Stretch row"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:1117
+msgid "Stretch row and content"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:1211
+#: ../modules/cpt/carousel-settings.php:1386
+msgid "Unit"
+msgstr "Единица измерения"
+
+#: ../modules/cpt/carousel-settings.php:1214
+#: ../modules/cpt/carousel-settings.php:1389
+msgid "px"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:1215
+#: ../modules/cpt/carousel-settings.php:1390
+msgid "em"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:1216
+#: ../modules/cpt/carousel-settings.php:1391
+msgid "pt"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:1221
+msgid "Style"
+msgstr "Стиль"
+
+#: ../modules/cpt/carousel-settings.php:1224
+msgid "Dotted"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:1225
+msgid "Dashed"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:1226
+msgid "Solid"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:1227
+msgid "Double"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:1228
+msgid "Groove"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:1229
+msgid "Ridge"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:1230
+msgid "Inset"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:1231
+msgid "Outset"
+msgstr ""
+
+#: ../modules/cpt/carousel-settings.php:1466
+msgid "At the highest slide"
+msgstr "По самому высокому слайду"
+
+#: ../modules/cpt/carousel.php:89 ../modules/cpt/carousel.php:92
+msgid "Carousel updated."
+msgstr "Карусель обновлена"
+
+#: ../modules/cpt/carousel.php:90 ../modules/cpt/slide.php:92
+msgid "Custom field updated."
+msgstr ""
+
+#: ../modules/cpt/carousel.php:91 ../modules/cpt/slide.php:93
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../modules/cpt/carousel.php:93
+#, php-format
+msgid "Carousel restored to revision from %s"
+msgstr ""
+
+#: ../modules/cpt/carousel.php:94
+msgid "Carousel published."
+msgstr "Карусель опубликована."
+
+#: ../modules/cpt/carousel.php:95
+msgid "Carousel saved."
+msgstr ""
+
+#: ../modules/cpt/carousel.php:96
+msgid "Carousel submitted."
+msgstr ""
+
+#: ../modules/cpt/carousel.php:97
+#, php-format
+msgid "Carousel scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: ../modules/cpt/carousel.php:98 ../modules/cpt/slide.php:100
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../modules/cpt/carousel.php:99
+msgid "Carousel draft updated."
+msgstr ""
+
+#: ../modules/cpt/carousel.php:117
+#, php-format
+msgid "%s carousel updated."
+msgstr ""
+
+#: ../modules/cpt/carousel.php:118
+#, php-format
+msgid "%s carousel not updated, somebody is editing it."
+msgstr ""
+
+#: ../modules/cpt/carousel.php:119
+#, php-format
+msgid "%s carousel permanently deleted."
+msgstr ""
+
+#: ../modules/cpt/carousel.php:120
+#, php-format
+msgid "%s carousel moved to the Trash."
+msgstr ""
+
+#: ../modules/cpt/carousel.php:121
+#, php-format
+msgid "%s carousel restored from the Trash."
+msgstr ""
+
+#: ../modules/cpt/carousel.php:152
+msgid "Show Preview Carousel"
+msgstr "Показать превью"
+
+#: ../modules/cpt/carousel.php:153
+msgid "Hide Preview Carousel"
+msgstr "Скрыть превью"
+
+#: ../modules/cpt/carousel.php:169 ../modules/cpt/carousel.php:183
+#: ../modules/cpt/carousel.php:185 ../modules/cpt/carousel.php:186
+msgid "All carousels"
+msgstr "Все карусели"
+
+#: ../modules/cpt/carousel.php:182
+msgid "All Carousels"
+msgstr "Все карусели"
+
+#: ../modules/cpt/carousel.php:184
+msgid "Carousels"
+msgstr "Карусели"
+
+#: ../modules/cpt/carousel.php:187 ../modules/cpt/carousel.php:188
+msgid "Add carousel"
+msgstr "Добавить карусель"
+
+#: ../modules/cpt/carousel.php:189
+msgid "Edit carousel"
+msgstr "Изменить карусель"
+
+#: ../modules/cpt/carousel.php:190
+msgid "New carousel"
+msgstr "Новая карусель"
+
+#: ../modules/cpt/carousel.php:191
+msgid "View carousel"
+msgstr "Просмотреть карусель"
+
+#: ../modules/cpt/carousel.php:192
+msgid "Search carousel"
+msgstr "Поиск карусели"
+
+#: ../modules/cpt/carousel.php:193 ../modules/cpt/slide.php:183
+msgid "Slides not found"
+msgstr ""
+
+#: ../modules/cpt/carousel.php:194
+msgid "Parent carousels:"
+msgstr ""
+
+#: ../modules/cpt/carousel.php:195
+msgid "No carousels found in Trash."
+msgstr ""
+
+#: ../modules/cpt/slide.php:91 ../modules/cpt/slide.php:94
+msgid "Slide updated."
+msgstr ""
+
+#: ../modules/cpt/slide.php:95
+#, php-format
+msgid "Slide restored to revision from %s"
+msgstr ""
+
+#: ../modules/cpt/slide.php:96
+msgid "Slide published."
+msgstr ""
+
+#: ../modules/cpt/slide.php:97
+msgid "Slide saved."
+msgstr ""
+
+#: ../modules/cpt/slide.php:98
+msgid "Slide submitted."
+msgstr ""
+
+#: ../modules/cpt/slide.php:99
+#, php-format
+msgid "Slide scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: ../modules/cpt/slide.php:101
+msgid "Slide draft updated."
+msgstr ""
+
+#: ../modules/cpt/slide.php:119
+#, php-format
+msgid "%s slide updated."
+msgstr ""
+
+#: ../modules/cpt/slide.php:120
+#, php-format
+msgid "%s slide not updated, somebody is editing it."
+msgstr ""
+
+#: ../modules/cpt/slide.php:121
+#, php-format
+msgid "%s slide permanently deleted."
+msgstr ""
+
+#: ../modules/cpt/slide.php:122
+#, php-format
+msgid "%s slide moved to the Trash."
+msgstr ""
+
+#: ../modules/cpt/slide.php:123
+#, php-format
+msgid "%s slide restored from the Trash."
+msgstr "%s восстановлено из корзины."
+
+#: ../modules/cpt/slide.php:146
+msgid "Add new slide"
+msgstr "Добавить новый слайд"
+
+#: ../modules/cpt/slide.php:146 ../modules/cpt/slide.php:177
+#: ../modules/cpt/slide.php:178
+msgid "Add slide"
+msgstr "Добавить слайд"
+
+#: ../modules/cpt/slide.php:158 ../modules/cpt/slide.php:172
+#: ../modules/cpt/slide.php:174 ../modules/cpt/slide.php:175
+#: ../modules/shortcodes/vc-carousel.php:1167
+msgid "Slides"
+msgstr "Слайды"
+
+#: ../modules/cpt/slide.php:173
+msgid "Slide"
+msgstr "Слайд"
+
+#: ../modules/cpt/slide.php:176
+msgid "All slides"
+msgstr "Все слайды"
+
+#: ../modules/cpt/slide.php:179
+msgid "Edit slide"
+msgstr "Редактировать слайд"
+
+#: ../modules/cpt/slide.php:180
+msgid "New slide"
+msgstr "Новый слайд"
+
+#: ../modules/cpt/slide.php:181
+msgid "View slide"
+msgstr "Просмотреть слайд"
+
+#: ../modules/cpt/slide.php:182
+msgid "Search slides"
+msgstr "Поиск слайдов"
+
+#: ../modules/cpt/slide.php:184
+msgid "Parent slide:"
+msgstr "Родительские слайды:"
+
+#: ../modules/cpt/slide.php:185
+msgid "No slides found in Trash."
+msgstr "Не найдено слайдов в корзине."
+
+#: ../modules/plugin/plugin.php:8
+msgid ""
+"For correct work the Basement Carousel plugin, please activate/install the "
+"WPBakery Visual Composer plugin."
+msgstr ""
+"Для работы с плагином Basement Carousel необходимо наличие установленного и "
+"активированного плагина WPBakery Visual Composer."
+
+#: ../modules/shortcodes/vc-carousel.php:1152
+#: ../modules/shortcodes/vc-carousel.php:1160
+msgid "Carousel"
+msgstr "Карусель"
+
+#: ../modules/shortcodes/vc-carousel.php:1155
+msgid "Basement"
+msgstr "Basement"
+
+#: ../modules/shortcodes/vc-carousel.php:1156
+msgid "Creates a simple carousel"
+msgstr "Создание простой карусели"
+
+#: ../modules/shortcodes/vc-carousel.php:1163
+msgid "Select the carousel."
+msgstr "Выберите карусель."
+
+#: ../modules/shortcodes/vc-carousel.php:1170
+msgid "Select the slides."
+msgstr "Выберите слайды."
+
+#: ../modules/shortcodes/vc-carousel.php:1193
+msgid "Choose the carousel"
+msgstr "Выберите карусель"
+
+#: ../modules/shortcodes/vc-carousel.php:1221
+msgid "Add at least one carousel."
+msgstr "Добавьте хотя бы одну карусель."
+
+#: ../modules/shortcodes/vc-carousel.php:1271
+msgid "Choose the slide"
+msgstr "Выберите слайд"
+
+#: ../modules/shortcodes/vc-carousel.php:1279
+msgid "Edit"
+msgstr "Изменить"
+
+#: ../modules/shortcodes/vc-carousel.php:1299
+msgid "Add at least one slide."
+msgstr "Добавьте хоты бы один слайд."
+
+#~ msgid "Creates a carousel-based on CarouFredsel plugin."
+#~ msgstr "Создает карусель на основе плагина jQuery CarouFredSel."
+
+#~ msgid "Counter"
+#~ msgstr "Счётчик"
+
+#~ msgid "Creates a counter which begins to count on scroll."
+#~ msgstr "Создает счетчик, который начинает работать при прокрутке."
+
+#~ msgid "Sets initial value to count from."
+#~ msgstr "Устанавливает начальное значение счетчика."
+
+#~ msgid "Digit"
+#~ msgstr "Цифра"
+
+#~ msgid "Sets final value to stop on."
+#~ msgstr "Устанавливает конечное значение счетчика."
+
+#~ msgid "Increment"
+#~ msgstr "Прирост"
+
+#~ msgid "Sets a step to increment with."
+#~ msgstr "Устанавливает шаг приращения."
+
+#~ msgid "Sign"
+#~ msgstr "Знак"
+
+#~ msgid "Sets a sign to show after a digit."
+#~ msgstr "Устанавливает знак, который выводится цифры."
+
+#~ msgid "Font size"
+#~ msgstr "Размер шрифта"
+
+#~ msgid "Sets font size of a counter. Use integer value without \"px\"."
+#~ msgstr ""
+#~ "Устанавливает размер шрифта счетчика. Используйте целое число без "
+#~ "\"пикселей\"."
+
+#~ msgid "Set counters color."
+#~ msgstr "Задает цвет шрифта."

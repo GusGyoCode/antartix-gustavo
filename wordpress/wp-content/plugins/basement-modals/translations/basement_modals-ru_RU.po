@@ -1,0 +1,374 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Basement Modal Windows plugin\n"
+"POT-Creation-Date: 2017-03-20 14:55+0300\n"
+"PO-Revision-Date: 2017-03-20 14:55+0300\n"
+"Last-Translator: Anton <ant.lokotkov@gmail.com>\n"
+"Language-Team: Basement\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr__;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../modules/cpt/modals.php:79
+msgid "ID"
+msgstr "Идентификатор"
+
+#: ../modules/cpt/modals.php:146
+msgid "Parameters"
+msgstr "Параметры"
+
+#: ../modules/cpt/modals.php:174
+msgid "Window ID"
+msgstr "Идентификатор окна"
+
+#: ../modules/cpt/modals.php:175
+msgid ""
+"The identifier for the modal window. Copy and paste this ID into <b>href/"
+"value</b> attribute for any link or button."
+msgstr ""
+"Идентификатор для модального окна. Скопируйте и вставьте идентификатор в "
+"атрибут <b>href/value</b> в любой ссылке или кнопке."
+
+#: ../modules/cpt/modals.php:180
+msgid "Window background color"
+msgstr "Фон модального окна"
+
+#: ../modules/cpt/modals.php:181
+msgid "Sets the background color for modal window."
+msgstr "Определяет цвет фона для модального окна."
+
+#: ../modules/cpt/modals.php:186
+msgid "Button color"
+msgstr "Цвет кнопки"
+
+#: ../modules/cpt/modals.php:187
+msgid "Sets the colors for close button."
+msgstr "Определяет цвета для кнопки закрытия."
+
+#: ../modules/cpt/modals.php:253
+msgid "Background color:"
+msgstr "Цвет фона:"
+
+#: ../modules/cpt/modals.php:261
+msgid "Background on hover color:"
+msgstr "Цвет фона при наведении курсора:"
+
+#: ../modules/cpt/modals.php:269
+msgid "Icon color:"
+msgstr "Цвет иконки:"
+
+#: ../modules/cpt/modals.php:328 ../modules/cpt/modals.php:331
+msgid "Modal updated."
+msgstr "Модальное окно обновлено."
+
+#: ../modules/cpt/modals.php:329
+msgid "Custom field updated."
+msgstr "Поле успешно обновлено"
+
+#: ../modules/cpt/modals.php:330
+msgid "Custom field deleted."
+msgstr "Поле успешно удалено"
+
+#: ../modules/cpt/modals.php:332
+#, php-format
+msgid "Modal window restored to revision from %s"
+msgstr "Модальное окно восстановлено из ревизии %s"
+
+#: ../modules/cpt/modals.php:333
+msgid "Modal window published."
+msgstr "Модальное окно создано."
+
+#: ../modules/cpt/modals.php:334
+msgid "Modal window saved."
+msgstr "Модальное окно сохранено."
+
+#: ../modules/cpt/modals.php:335
+msgid "Modal window submitted."
+msgstr "Модально окно загружено."
+
+#: ../modules/cpt/modals.php:336
+#, php-format
+msgid "Modal window scheduled for: <strong>%1$s</strong>."
+msgstr "Создание модального окна запланировано на: <strong>%1$s</strong>."
+
+#: ../modules/cpt/modals.php:337
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: ../modules/cpt/modals.php:338
+msgid "Modal window draft updated."
+msgstr "Черновик модального окна обновлен."
+
+#: ../modules/cpt/modals.php:355
+#, php-format
+msgid "%s modal window updated."
+msgstr "%s модальные окна обновлены."
+
+#: ../modules/cpt/modals.php:356
+#, php-format
+msgid "%s  modal window not updated, somebody is editing it."
+msgstr "%s  модальные окна не обновлены."
+
+#: ../modules/cpt/modals.php:357
+#, php-format
+msgid "%s  modal window permanently deleted."
+msgstr "%s модальные окна окончательно удалены."
+
+#: ../modules/cpt/modals.php:358
+#, php-format
+msgid "%s  modal window moved to the Trash."
+msgstr "%s  модальные окна помещены в корзину."
+
+#: ../modules/cpt/modals.php:359
+#, php-format
+msgid "%s  modal window restored from the Trash."
+msgstr "%s  модальные окна восстановлены из корзины."
+
+#: ../modules/cpt/modals.php:388 ../modules/cpt/modals.php:401
+#: ../modules/cpt/modals.php:402 ../modules/cpt/modals.php:404
+#: ../modules/cpt/modals.php:405
+msgid "All windows"
+msgstr "Все окна"
+
+#: ../modules/cpt/modals.php:403
+msgid "Modal Windows"
+msgstr "Модальные окна"
+
+#: ../modules/cpt/modals.php:406
+msgid "Add new"
+msgstr "Добавить"
+
+#: ../modules/cpt/modals.php:407
+msgid "Add window"
+msgstr "Добавить окно"
+
+#: ../modules/cpt/modals.php:408
+msgid "Edit modal window"
+msgstr "Редактировать"
+
+#: ../modules/cpt/modals.php:409
+msgid "New modal window"
+msgstr "Новое модальное окно"
+
+#: ../modules/cpt/modals.php:410
+msgid "View modal window"
+msgstr "Просмотреть модальное окно"
+
+#: ../modules/cpt/modals.php:411
+msgid "Search modal windows"
+msgstr "Поиск модального окна"
+
+#: ../modules/cpt/modals.php:412
+msgid "Modal windows not found"
+msgstr "Модальное окно не найдено"
+
+#: ../modules/cpt/modals.php:413
+msgid "Parent modal window:"
+msgstr "Родительское модальное окно:"
+
+#: ../modules/cpt/modals.php:414
+msgid "No modal windows found in Trash."
+msgstr "Модальных окон в корзине не найдено."
+
+#: ../modules/plugin/plugin.php:233
+msgid "Close"
+msgstr "Закрыть"
+
+#~ msgid "'Modal window scheduled for: <strong>%1$s</strong>."
+#~ msgstr "'Modal window scheduled for: <strong>%1$s</strong>."
+
+#~ msgid "Color"
+#~ msgstr "Цвет"
+
+#~ msgid "Fixed"
+#~ msgstr "Фиксированная"
+
+#~ msgid "Preview"
+#~ msgstr "Превью"
+
+#~ msgid "In the preview shows only an approximate carousel will look like!"
+#~ msgstr ""
+#~ "В превью отображается приблизительный вид карусели, который может "
+#~ "отличаться от выводимой на сайте!"
+
+#~ msgid "Style settings for carousel row"
+#~ msgstr "Стилевые настройки для блока"
+
+#~ msgid "Row stretch"
+#~ msgstr "Растяжение блока"
+
+#~ msgid "Select stretching options for row and content."
+#~ msgstr "Выберите опцию растяжения блока и контента."
+
+#~ msgid "Extra css classes"
+#~ msgstr "Дополнительные классы"
+
+#~ msgid "Adds extra CSS classes to carousel classes list."
+#~ msgstr "Добавьте дополнительные классы в список."
+
+#~ msgid "Padding"
+#~ msgstr "Внутренние отступы"
+
+#~ msgid "Adds padding to carousel."
+#~ msgstr "Добавить внутренние отступы для карусели."
+
+#~ msgid "Border"
+#~ msgstr "Рамка"
+
+#~ msgid "Adds border to carousel."
+#~ msgstr "Добавить рамку для карусели."
+
+#~ msgid "Start"
+#~ msgstr "Старт"
+
+#~ msgid "Scroll Items"
+#~ msgstr "Прокрутка элементов"
+
+#~ msgid "Setting arrows &amp; dots"
+#~ msgstr "Настройка стрелок и точек"
+
+#~ msgid "Layout"
+#~ msgstr "Слой"
+
+#~ msgid "Dots settings"
+#~ msgstr "Настройка точек"
+
+#~ msgid "Sets the style, color, size and position of the dots."
+#~ msgstr "Задает стиль, цвет, размер и положение точек."
+
+#~ msgid "At the highest slide"
+#~ msgstr "По самому высокому слайду"
+
+#~ msgid "Carousel updated."
+#~ msgstr "Карусель обновлена"
+
+#~ msgid "Show Preview Carousel"
+#~ msgstr "Показать превью"
+
+#~ msgid "Hide Preview Carousel"
+#~ msgstr "Скрыть превью"
+
+#~ msgid "All carousels"
+#~ msgstr "Все карусели"
+
+#~ msgid "All Carousels"
+#~ msgstr "Все карусели"
+
+#~ msgid "Carousels"
+#~ msgstr "Карусели"
+
+#~ msgid "Add carousel"
+#~ msgstr "Добавить карусель"
+
+#~ msgid "Edit carousel"
+#~ msgstr "Изменить карусель"
+
+#~ msgid "%s slide restored from the Trash."
+#~ msgstr "%s восстановлено из корзины."
+
+#~ msgid "Add new slide"
+#~ msgstr "Добавить новый слайд"
+
+#~ msgid "Add slide"
+#~ msgstr "Добавить слайд"
+
+#~ msgid "Slides"
+#~ msgstr "Слайды"
+
+#~ msgid "Slide"
+#~ msgstr "Слайд"
+
+#~ msgid "All slides"
+#~ msgstr "Все слайды"
+
+#~ msgid "Edit slide"
+#~ msgstr "Редактировать слайд"
+
+#~ msgid "New slide"
+#~ msgstr "Новый слайд"
+
+#~ msgid "View slide"
+#~ msgstr "Просмотреть слайд"
+
+#~ msgid "Search slides"
+#~ msgstr "Поиск слайдов"
+
+#~ msgid "Parent slide:"
+#~ msgstr "Родительские слайды:"
+
+#~ msgid "No slides found in Trash."
+#~ msgstr "Не найдено слайдов в корзине."
+
+#~ msgid "Carousel"
+#~ msgstr "Карусель"
+
+#~ msgid "Select the carousel."
+#~ msgstr "Выберите карусель."
+
+#~ msgid "Select the slides."
+#~ msgstr "Выберите слайды."
+
+#~ msgid "Choose the carousel"
+#~ msgstr "Выберите карусель"
+
+#~ msgid "Add at least one carousel."
+#~ msgstr "Добавьте хотя бы одну карусель."
+
+#~ msgid "Edit"
+#~ msgstr "Изменить"
+
+#~ msgid "Add at least one slide."
+#~ msgstr "Добавьте хоты бы один слайд."
+
+#~ msgid "Creates a carousel-based on CarouFredsel plugin."
+#~ msgstr "Создает карусель на основе плагина jQuery CarouFredSel."
+
+#~ msgid "Choose the slide"
+#~ msgstr "Выберите слайд"
+
+#~ msgid "Counter"
+#~ msgstr "Счётчик"
+
+#~ msgid "Creates a counter which begins to count on scroll."
+#~ msgstr "Создает счетчик, который начинает работать при прокрутке."
+
+#~ msgid "Sets initial value to count from."
+#~ msgstr "Устанавливает начальное значение счетчика."
+
+#~ msgid "Digit"
+#~ msgstr "Цифра"
+
+#~ msgid "Sets final value to stop on."
+#~ msgstr "Устанавливает конечное значение счетчика."
+
+#~ msgid "Increment"
+#~ msgstr "Прирост"
+
+#~ msgid "Sets a step to increment with."
+#~ msgstr "Устанавливает шаг приращения."
+
+#~ msgid "Sign"
+#~ msgstr "Знак"
+
+#~ msgid "Sets a sign to show after a digit."
+#~ msgstr "Устанавливает знак, который выводится цифры."
+
+#~ msgid "Font size"
+#~ msgstr "Размер шрифта"
+
+#~ msgid "Sets font size of a counter. Use integer value without \"px\"."
+#~ msgstr ""
+#~ "Устанавливает размер шрифта счетчика. Используйте целое число без "
+#~ "\"пикселей\"."
+
+#~ msgid "Set counters color."
+#~ msgstr "Задает цвет шрифта."

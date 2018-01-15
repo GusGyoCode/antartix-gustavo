@@ -1,0 +1,1229 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Basement Gallery plugin\n"
+"POT-Creation-Date: 2017-03-20 14:56+0300\n"
+"PO-Revision-Date: 2017-03-20 14:56+0300\n"
+"Last-Translator: Anton <ant.lokotkov@gmail.com>\n"
+"Language-Team: Basement\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr__;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../modules/cpt/grid-settings.php:35 ../modules/cpt/tile-settings.php:35
+msgid "Parameters"
+msgstr "Параметры"
+
+#: ../modules/cpt/grid-settings.php:257
+msgid "Number of columns"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:258
+msgid "Select how many columns should be displayed."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:263
+msgid "Row type"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:264
+msgid "Select the appearance of the grid."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:270
+msgid "Layout"
+msgstr "Слой"
+
+#: ../modules/cpt/grid-settings.php:271
+msgid "An exemplary display of arrows and points in the gallery."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:276
+msgid "Dots settings"
+msgstr "Настройка точек"
+
+#: ../modules/cpt/grid-settings.php:277
+msgid "Sets the style, color, size and position of the dots."
+msgstr "Задает стиль, цвет, размер и положение точек."
+
+#: ../modules/cpt/grid-settings.php:282
+msgid "Arrows settings"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:283
+msgid "Sets the style, color, size and position of the arrows."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:288
+msgid "Auto"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:289
+msgid "Determines whether the gallery should scroll automatically or not."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:294
+msgid "Duration"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:295
+msgid ""
+"Determines the duration of the transition in milliseconds. (Default 500ms)."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:300
+msgid "Tiles width"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:301
+msgid ""
+"The width of the items. Use integer value w/o \"px\" and if number of "
+"columns > 1."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:306
+msgid "Tiles min"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:307
+msgid "The number of min visible tiles."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:312
+msgid "Tiles max"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:313
+msgid "The number of max visible tiles."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:318
+msgid "Tiles scroll"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:319
+msgid "The number of tiles to scroll."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:324
+msgid "Effects"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:325
+msgid "Indicates which effect to use for the transition."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:330
+msgid "Easing"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:331
+msgid "Indicates which easing function to use for the transition. jQuery."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:338
+msgid "Margins"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:339
+msgid ""
+"The margins between the tiles. <b>'No' option doesn't work with tiles type "
+"classic</b>."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:344
+msgid "Load more"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:345
+msgid "Loading tile by pressing a \"Load More\" button."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:351
+msgid "Grid type"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:352
+msgid "Sets the grid type."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:358
+msgid "Categories pills"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:359
+msgid "Show category or not."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:364
+msgid "Categories pills position"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:365
+msgid "Sets the position of the categories."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:371
+msgid "Grid size"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:372
+msgid "Sets the size(width) of the grid."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:377
+msgid "Tiles type"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:378
+msgid "Sets the tiles type."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:384
+msgid "Tiles header position"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:385
+msgid "Sets the alignment of the title and category in tile."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:391
+msgid "Tiles height"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:392
+msgid ""
+"Sets the tiles height. Use integer value w/o \"px\". <b>Doesn't work with "
+"Masonry and Mixed grid type</b>."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:397 ../modules/cpt/tile-settings.php:254
+msgid "Click type"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:398 ../modules/cpt/tile-settings.php:255
+msgid "Sets the tile behavior when clicking on it."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:403 ../modules/cpt/tile-settings.php:260
+msgid "Filter"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:404 ../modules/cpt/tile-settings.php:261
+msgid "Sets the filter style for the tile."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:409
+msgid "Top bar style"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:410
+msgid "Sets the style of the top bar."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:415
+msgid "Top bar size"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:416
+msgid "Sets the top bar size (width)."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:421
+msgid "Margin bottom for top bar"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:422
+msgid "Sets bottom margin (in \"px\") for the top bar."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:427
+msgid "Grid title"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:428
+msgid "Sets the title name."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:434
+msgid "Grid title position"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:435
+msgid "Sets the position of the title."
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:456
+msgid "1"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:457
+msgid "2"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:458
+msgid "3"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:459
+msgid "4"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:460 ../modules/cpt/grid-settings.php:810
+msgid "5"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:461
+msgid "6"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:491
+msgid "Multirow"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:492
+msgid "Single row"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:526 ../modules/cpt/grid-settings.php:639
+msgid "Nope"
+msgstr "Нет"
+
+#: ../modules/cpt/grid-settings.php:527
+msgid "W/o background"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:528
+msgid "With background"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:537 ../modules/cpt/grid-settings.php:649
+#: ../modules/cpt/grid-settings.php:1347
+msgid "Light"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:538 ../modules/cpt/grid-settings.php:650
+msgid "Standart"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:539 ../modules/cpt/grid-settings.php:651
+#: ../modules/cpt/grid-settings.php:1348
+msgid "Dark"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:548 ../modules/cpt/grid-settings.php:659
+msgid "Small"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:549 ../modules/cpt/grid-settings.php:660
+#: ../modules/cpt/tile-settings.php:385
+msgid "Medium"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:550 ../modules/cpt/grid-settings.php:661
+msgid "Large"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:559 ../modules/cpt/grid-settings.php:669
+msgid "Inside"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:560 ../modules/cpt/grid-settings.php:670
+msgid "Outside"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:561
+msgid "In row"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:570 ../modules/cpt/grid-settings.php:678
+msgid "Top"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:571 ../modules/cpt/grid-settings.php:679
+msgid "Bottom"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:572
+msgid "Side"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:581 ../modules/cpt/grid-settings.php:687
+#: ../modules/cpt/grid-settings.php:1042 ../modules/cpt/grid-settings.php:1472
+#: ../modules/cpt/grid-settings.php:1534
+msgid "Left"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:582 ../modules/cpt/grid-settings.php:688
+#: ../modules/cpt/grid-settings.php:1043 ../modules/cpt/grid-settings.php:1473
+#: ../modules/cpt/grid-settings.php:1535
+msgid "Center"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:583 ../modules/cpt/grid-settings.php:689
+#: ../modules/cpt/grid-settings.php:1044 ../modules/cpt/grid-settings.php:1474
+#: ../modules/cpt/grid-settings.php:1536
+msgid "Right"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:640
+msgid "Dots"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:641
+msgid "Numbers"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:786 ../modules/cpt/grid-settings.php:864
+#: ../modules/cpt/grid-settings.php:1126 ../modules/cpt/grid-settings.php:1287
+#: ../modules/cpt/grid-settings.php:1430
+msgid "No"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:787 ../modules/cpt/grid-settings.php:865
+#: ../modules/cpt/grid-settings.php:1127 ../modules/cpt/grid-settings.php:1431
+msgid "Yes"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:811
+msgid "10"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:812
+msgid "15"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:813
+msgid "20"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:814
+msgid "25"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:815
+msgid "30"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:816
+msgid "35"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:817
+msgid "40"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:818
+msgid "45"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:819
+msgid "50"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:820
+msgid "55"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:821
+msgid "60"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:822
+msgid "65"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:823
+msgid "70"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:824
+msgid "75"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:825
+msgid "80"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:826
+msgid "85"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:827
+msgid "90"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:828
+msgid "95"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:829
+msgid "100"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:836
+msgid "Choose the tiles indent"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:890
+msgid "Number of downloads tiles:"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:908 ../modules/cpt/grid-settings.php:1376
+msgid "Boxed"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:909 ../modules/cpt/grid-settings.php:1377
+msgid "Full Width"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:945
+#: ../modules/shortcodes/vc-gallery.php:2251
+msgid "Grid"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:946
+msgid "Masonry"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:969
+msgid "Default"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:970
+msgid "Mixed"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:979
+msgid "Choose the layer type"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1007
+msgid "Hover"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1008
+msgid "Classic"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1009
+msgid "Simple"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1214
+msgid "Fade"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1215
+msgid "Crossfade"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1216
+msgid "Scroll"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1217 ../modules/cpt/grid-settings.php:1316
+#: ../modules/cpt/tile-settings.php:349
+msgid "None"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1218
+msgid "Directscroll"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1219
+msgid "Cover"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1220
+msgid "Cover-fade"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1221
+msgid "Uncover"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1222
+msgid "Uncover-fade"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1251
+msgid "Swing"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1252
+msgid "Linear"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1253
+msgid "Quadratic"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1254
+msgid "Cubic"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1255
+msgid "Elastic"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1285 ../modules/cpt/tile-settings.php:316
+msgid "Popup"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1286 ../modules/cpt/tile-settings.php:317
+msgid "Link"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1317 ../modules/cpt/tile-settings.php:350
+msgid "Graysale"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1504
+msgid "Hide"
+msgstr ""
+
+#: ../modules/cpt/grid-settings.php:1505
+msgid "Show"
+msgstr ""
+
+#: ../modules/cpt/grid.php:68 ../modules/cpt/grid.php:71
+msgid "Grid updated."
+msgstr ""
+
+#: ../modules/cpt/grid.php:69 ../modules/cpt/tile.php:251
+msgid "Custom field updated."
+msgstr ""
+
+#: ../modules/cpt/grid.php:70 ../modules/cpt/tile.php:252
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../modules/cpt/grid.php:72
+#, php-format
+msgid "Grid restored to revision from %s"
+msgstr ""
+
+#: ../modules/cpt/grid.php:73
+msgid "Grid published."
+msgstr ""
+
+#: ../modules/cpt/grid.php:74
+msgid "Grid saved."
+msgstr ""
+
+#: ../modules/cpt/grid.php:75
+msgid "Grid submitted."
+msgstr ""
+
+#: ../modules/cpt/grid.php:76
+#, php-format
+msgid "Grid scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: ../modules/cpt/grid.php:77 ../modules/cpt/tile.php:259
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../modules/cpt/grid.php:78
+msgid "Grid draft updated."
+msgstr ""
+
+#: ../modules/cpt/grid.php:94
+#, php-format
+msgid "%s grid updated."
+msgstr ""
+
+#: ../modules/cpt/grid.php:95
+#, php-format
+msgid "%s grid not updated, somebody is editing it."
+msgstr ""
+
+#: ../modules/cpt/grid.php:96
+#, php-format
+msgid "%s grid permanently deleted."
+msgstr ""
+
+#: ../modules/cpt/grid.php:97
+#, php-format
+msgid "%s grid moved to the Trash."
+msgstr ""
+
+#: ../modules/cpt/grid.php:98
+#, php-format
+msgid "%s grid restored from the Trash."
+msgstr ""
+
+#: ../modules/cpt/grid.php:137 ../modules/cpt/grid.php:150
+#: ../modules/cpt/grid.php:151 ../modules/cpt/grid.php:153
+#: ../modules/cpt/grid.php:154
+msgid "All grids"
+msgstr ""
+
+#: ../modules/cpt/grid.php:152
+msgid "Galleries"
+msgstr ""
+
+#: ../modules/cpt/grid.php:155 ../modules/cpt/grid.php:156
+msgid "Add grid"
+msgstr ""
+
+#: ../modules/cpt/grid.php:157
+msgid "Edit grid"
+msgstr ""
+
+#: ../modules/cpt/grid.php:158
+msgid "New grid"
+msgstr ""
+
+#: ../modules/cpt/grid.php:159
+msgid "View grid"
+msgstr ""
+
+#: ../modules/cpt/grid.php:160
+msgid "Search grid"
+msgstr ""
+
+#: ../modules/cpt/grid.php:161
+msgid "Grids not found"
+msgstr ""
+
+#: ../modules/cpt/grid.php:162
+msgid "Parent grids:"
+msgstr ""
+
+#: ../modules/cpt/grid.php:163
+msgid "No grids found in trash."
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:248
+msgid "Full image"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:249
+msgid ""
+"The image in the pop-up. If the full image is not exist, uses a preview."
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:266
+msgid "Source"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:267
+msgid "Sets a link to the source."
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:272
+msgid "Width"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:273
+msgid "Sets width for tile. <b>Works only with Mixed layout mode</b>."
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:294 ../modules/cpt/tile-settings.php:296
+#: ../modules/cpt/tile-settings.php:297
+msgid "Set full image"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:295
+msgid "Remove full image"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:315 ../modules/cpt/tile-settings.php:348
+msgid "Default (value from the Grid)"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:318
+msgid "Video"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:383
+msgid "Full"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:384
+msgid "Large "
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:386
+msgid "Thumbnail"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:416
+msgid "Link:"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:428
+msgid "Video link:"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:452
+msgid "Appearance Settings"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:467
+msgid "Large devices"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:496
+msgid "Medium devices"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:527
+msgid "Small devices"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:556
+msgid "Extra small devices"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:631
+msgid "Don't use width"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:633
+msgid "Width "
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:637
+msgid "Don't use offset"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:639
+msgid "Offset "
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:643
+msgid "Don't use push"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:645
+msgid "Push "
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:649
+msgid "Don't use pull"
+msgstr ""
+
+#: ../modules/cpt/tile-settings.php:651
+msgid "Pull "
+msgstr ""
+
+#: ../modules/cpt/tile.php:186 ../modules/cpt/tile.php:187
+#: ../modules/cpt/tile.php:196 ../modules/cpt/tile.php:327
+msgid "Categories"
+msgstr ""
+
+#: ../modules/cpt/tile.php:188
+msgid "Search categories"
+msgstr ""
+
+#: ../modules/cpt/tile.php:189
+msgid "All categories"
+msgstr ""
+
+#: ../modules/cpt/tile.php:190
+msgid "Parent categories"
+msgstr ""
+
+#: ../modules/cpt/tile.php:191
+msgid "Parent categories:"
+msgstr ""
+
+#: ../modules/cpt/tile.php:192
+msgid "Edit category"
+msgstr ""
+
+#: ../modules/cpt/tile.php:193
+msgid "Update categories"
+msgstr ""
+
+#: ../modules/cpt/tile.php:194
+msgid "Add new category"
+msgstr ""
+
+#: ../modules/cpt/tile.php:195
+msgid "Category name"
+msgstr ""
+
+#: ../modules/cpt/tile.php:250 ../modules/cpt/tile.php:253
+msgid "Tile updated."
+msgstr ""
+
+#: ../modules/cpt/tile.php:254
+#, php-format
+msgid "Tile restored to revision from %s"
+msgstr ""
+
+#: ../modules/cpt/tile.php:255
+msgid "Tile published."
+msgstr ""
+
+#: ../modules/cpt/tile.php:256
+msgid "Tile saved."
+msgstr ""
+
+#: ../modules/cpt/tile.php:257
+msgid "Tile submitted."
+msgstr ""
+
+#: ../modules/cpt/tile.php:258
+#, php-format
+msgid "Tile scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: ../modules/cpt/tile.php:260
+msgid "Tile draft updated."
+msgstr ""
+
+#: ../modules/cpt/tile.php:278
+#, php-format
+msgid "%s tile updated."
+msgstr ""
+
+#: ../modules/cpt/tile.php:279
+#, php-format
+msgid "%s tile not updated, somebody is editing it."
+msgstr ""
+
+#: ../modules/cpt/tile.php:280
+#, php-format
+msgid "%s tile permanently deleted."
+msgstr ""
+
+#: ../modules/cpt/tile.php:281
+#, php-format
+msgid "%s tile moved to the Trash."
+msgstr ""
+
+#: ../modules/cpt/tile.php:282
+#, php-format
+msgid "%s tile restored from the Trash."
+msgstr ""
+
+#: ../modules/cpt/tile.php:326
+msgid "Add new tile"
+msgstr ""
+
+#: ../modules/cpt/tile.php:326 ../modules/cpt/tile.php:376
+#: ../modules/cpt/tile.php:377
+msgid "Add tile"
+msgstr ""
+
+#: ../modules/cpt/tile.php:358 ../modules/cpt/tile.php:371
+#: ../modules/cpt/tile.php:373 ../modules/cpt/tile.php:374
+#: ../modules/shortcodes/vc-gallery.php:2258
+msgid "Tiles"
+msgstr ""
+
+#: ../modules/cpt/tile.php:372
+msgid "Tile"
+msgstr ""
+
+#: ../modules/cpt/tile.php:375
+msgid "All tiles"
+msgstr ""
+
+#: ../modules/cpt/tile.php:378
+msgid "Edit tile"
+msgstr ""
+
+#: ../modules/cpt/tile.php:379
+msgid "New tile"
+msgstr ""
+
+#: ../modules/cpt/tile.php:380
+msgid "View tile"
+msgstr ""
+
+#: ../modules/cpt/tile.php:381
+msgid "Search tiles"
+msgstr ""
+
+#: ../modules/cpt/tile.php:382
+msgid "Tiles not found"
+msgstr ""
+
+#: ../modules/cpt/tile.php:383
+msgid "Parent tile:"
+msgstr ""
+
+#: ../modules/cpt/tile.php:384
+msgid "No tiles found in Trash."
+msgstr ""
+
+#: ../modules/plugin/plugin.php:9
+msgid ""
+"For correct work the Basement Gallery plugin, please activate/install the "
+"WPBakery Visual Composer plugin."
+msgstr ""
+
+#: ../modules/shortcodes/vc-gallery.php:353
+msgid "Loading..."
+msgstr ""
+
+#: ../modules/shortcodes/vc-gallery.php:353
+msgid "Load More"
+msgstr ""
+
+#: ../modules/shortcodes/vc-gallery.php:957
+msgid "All"
+msgstr ""
+
+#: ../modules/shortcodes/vc-gallery.php:2243
+msgid "Gallery"
+msgstr ""
+
+#: ../modules/shortcodes/vc-gallery.php:2246
+msgid "Basement"
+msgstr "Basement"
+
+#: ../modules/shortcodes/vc-gallery.php:2247
+msgid "Creates a simple gallery"
+msgstr ""
+
+#: ../modules/shortcodes/vc-gallery.php:2254
+msgid "Select the grid."
+msgstr ""
+
+#: ../modules/shortcodes/vc-gallery.php:2261
+msgid "Select the tiles."
+msgstr ""
+
+#: ../modules/shortcodes/vc-gallery.php:2284
+msgid "Choose the grid"
+msgstr ""
+
+#: ../modules/shortcodes/vc-gallery.php:2312
+msgid "Add at least one grid."
+msgstr ""
+
+#: ../modules/shortcodes/vc-gallery.php:2363
+msgid "Choose the tile"
+msgstr ""
+
+#: ../modules/shortcodes/vc-gallery.php:2373
+msgid "Edit"
+msgstr "Изменить"
+
+#: ../modules/shortcodes/vc-gallery.php:2393
+msgid "Add at least one tile."
+msgstr ""
+
+#~ msgid "Background input config is broken"
+#~ msgstr "Ошибка конфигурации поля"
+
+#~ msgid "Choose Image"
+#~ msgstr "Выбрать изображение"
+
+#~ msgid "Delete Image"
+#~ msgstr "Удалить изобажение"
+
+#~ msgid "Color"
+#~ msgstr "Цвет"
+
+#~ msgid "Alpha color opacity"
+#~ msgstr "Прозрачность цвета"
+
+#~ msgid "Repeat"
+#~ msgstr "Повторять"
+
+#~ msgid "Do not repeat"
+#~ msgstr "Не повторять"
+
+#~ msgid "Fixed"
+#~ msgstr "Фиксированная"
+
+#~ msgid "Preview"
+#~ msgstr "Превью"
+
+#~ msgid "In the preview shows only an approximate carousel will look like!"
+#~ msgstr ""
+#~ "В превью отображается приблизительный вид карусели, который может "
+#~ "отличаться от выводимой на сайте!"
+
+#~ msgid "Style settings for carousel row"
+#~ msgstr "Стилевые настройки для блока"
+
+#~ msgid "Row stretch"
+#~ msgstr "Растяжение блока"
+
+#~ msgid "Select stretching options for row and content."
+#~ msgstr "Выберите опцию растяжения блока и контента."
+
+#~ msgid "Extra css classes"
+#~ msgstr "Дополнительные классы"
+
+#~ msgid "Adds extra CSS classes to carousel classes list."
+#~ msgstr "Добавьте дополнительные классы в список."
+
+#~ msgid "Padding"
+#~ msgstr "Внутренние отступы"
+
+#~ msgid "Adds padding to carousel."
+#~ msgstr "Добавить внутренние отступы для карусели."
+
+#~ msgid "Adds margin to carousel."
+#~ msgstr "Добавить внешние отступы для карусели."
+
+#~ msgid "Border"
+#~ msgstr "Рамка"
+
+#~ msgid "Adds border to carousel."
+#~ msgstr "Добавить рамку для карусели."
+
+#~ msgid "Background"
+#~ msgstr "Фон"
+
+#~ msgid "Start"
+#~ msgstr "Старт"
+
+#~ msgid "Scroll Items"
+#~ msgstr "Прокрутка элементов"
+
+#~ msgid "Setting arrows &amp; dots"
+#~ msgstr "Настройка стрелок и точек"
+
+#~ msgid "At the highest slide"
+#~ msgstr "По самому высокому слайду"
+
+#~ msgid "Carousel updated."
+#~ msgstr "Карусель обновлена"
+
+#~ msgid "Show Preview Carousel"
+#~ msgstr "Показать превью"
+
+#~ msgid "Hide Preview Carousel"
+#~ msgstr "Скрыть превью"
+
+#~ msgid "All carousels"
+#~ msgstr "Все карусели"
+
+#~ msgid "All Carousels"
+#~ msgstr "Все карусели"
+
+#~ msgid "Carousels"
+#~ msgstr "Карусели"
+
+#~ msgid "Add carousel"
+#~ msgstr "Добавить карусель"
+
+#~ msgid "Edit carousel"
+#~ msgstr "Изменить карусель"
+
+#~ msgid "%s slide restored from the Trash."
+#~ msgstr "%s восстановлено из корзины."
+
+#~ msgid "Add new slide"
+#~ msgstr "Добавить новый слайд"
+
+#~ msgid "Add slide"
+#~ msgstr "Добавить слайд"
+
+#~ msgid "Slides"
+#~ msgstr "Слайды"
+
+#~ msgid "Slide"
+#~ msgstr "Слайд"
+
+#~ msgid "All slides"
+#~ msgstr "Все слайды"
+
+#~ msgid "Edit slide"
+#~ msgstr "Редактировать слайд"
+
+#~ msgid "New slide"
+#~ msgstr "Новый слайд"
+
+#~ msgid "View slide"
+#~ msgstr "Просмотреть слайд"
+
+#~ msgid "Search slides"
+#~ msgstr "Поиск слайдов"
+
+#~ msgid "Parent slide:"
+#~ msgstr "Родительские слайды:"
+
+#~ msgid "No slides found in Trash."
+#~ msgstr "Не найдено слайдов в корзине."
+
+#~ msgid ""
+#~ "For correct work the Basement Carousel plugin, please activate/install "
+#~ "the WPBakery Visual Composer plugin."
+#~ msgstr ""
+#~ "Для работы с плагином Basement Carousel необходимо наличие установленного "
+#~ "и активированного плагина WPBakery Visual Composer."
+
+#~ msgid "Carousel"
+#~ msgstr "Карусель"
+
+#~ msgid "Creates a simple carousel"
+#~ msgstr "Создание простой карусели"
+
+#~ msgid "Select the carousel."
+#~ msgstr "Выберите карусель."
+
+#~ msgid "Select the slides."
+#~ msgstr "Выберите слайды."
+
+#~ msgid "Choose the carousel"
+#~ msgstr "Выберите карусель"
+
+#~ msgid "Add at least one carousel."
+#~ msgstr "Добавьте хотя бы одну карусель."
+
+#~ msgid "Choose the slide"
+#~ msgstr "Выберите слайд"
+
+#~ msgid "Add at least one slide."
+#~ msgstr "Добавьте хоты бы один слайд."
+
+#~ msgid "Creates a carousel-based on CarouFredsel plugin."
+#~ msgstr "Создает карусель на основе плагина jQuery CarouFredSel."
+
+#~ msgid "Counter"
+#~ msgstr "Счётчик"
+
+#~ msgid "Creates a counter which begins to count on scroll."
+#~ msgstr "Создает счетчик, который начинает работать при прокрутке."
+
+#~ msgid "Sets initial value to count from."
+#~ msgstr "Устанавливает начальное значение счетчика."
+
+#~ msgid "Digit"
+#~ msgstr "Цифра"
+
+#~ msgid "Sets final value to stop on."
+#~ msgstr "Устанавливает конечное значение счетчика."
+
+#~ msgid "Increment"
+#~ msgstr "Прирост"
+
+#~ msgid "Sets a step to increment with."
+#~ msgstr "Устанавливает шаг приращения."
+
+#~ msgid "Sign"
+#~ msgstr "Знак"
+
+#~ msgid "Sets a sign to show after a digit."
+#~ msgstr "Устанавливает знак, который выводится цифры."
+
+#~ msgid "Font size"
+#~ msgstr "Размер шрифта"
+
+#~ msgid "Sets font size of a counter. Use integer value without \"px\"."
+#~ msgstr ""
+#~ "Устанавливает размер шрифта счетчика. Используйте целое число без "
+#~ "\"пикселей\"."
+
+#~ msgid "Set counters color."
+#~ msgstr "Задает цвет шрифта."

@@ -1,0 +1,99 @@
+.cf:before,
+.cf:after
+  content: " "
+  display: table
+
+.cf:after
+  clear: both
+
+.cf
+  *zoom: 1
+
+
+.portfolio_project_sortable
+  &.ui-sortable
+    padding: 6px 5px
+    //max-height: 600px
+    overflow: hidden
+    //overflow-y: auto
+    position: relative
+    &.activate
+      border: 1px dotted #eee
+      margin: 30px 0 15px 0
+    >div
+      margin: 3px
+      cursor: default
+      padding: 6px 7px
+      position: relative
+      vertical-align: middle
+      font-size: 14px
+      line-height: 55px
+      overflow: hidden
+      //height: 55px
+      -webkit-border-radius: 3px
+      -moz-border-radius: 3px
+      border-radius: 3px
+      -webkit-box-sizing: border-box
+      -moz-box-sizing: border-box
+      box-sizing: border-box
+      &.ui-sortable-helper
+        opacity: 0.9
+      &.ui-state-default
+        border: 1px solid #d3d3d3
+        font-weight: normal
+        background: #EEFF99
+        background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f1f1f1), to(#eee))
+        background: -webkit-linear-gradient(#f1f1f1, #eee)
+        background: -moz-linear-gradient(#f1f1f1, #eee)
+        background: -ms-linear-gradient(#f1f1f1, #eee)
+        background: -o-linear-gradient(#f1f1f1, #eee)
+        background: linear-gradient(#f1f1f1, #eee)
+        color: #333
+      &.ui-state-highlight
+        background: none
+        min-height: 71px
+        border: 1px dashed #008ec2
+        opacity: 0.5
+      .portfolio_thumb
+        float: left
+        margin-right: 10px
+        overflow: hidden
+        width: 55px
+        height: 55px
+        background-position: center center
+        background-repeat: no-repeat
+        -webkit-background-size: cover
+        -moz-background-size: cover
+        -o-background-size: cover
+        background-size: cover
+      .portfolio_project_title
+        max-width: 350px
+        overflow: hidden
+        text-overflow: ellipsis
+        display: block
+        float: left
+        white-space: nowrap
+      .portfolio_project_edit
+        display: block
+        float: right
+        margin-right: 10px
+        margin-top: 13px
+      .portfolio_project_remove
+        font-size: 19px
+        color: #b73b27
+        float: right
+        box-shadow: none !important
+        outline: none !important
+        border: none !important
+        line-height: 55px
+        display: block
+        margin-right: 10px
+        &:hover
+          color: #9b3221
+      .portfolio_project_handle
+        font-size: 18px
+        color: #000
+        cursor: move
+        float: right
+        line-height: 57px
+        display: block

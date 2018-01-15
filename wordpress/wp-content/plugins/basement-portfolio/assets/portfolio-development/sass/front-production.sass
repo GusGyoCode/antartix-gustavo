@@ -1,0 +1,1555 @@
+@charset "UTF-8"
+
+@mixin border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius: $radius
+  -ms-border-radius: $radius
+  border-radius: $radius
+
+
+$r1488: "1488px"
+$r1360: "1360px"
+$lg: "1199px"
+$md: "969px"
+$sm: "991px"
+$xs: "767px"
+
+@mixin media($media)
+  @if $media == lg
+    @media only screen and (min-width: $lg)
+      @content
+  @else if $media == md
+    @media only screen and (max-width: $md)
+      @content
+  @else if $media == sm
+    @media only screen and (max-width: $sm)
+      @content
+  @else if $media == xs
+    @media only screen and (max-width: $xs)
+      @content
+  @else if $media == r1488
+    @media only screen and (max-width: $r1488)
+      @content
+  @else if $media == r1360
+    @media only screen and (max-width: $r1360)
+      @content
+
+
+@mixin out-media($media)
+  @if $media == lg
+    @media only screen and (min-width: $lg)
+      @content
+  @else if $media == md
+    @media only screen and (min-width: $md)
+      @content
+  @else if $media == sm
+    @media only screen and (min-width: $sm)
+      @content
+  @else if $media == xs
+    @media only screen and (min-width: $xs)
+      @content
+
+
+.mix.col-md-5
+  //width: 20%
+  @media (min-width: 768px)
+    width: 33.33333333%
+  @media (min-width: 970px)
+    width: 20%
+
+
+
+.mix, .mix.card
+  //overflow: hidden
+
+.btn-basement-portfolio-load-more
+  min-width: 180px
+  opacity: 1 !important
+  box-shadow: none
+  text-decoration: none
+  display: inline-block
+  margin-bottom: 0
+  text-align: center
+  vertical-align: middle
+  cursor: pointer
+  background-image: none
+  box-sizing: border-box
+  word-wrap: break-word
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+  position: relative
+  top: 0
+  font-size: 16px
+  transition: all .2s ease-in-out
+  line-height: normal
+  color: #fff
+  border: none
+  padding: 13px 33px
+  border-radius: 2em
+  background-color: #1a1a1a
+  &:hover,
+  &:focus,
+  &:disabled,
+  &.disabled,
+  &.basement-loading
+    color: #fff !important
+    border-color: #262626 !important
+    background-color: #262626 !important
+    opacity: 1 !important
+
+  span
+    font-size: 15px
+    margin-right: 11px !important
+    top: -1px
+  i
+    font-size: 13px
+    margin-right: 11px !important
+    top: -1px
+  i, span
+    vertical-align: middle
+    position: relative
+
+
+.container-header-portfolio
+  @include media(xs)
+    padding: 0 !important
+
+html.is-ie
+  .btn-basement-portfolio-load-more
+    span
+      top: -2px
+
+.pagetitle,
+.header
+  &+.basement-project-info-main
+    margin-top: 0 !important
+
+.basement-project-info-main
+  margin-top: 120px
+  background-color: #f7f6f6
+  font-size: 0
+  position: relative
+  padding-top: 50px
+  padding-bottom: 50px
+  &:first-child
+    margin-top: 0
+  @include media(xs)
+    margin-top: 80px
+    padding-top: 30px
+    padding-bottom: 30px
+  &:before
+    z-index: 1
+    position: absolute
+    left: -9999px
+    right: -9999px
+    background-color: #f7f6f6
+    content: ''
+    display: block
+    top: 0
+    bottom: 0
+    height: auto
+    width: auto
+  &+.full-width-basement + .basement-project-pagination
+    margin-top: 120px !important
+  >div[class*="col-"]
+    font-size: 21px
+    position: relative
+    z-index: 2
+    text-align: center
+    font-weight: 400
+    margin-top: 38px !important
+    margin-bottom: 38px !important
+    float: none
+    display: inline-block
+    *display: inline
+    zoom: 1
+    vertical-align: top
+    @include media(xs)
+      text-align: center
+      margin-top: 30px !important
+      margin-bottom: 38px !important
+      display: block
+      max-width: 320px
+      margin-right: auto
+      margin-left: auto
+  .header-custom-field
+    color: #b2b2b2
+    font-size: 21px
+    margin-bottom: 5px
+    @include media(xs)
+      font-size: 17px
+    &:empty
+      margin-bottom: 32px
+      @include media(xs)
+        margin-bottom: 0
+  .body-custom-field
+    font-size: 21px
+    line-height: 1.5
+    color: #262626
+    @include media(xs)
+      font-size: 17px
+  .vc_btn3
+    text-transform: capitalize
+  .vc_general.vc_btn3.basement-custom-link-project
+    font-size: 22px
+    text-transform: lowercase
+    font-weight: 400
+    padding-top: 0 !important
+    padding-bottom: 3px !important
+    @include media(xs)
+      font-size: 17px
+
+
+
+.basement-type-cf-link
+  .header-custom-field
+    margin-bottom: 2px
+
+
+.basement-gallery-info
+  font-size: 18px
+  color: #999
+  margin-top: 29px
+  text-align: right
+  text-transform: capitalize
+  ins
+    text-decoration: none
+    margin: 0 12px
+    font-weight: 700
+  &+.basement-gallery-load-more
+    margin-top: 3px !important
+  @media (max-width: 768px)
+    text-align: center
+    &+.basement-gallery-load-more
+      margin-top: 30px !important
+
+
+
+.basement-gallery-grid_size-fullwidth
+  .basement-gallery-info
+    padding:  0 60px
+
+.basement-portfolio-sorting-wrap
+  position: relative !important
+  z-index: 99
+  margin-top: 10px
+
+.basement-portfolio-wrapper.basement-gallery-wrap-block
+  //margin-bottom: 23px
+  &.basement-gallery-grid_size-fullwidth
+    .basement-portfolio-title,
+    .basement-portfolio-categories,
+    .basement-portfolio-sorting-wrap
+      padding-left: 40px
+      padding-right: 40px
+    &.basement-gallery-margins-yes
+      .basement-portfolio-mix-list,
+      .basement-portfolio-isotope-list
+        margin-left: 15px !important
+        margin-right: 15px !important
+  &.basement-gallery-margins-yes
+    .basement-portfolio-mix-list,
+    .basement-portfolio-isotope-list
+      margin-left: -15px !important
+      margin-right: -15px !important
+    .basement-gallery-thumb,
+    .mask-dark.mask-info:after,
+    .mask-info,
+    figure img
+      //-webkit-border-radius: 4px
+      //-moz-border-radius: 4px
+      //border-radius: 4px
+    &.basement-gallery-tiles_type-classic .work-info
+      margin-bottom: 16px
+  &.basement-stretched
+    padding: 0
+    >.categories
+      ul
+        padding: 0 30px
+  .mask-gallery-title
+    margin-bottom: 12px
+  .basement-gallery-load-more
+    margin-top: 66px
+    text-align: center
+    &.basement-portfolio-load
+      margin-top: 66px
+  .basement-thumb-margins
+    padding: 10px 15px !important
+    .basement-wrap-inner
+      position: relative
+
+  .basement-portfolio-title
+    margin-top: 10px
+    h2
+      color: #1a1a1a
+      margin: 0 0 5px 0 !important
+      font-weight: 400
+      font-size: 24px
+      line-height: 1.3
+      @media (max-width: 768px)
+        font-size: 20px
+    &.basement-portfolio-title-position-left
+      text-align: left
+    &.basement-portfolio-title-position-center
+      text-align: center
+    &.basement-portfolio-title-position-right
+      text-align: right
+  .basement-gallery-thumb-auto-helper
+    padding-bottom: 100%
+    position: relative
+  .basement-gallery-thumb
+    //min-height: 368px
+    background-repeat: no-repeat
+    background-position: center center
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover
+    z-index: 1
+    &.basement-gallery-thumb-auto
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      height: auto
+      width: 100%
+    &.basement-gallery-thumb-fixed
+      position: static !important
+      cursor: pointer
+
+
+
+.basement-portfolio-wrapper
+  &.basement-gallery-tiles_type-hover
+    .mask-info
+      h5
+  //&:after
+    content: ''
+    display: block
+    height: 2px
+    background: #d8383b
+    width: 40px
+    margin: 10px auto 8px auto
+  //&:last-child
+    &:after
+      display: none
+  &.basement-gallery-tiles_type-classic .figure:not(.basement-gallery-click-default)
+    cursor: pointer
+  &.basement-gallery-pills_position-left
+    .basement-portfolio-nav-category
+  //border-right: 1px dotted #595959
+  //padding: 0 30px 0 0
+  &.basement-gallery-pills_position-right
+    .basement-portfolio-nav-category
+  //border-left: 1px dotted #595959
+  //padding: 0 0 0 30px
+  &.basement-gallery-grid_type-masonry
+    .figure
+      margin: 0
+    .basement-gallery-title
+      padding-bottom: 34px
+    .basement-portfolio-isotope-list
+      margin-top: 0
+      //font-size: 0
+      //line-height: 0
+      margin-left: 0
+      margin-right: 0
+      position: relative
+      //overflow: hidden
+      >div
+        padding: 0
+        margin: 0 !important
+  &.basement-gallery-grid_type-grid
+    .figure
+      padding-bottom: 100%
+      margin: 0
+    .basement-gallery-title
+      padding-bottom: 34px
+    .basement-portfolio-mix-list
+      margin-top: 0 !important
+      font-size: 0
+      line-height: 0
+      margin-left: 0
+      margin-right: 0
+      >div
+        padding: 0
+        display: inline-block
+        *display: inline
+        zoom: 1
+        vertical-align: top
+        float: none
+        margin: 0 !important
+
+
+
+.basement-portfolio-tile-height
+  .figure
+    padding-bottom: 0 !important
+
+
+.basement-portfolio-wrapper.basement-gallery-grid_size-fullwidth
+  &.basement-gallery-tiles_type-classic.basement-gallery-margins-no
+    .work-info
+      margin-left: 8px
+      margin-right: 8px
+
+
+.mask-simple
+  position: absolute
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  display: block
+  opacity: 0
+  text-align: center
+  z-index: 21
+
+
+
+.basement-portfolio-nav-category
+  padding-top: 0
+  margin-left: 0
+  margin-right: 0
+  padding-left: 0 !important
+  padding-right: 0 !important
+  white-space: nowrap
+
+.basement-portfolio-nav-category.nav-tabs > li
+  margin: 0
+
+
+.basement-portfolio-nav-category > li
+  display: inline-block
+  margin: 0 5px 9px 5px !important
+  *display: inline
+  zoom: 1
+  padding: 0 !important
+  transition: color .2s ease
+  vertical-align: middle
+  &:before
+    display: none !important
+
+
+.basement-portfolio-nav-category > li:before
+  display: none
+
+.basement-portfolio-nav-category > li:last-child
+  margin-right: 0
+  padding: 0 !important
+
+
+.basement-portfolio-nav-category > li:first-child
+  margin-left: 0
+  padding: 0 !important
+
+
+.basement-portfolio-nav-category > li > span
+  font-size: 19px
+  padding: 7px 13px 0 13px
+  display: block
+  color: #999
+  border-top: 2px solid transparent
+  position: relative
+  @media (max-width: 768px)
+    font-size: 16px
+    padding-left: 9px
+    padding-right: 9px
+  a
+    font-size: 19px
+    position: relative
+    display: inline !important
+    color: #999
+    @media (max-width: 768px)
+      font-size: 16px
+    &:after
+      display: none !important
+
+
+.basement-portfolio-nav-category > li  a:hover,
+.basement-portfolio-nav-category > li  a:focus
+  color: #1a1a1a !important
+
+//.basement-portfolio-nav-category > li a:hover:after
+  width: 100%
+  left: 0
+  right: auto
+  transition: all 0.3s ease-out
+
+
+.basement-portfolio-nav-category > li.selected > span
+  border-color: #000
+  -webkit-transition : border 0.4s linear
+  -moz-transition : border 0.4s linear
+  -o-transition : border 0.4s linear
+  transition : border 0.4s linear
+  a
+    color: #1a1a1a !important
+
+//.basement-portfolio-nav-category > li.selected a:after
+  opacity: 0
+  display: none
+
+.basement-img-hidden
+  visibility: hidden
+
+
+.basement-gallery-dark-style
+  .basement-portfolio-title
+    h2
+      color: #fff !important
+  .basement-portfolio-nav-category > li a,
+  .basement-portfolio-nav-category > li
+    color: #666
+  .basement-portfolio-nav-category>li.selected>span a
+    color: #fff !important
+  .basement-portfolio-nav-category>li.selected>span
+    border-color: #fff !important
+  .basement-portfolio-nav-category>li a:hover, .basement-portfolio-nav-category>li a:focus
+    color: #fff !important
+  .basement-portfolio-sorting .chosen-container-single .chosen-single,
+  .basement-portfolio-sorting .chosen-container-single .chosen-single::before
+    color: #fff !important
+
+
+
+.basement-portfolio-sorting
+  &.basement-portfolio-sorting-right
+    float: right
+  &.basement-portfolio-sorting-center
+    margin: 0 auto
+
+
+
+.basement-img-hidden
+  visibility: hidden
+
+
+body.single.single-single_project
+  .content
+    padding-bottom: 0
+
+
+.basement-project-nav-hr
+  margin-left: -30px
+  margin-right: -30px
+  max-width: inherit
+
+
+.basement-project-bottom-area
+  height: 80px
+
+.basement-project-pagination
+  position: relative
+  text-align: center
+  background-color: #1f1f1f
+  padding-top: 78px !important
+  padding-bottom: 50px !important
+  font-size: 21px
+  margin-top: 0 !important
+  &:before
+    z-index: -1
+    position: absolute
+    left: -9999px
+    right: -9999px
+    background-color: #1f1f1f
+    content: ""
+    display: block
+    top: 0
+    bottom: 0
+    height: auto
+    width: auto
+  @include media(sm)
+    font-size: 18px
+  >div
+    margin-bottom: 20px
+  a:after
+    display: none !important
+  a:hover
+    opacity: 0.9 !important
+  .prev,
+  .next
+    position: relative
+    display: inline-block
+    white-space: nowrap
+    zoom: 1
+    *display: inline
+    vertical-align: top
+    text-align: left
+    color: #fff
+    @media only screen and (min-width: 768px)
+      width: 100%
+    &:before,
+    &:after
+      font-size: 45px
+      font-family: "aiscon" !important
+      font-style: normal !important
+      font-weight: normal !important
+      font-variant: normal !important
+      text-transform: none !important
+      speak: none
+      display: inline-block
+      *display: inline
+      zoom: 1
+      vertical-align: middle
+      line-height: 1
+      -webkit-font-smoothing: antialiased
+      -moz-osx-font-smoothing: grayscale
+      width: 15%
+      @include media(xs)
+        width: 70px
+        display: none !important
+    @include media(xs)
+      float: none !important
+      //text-align: center !important
+      span
+        //text-align: center !important
+  .inner-project-links
+    display: inline-block
+    *display: inline
+    zoom: 1
+    vertical-align: middle
+    line-height: 1.3
+    white-space: normal
+    width: 85%
+    @media only screen and (max-width: 991px)
+      width: 75%
+    @media only screen and (max-width: 768px)
+      width: auto
+      text-align: center !important
+  .prev
+    &:before
+      content: '\47'
+      @media only screen and (max-width: 991px)
+        width: 25%
+      @media only screen and (max-width: 768px)
+        width: 70px
+  .next
+    //padding-right: 22px
+    text-align: right
+    @media only screen and (max-width: 768px)
+      text-align: center !important
+    &:after
+      content: '\44'
+      @media only screen and (max-width: 991px)
+        width: 25%
+      @media only screen and (max-width: 768px)
+        width: 70px
+    span
+      text-align: right
+      @media only screen and (max-width: 768px)
+        text-align: center !important
+  a
+    color: #fff
+    &.all
+      display: inline-block
+      margin-top: 12px
+      margin-bottom: 12px
+      font-size: 30px
+      &:after
+        display: none !important
+  ins
+    text-decoration: none
+  span
+    margin-bottom: 10px
+    display: block
+    font-weight: 300
+    font-size: 21px
+    color: #4c4c4c
+    @include media(sm)
+      font-size: 16px
+.basement-custom-fields
+  th
+    padding-right: 8px !important
+
+
+
+
+
+
+.basement-portfolio-wrapper.basement-gallery-tiles_type-classic
+  .work-info
+    margin: 15px 0 0 0
+    position: relative
+    h5
+      line-height: 23px
+      margin: 0 0 5px 0
+      font-size: 19px
+      color: #000
+      position: relative
+      a
+        color: #000
+        position: relative
+        font-size: 19px
+        text-decoration: none
+        &:after,
+        &:before
+          display: none !important
+    .category
+      font-size: 16px
+      z-index: 55
+      color: #999
+      padding-top: 2px
+      line-height: 1.3 !important
+
+.basement-portfolio-categories.pull-center
+  position: absolute
+  left: 50%
+  z-index: 100
+  -webkit-transform: translateX(-50%)
+  -ms-transform: translateX(-50%)
+  transform: translateX(-50%)
+
+
+.basement-portfolio-header
+  padding-top: 47px
+  padding-bottom: 47px
+
+
+.basement-gallery-top-bar
+  padding-top: 31px
+  padding-bottom: 31px
+  .row > div:not(:empty)
+    min-height: 54px
+  @media (max-width: 992px)
+    .row > div + div:not(:empty)
+      padding-top: 27px
+      margin-top: 0 !important
+    .row > div:empty + div
+      padding-top: 0 !important
+    .row > div > div
+      text-align: center !important
+      padding-left: 0 !important
+      padding-right: 0 !important
+      float: none !important
+      position: static
+      -webkit-transform: translateX(0)
+      -ms-transform: translateX(0)
+      transform: translateX(0)
+      .basement-portfolio-nav-category
+        white-space: normal
+    .basement-portfolio-sorting
+      margin-left: auto !important
+      margin-right: auto !important
+      float: none !important
+  &.container
+    .basement-portfolio-title,
+    .basement-portfolio-sorting-wrap,
+    .basement-portfolio-categories
+      padding-left: 0px !important
+      padding-right: 0px !important
+  &.basement-stretched
+    .basement-portfolio-title,
+    .basement-portfolio-sorting-wrap,
+    .basement-portfolio-categories
+      padding-left: 40px
+      padding-right: 40px
+
+
+
+
+
+
+.row
+  &+.basement-project-featured,
+  &+.basement-project-pagination
+    margin-top: 120px
+
+/*Project Featured*/
+.basement-project-featured
+  position: relative
+  .basement-project-featured-arrow
+    position: absolute
+    top: 50%
+    color: #171717
+    z-index: 90
+    display: block
+    height: 25px
+    width: 82px
+    line-height: 25px
+    font-size: 78px
+    overflow: hidden
+    margin-top: -7px
+    &:after
+      font-family: "aiscon" !important
+      font-style: normal !important
+      font-weight: normal !important
+      font-variant: normal !important
+      text-transform: none !important
+      speak: none
+      -webkit-font-smoothing: antialiased
+      -moz-osx-font-smoothing: grayscale
+    &.basement-project-featured-left
+      left: 24px
+      &:after
+        content: '\41'
+    &.basement-project-featured-right
+      right: 24px
+      text-align: left
+      &:after
+        content: '\42'
+  .row
+    margin: 0
+    >div
+      float: left !important
+      padding: 0
+      .basement-featured-thumbnail
+        height: 361px
+        background-repeat: no-repeat
+        background-position: center center
+        -webkit-background-size: cover
+        -moz-background-size: cover
+        -o-background-size: cover
+        background-size: cover
+        z-index: 1
+      .mask h5
+        line-height: 23px
+        margin: 0 0 6px 0
+        font-size: 19px
+        color: #fff
+        position: relative
+        text-align: left !important
+      .mask .category
+        color: #fff !important
+        font-size: 16px
+        z-index: 55
+        text-align: left !important
+        line-height: 1.3 !important
+        opacity: 0.5
+      .mask .category
+        margin-bottom: 0
+
+
+
+      .figure
+        position: relative
+        margin: 0
+        z-index: 66
+
+      .figure:first-child
+        margin-top: 0
+
+
+      .figure
+        img
+          width: 100%
+        &.img-circle .mask
+          border-radius: 50%
+        &.img-rounded .mask
+          border-radius: 6px
+        > .icon
+          position: absolute
+          top: -99999px
+          z-index: 24
+          color: #000
+          opacity: 0.2
+          display: none !important
+          left: -99999px
+          i
+            color: #000
+            top: 51%
+          &.icon-size-1
+            right: 15px
+            bottom: -5px
+
+      .figure-sm
+        width: 66.6667%
+        margin-right: auto
+        margin-left: auto
+
+      h3 + .figure
+        margin-top: 30px
+
+      .figure-info
+        margin-right: -1px
+        padding-top: 30px
+        padding-right: 30px
+        padding-bottom: 10px
+        padding-left: 30px
+        &[class*=col-], &:first-child
+          padding-top: 0
+          padding-bottom: 0
+        p
+          padding: 0
+        .heading-divider:first-child
+          margin-top: 10px
+        h3 + .meta, h4 + .meta, h5 + .meta
+          margin-top: -10px
+
+      .mask:not(.mask-inline)
+        position: absolute
+        z-index: 21
+        top: 0
+        left: 0
+        display: block
+        width: 100%
+        height: 100%
+        transition: all .3s 0s ease-in-out
+        //text-align: center
+        opacity: 0
+        > *:not(.category)
+          position: absolute
+          //top: 40%
+          //left: 50%
+          width: auto
+          left: 13px
+          bottom: -5px
+          right: 13px
+          margin: auto
+          transition: all .2s 0s ease-in-out
+          //-webkit-transform: translate(-50%, -50%)
+          //-moz-transform: translate(-50%, -50%)
+          //-ms-transform: translate(-50%, -50%)
+          //transform: translate(-50%, -50%)
+          opacity: 0
+          z-index: 3
+        .icon
+          margin-bottom: 0
+          + .icon
+            margin-left: 10px
+
+      .figure
+        &:hover .mask:not(.mask-inline), &.hover .mask:not(.mask-inline)
+          opacity: 1
+        &:hover .mask:not(.mask-inline) > *:not(.category), &.hover .mask:not(.mask-inline) > *:not(.category)
+          bottom: 15px
+          opacity: 1
+
+      .mask-inline
+        position: absolute
+        z-index: 1
+        bottom: -10%
+        left: 0
+        display: block
+        width: 100%
+        height: 52px
+        transition: all .2s 0s ease-in-out
+        //text-align: center
+        opacity: 0
+
+
+      .mask-inline
+        > *:not(.category)
+          line-height: 52px
+        a
+          display: block
+          color: #fff
+
+
+
+      .mask-inline-md
+        height: 64px
+        > *:not(.category)
+          line-height: 64px
+
+
+
+      div.mask-info
+        background: rgba(26,26,26,0.9)
+        padding: 32px 35px 26px
+
+
+      .mask-info p
+        padding: 0
+
+
+/*NEW STYLES*/
+.basement-portfolio-wrapper.basement-gallery-tiles_type-classic
+  figure
+    .basement-gallery-thumb,
+    .basement-gallery-carousel-thumb
+      &:before
+        content: ''
+        display: block
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        height: auto
+        width: 100%
+        transition: all .2s ease-in-out
+        background-color: #000
+        z-index: 5
+        opacity: 0
+      &:hover
+        &:before
+          opacity: 0.2
+
+.basement-portfolio-grid_type-masonry.basement-gallery-tiles_type-classic
+  figure:not(.basement-gallery-click-link)
+    &:before
+      content: ''
+      display: block
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      height: auto
+      width: 100%
+      transition: all .2s ease-in-out
+      background-color: #000
+      z-index: 5
+      opacity: 0
+    &:hover
+      &:before
+        opacity: 0.2
+  .basement-link-classic
+    &:before
+      content: ''
+      display: block
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      height: auto
+      width: 100%
+      transition: all .2s ease
+      background-color: #000
+      z-index: 5
+      opacity: 0
+    &:hover
+      &:before
+        opacity: 0.2
+
+.basement-gallery-wrap-block.basement-portfolio-wrapper.basement-gallery-tiles_type-classic figure:not(.basement-gallery-click-link):before,
+.basement-gallery-wrap-block.basement-portfolio-wrapper.basement-gallery-tiles_type-classic .basement-link-classic:before,
+.basement-gallery-wrap-block.basement-portfolio-wrapper.basement-gallery-tiles_type-classic figure .basement-gallery-thumb:before,
+.basement-gallery-wrap-block.basement-portfolio-wrapper.basement-gallery-tiles_type-classic figure .basement-gallery-carousel-thumb:before
+  background-color: #fff !important
+
+
+
+
+/*MASK*/
+.basement-gallery-carousel-wrap-block,
+.basement-gallery-wrap-block
+  .mask h5
+    line-height: 23px
+    margin: 0 0 6px 0
+    font-size: 19px
+    color: #fff
+    position: relative
+    text-align: left !important
+  .mask .category
+    color: #fff !important
+    font-size: 16px
+    z-index: 55
+    text-align: left !important
+    line-height: 1.3 !important
+    opacity: 0.5
+  .mask .category
+    margin-bottom: 0
+
+
+
+  .figure
+    position: relative
+    //overflow: hidden
+    margin: 20px 0 0
+    z-index: 66
+
+  .figure:first-child
+    margin-top: 0
+
+
+  .figure
+    position: relative
+    //overflow: hidden
+    margin: 20px 0 0
+    z-index: 66
+    &:first-child
+      margin-top: 0
+    img
+      width: 100%
+    &.img-circle .mask
+      border-radius: 50%
+    &.img-rounded .mask
+      border-radius: 6px
+    > .icon
+      position: absolute
+      top: -99999px
+      z-index: 24
+      color: #000
+      opacity: 0.2
+      display: none !important
+      left: -99999px
+      i
+        color: #000
+        top: 51%
+      &.icon-size-1
+        right: 15px
+        bottom: -5px
+
+  .figure-sm
+    width: 66.6667%
+    margin-right: auto
+    margin-left: auto
+
+  h3 + .figure
+    margin-top: 30px
+
+  .figure-info
+    margin-right: -1px
+    padding-top: 30px
+    padding-right: 30px
+    padding-bottom: 10px
+    padding-left: 30px
+    &[class*=col-], &:first-child
+      padding-top: 0
+      padding-bottom: 0
+    p
+      padding: 0
+    .heading-divider:first-child
+      margin-top: 10px
+    h3 + .meta, h4 + .meta, h5 + .meta
+      margin-top: -10px
+
+  .mask:not(.mask-inline)
+    position: absolute
+    z-index: 21
+    top: 0
+    left: 0
+    display: block
+    width: 100%
+    height: 100%
+    transition: all .3s 0s ease-in-out
+    //text-align: center
+    opacity: 0
+    > *:not(.category)
+      position: absolute
+      //top: 40%
+      //left: 50%
+      width: auto
+      left: 13px
+      bottom: -5
+      right: 13px
+      margin: auto
+      transition: all .2s 0s ease-in-out
+      //-webkit-transform: translate(-50%, -50%)
+      //-moz-transform: translate(-50%, -50%)
+      //-ms-transform: translate(-50%, -50%)
+      //transform: translate(-50%, -50%)
+      opacity: 0
+      z-index: 3
+    .icon
+      margin-bottom: 0
+      + .icon
+        margin-left: 10px
+
+  .figure
+    &:hover .mask:not(.mask-inline), &.hover .mask:not(.mask-inline)
+      opacity: 1
+    &:hover .mask:not(.mask-inline) > *:not(.category), &.hover .mask:not(.mask-inline) > *:not(.category)
+      bottom: 15px
+      opacity: 1
+
+  .mask-inline
+    position: absolute
+    z-index: 1
+    bottom: -10%
+    left: 0
+    display: block
+    width: 100%
+    height: 52px
+    transition: all .2s 0s ease-in-out
+    //text-align: center
+    opacity: 0
+
+
+  .mask-inline
+    > *:not(.category)
+      line-height: 52px
+    a
+      display: block
+      color: #fff
+
+  div.mask-info
+    background: rgba(26,26,26,0.9)
+    padding: 32px 35px 28px
+
+  .mask-info p
+    padding: 0
+
+
+
+.basement-link-classic
+  display: inline !important
+  position: static !important
+
+
+
+.classic-helpers-icons
+  display: none !important
+  visibility: hidden !important
+  opacity: 0 !important
+
+
+
+.basement-portfolio-wrapper
+  @media screen and (max-width: 479px)
+    [class*=col-xs-]:not(.head-col)
+      float: none
+      width: 100%
+      text-align: center
+
+
+.masonry-wrap, .mixed-wrap
+  overflow: hidden
+
+
+
+/*Chosen select params*/
+
+.basement-portfolio-sorting
+  a:after
+    display: none !important
+  .chosen-container
+    position: relative
+    display: inline-block
+    vertical-align: middle
+    font-size: 18px
+    line-height: 1.4
+    text-transform: capitalize
+    -webkit-user-select: none
+    -moz-user-select: none
+    -ms-user-select: none
+    user-select: none
+    text-align: right
+    top: -1px
+    *
+      box-sizing: border-box
+    .chosen-drop
+      position: absolute
+      top: 100%
+      z-index: 1010
+      width: 100%
+      border-top: 0
+      font-size: 17px
+      background: #1f1f1f
+      clip: rect(0, 0, 0, 0)
+    &.chosen-with-drop .chosen-drop
+      clip: auto
+    a
+      cursor: pointer
+    .search-choice .group-name, .chosen-single .group-name
+      margin-right: 4px
+      overflow: hidden
+      white-space: nowrap
+      text-overflow: ellipsis
+      font-weight: normal
+      color: #666
+    .search-choice .group-name:after, .chosen-single .group-name:after
+      content: ":"
+      padding-left: 2px
+      vertical-align: top
+
+  /* @end
+  /* @group Single Chosen
+
+  .chosen-container-single
+    .chosen-single
+      position: relative
+      display: block
+      overflow: hidden
+      height: 25px
+      border: none !important
+      color: #262626
+      margin: 0 !important
+      transition: none
+      text-decoration: none
+      white-space: nowrap
+      line-height: 25px
+      z-index: 1011
+      &::before
+        font-size: 18px
+        position: absolute
+        top: -1px
+        right: 3px
+        font-family: "feather"
+        font-style: normal
+        font-variant: normal
+        font-weight: normal
+        text-rendering: auto
+        -webkit-font-smoothing: antialiased
+        -moz-osx-font-smoothing: grayscale
+        color: #262626
+        content: "\e097"
+    .chosen-default
+      color: #262626
+    .chosen-single span
+      display: block
+      margin-right: 32px
+      overflow: hidden
+      text-overflow: ellipsis
+      white-space: nowrap
+    .chosen-single abbr
+      position: absolute
+      top: 6px
+      right: 26px
+      display: block
+      width: 12px
+      height: 12px
+      font-size: 1px
+
+    .chosen-single div
+      position: absolute
+      top: 0
+      right: 0
+      display: none
+      width: 18px
+      height: 100%
+      b
+        display: block
+        width: 100%
+        height: 100%
+    .chosen-search
+      position: relative
+      z-index: 1010
+      margin: 0
+      display: none !important
+      padding: 3px 4px
+      white-space: nowrap
+      input[type="text"]
+        margin: 1px 0
+        padding: 4px 20px 4px 5px
+        width: 100%
+        height: auto
+        outline: 0
+        border: 1px solid #aaa
+        font-size: 1em
+        font-family: sans-serif
+        line-height: normal
+        border-radius: 0
+    .chosen-drop
+      margin-top: -1px
+      border-radius: 0
+      background-clip: padding-box
+      &:after
+        content: ""
+        display: block
+        position: absolute
+        background: #1f1f1f
+        top: -45px
+        right: -21px
+        font-size: 17px
+        bottom: -3px
+        left: -8px
+        width: auto
+        height: auto
+        z-index: 1
+    &.chosen-container-single-nosearch .chosen-search
+      position: absolute
+      clip: rect(0, 0, 0, 0)
+
+  /* @end
+  /* @group Results
+
+  .chosen-container .chosen-results
+    color: #666
+    position: relative
+    overflow-x: hidden
+    overflow-y: auto
+    margin: 12px 0 12px 0
+    padding: 0
+    z-index: 1011
+    max-height: 240px
+    -webkit-overflow-scrolling: touch
+    li
+      display: none
+      margin: 0
+      padding: 3px 32px 10px 6px
+      list-style: none
+      word-wrap: break-word
+      transition: color .2s ease, padding .2s linear
+      -webkit-touch-callout: none
+      &:before
+        display: none
+      &.active-result
+        display: list-item
+        cursor: pointer
+      &.disabled-result
+        display: list-item
+        color: #ccc
+        cursor: default
+      &.highlighted
+        color: #fff
+        padding-right: 40px
+      &.no-results
+        color: #777
+        display: list-item
+        background: #f4f4f4
+      &.group-result
+        display: list-item
+        font-weight: bold
+        cursor: default
+      &.group-option
+        padding-left: 15px
+      em
+        font-style: normal
+        text-decoration: underline
+
+  /* @end
+  /* @group Multi Chosen
+
+  .chosen-container-multi
+    .chosen-choices
+      position: relative
+      overflow: hidden
+      margin: 0
+      padding: 0 5px
+      width: 100%
+      height: auto
+      border: 1px solid #aaa
+      background-color: #fff
+      cursor: text
+      li
+        float: left
+        list-style: none
+        &.search-field
+          margin: 0
+          padding: 0
+          white-space: nowrap
+          input[type="text"]
+            margin: 1px 0
+            padding: 0
+            height: 25px
+            outline: 0
+            border: 0 !important
+            background: transparent !important
+            box-shadow: none
+            color: #999
+            font-size: 100%
+            font-family: sans-serif
+            line-height: normal
+            border-radius: 0
+            width: 25px
+        &.search-choice
+          position: relative
+          margin: 3px 5px 3px 0
+          padding: 3px 20px 3px 5px
+          border: 1px solid #aaa
+          max-width: 100%
+          border-radius: 3px
+          background-color: #eeeeee
+          background-size: 100% 19px
+          background-repeat: repeat-x
+          background-clip: padding-box
+          color: #333
+          line-height: 13px
+          cursor: default
+          span
+            word-wrap: break-word
+          .search-choice-close
+            position: absolute
+            top: 4px
+            right: 3px
+            display: block
+            width: 12px
+            height: 12px
+            font-size: 1px
+            &:hover
+              background-position: -42px -10px
+        &.search-choice-disabled
+          padding-right: 5px
+          border: 1px solid #ccc
+          background-color: #e4e4e4
+          color: #666
+        &.search-choice-focus
+          background: #d4d4d4
+          .search-choice-close
+            background-position: -42px -10px
+    .chosen-results
+      margin: 0
+      padding: 0
+    .chosen-drop .result-selected
+      display: list-item
+      color: #ccc
+      cursor: default
+
+  /* @end
+  /* @group Active
+
+  .chosen-with-drop
+    .chosen-single
+      color: #fff
+      &::before
+        color: #fff
+  .chosen-container-active
+    &.chosen-with-drop .chosen-single
+      border: 1px solid #aaa
+      border-bottom-right-radius: 0
+      border-bottom-left-radius: 0
+      div
+        border-left: none
+        background: transparent
+        b
+          background-position: -18px 2px
+    .chosen-choices
+      border: 1px solid #5897fb
+      li.search-field input[type="text"]
+        color: #222 !important
+
+  /* @end
+  /* @group Disabled Support
+
+  .chosen-disabled
+    opacity: 0.5 !important
+    cursor: default
+    .chosen-single, .chosen-choices .search-choice .search-choice-close
+      cursor: default
+
+  /* @end
+  /* @group Right to Left
+
+  .chosen-rtl
+    text-align: right
+    .chosen-single
+      overflow: visible
+      padding: 0 8px 0 0
+      span
+        margin-right: 0
+        margin-left: 26px
+        direction: rtl
+    .chosen-single-with-deselect span
+      margin-left: 38px
+    .chosen-single
+      div
+        right: auto
+        left: 3px
+      abbr
+        right: auto
+        left: 26px
+    .chosen-choices li
+      float: right
+      &.search-field input[type="text"]
+        direction: rtl
+      &.search-choice
+        margin: 3px 5px 3px 0
+        padding: 3px 5px 3px 19px
+        .search-choice-close
+          right: auto
+          left: 4px
+    &.chosen-container-single .chosen-results
+      margin: 0 0 4px 4px
+      padding: 0 4px 0 0
+    .chosen-results li.group-option
+      padding-right: 15px
+      padding-left: 0
+    &.chosen-container-active.chosen-with-drop .chosen-single div
+      border-right: none
+    .chosen-search input[type="text"]
+      padding: 4px 5px 4px 20px
+      direction: rtl
+    &.chosen-container-single
+      .chosen-single div b
+        background-position: 6px 2px
+      &.chosen-with-drop .chosen-single div b
+        background-position: -12px 2px
+
+  /* @end

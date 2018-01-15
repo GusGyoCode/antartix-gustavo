@@ -1,0 +1,2180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Basement Framework\n"
+"POT-Creation-Date: 2017-04-23 18:04+0300\n"
+"PO-Revision-Date: 2017-04-23 18:04+0300\n"
+"Last-Translator: Anton <ant.lokotkov@gmail.com>\n"
+"Language-Team: Aisconverse <maksim.sherstobitow@gmail.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: basement.php:20
+msgid "Basement Framework needs at least PHP version 5.6.0, your version: "
+msgstr ""
+
+#: modules/admin/admin.php:90
+msgid "You do not have sufficient permissions to access this page."
+msgstr "﻿У Вас нет необходимых прав доступа к данной странице."
+
+#: modules/admin/admin.php:99
+msgid "Sorry, the page is not found."
+msgstr "﻿К сожалению, страница не найдена."
+
+#: modules/asset/asset.php:121
+msgid "Inline assets"
+msgstr "Встроенные JS/CSS"
+
+#: modules/asset/asset.php:124
+msgid "Inline JavaScript"
+msgstr "Встроенный JavaScript"
+
+#: modules/asset/asset.php:125
+msgid ""
+"This JavaScript will be printed on every pages footer. It's useful to add "
+"Google Analytics or something like that. Don't use &lt;script&gt; tags, fill "
+"the field with plain JavaScript"
+msgstr ""
+
+#: modules/asset/asset.php:144
+msgid "Inline CSS"
+msgstr "Встроенный CSS"
+
+#: modules/asset/asset.php:145
+msgid ""
+"This CSS will be printed on every page header. Don't use &lt;style&gt; tags, "
+"fill the field with plain CSS"
+msgstr ""
+
+#: modules/blog/blog.php:40
+msgid "Post Parameters"
+msgstr ""
+
+#: modules/blog/blog.php:90
+#: modules/widgets/widgets/class-basement-widget-sharing.php:12
+#: modules/widgets/widgets/class-basement-widget-sharing.php:18
+msgid "Social sharing"
+msgstr ""
+
+#: modules/blog/blog.php:91
+msgid "Sets the social sharing block."
+msgstr ""
+
+#: modules/blog/blog.php:96
+#: modules/widgets/widgets/class-basement-widget-twitter.php:92
+msgid "Type"
+msgstr ""
+
+#: modules/blog/blog.php:97
+msgid "Set the view of social sharing block."
+msgstr ""
+
+#: modules/blog/blog.php:118 modules/footer/footer.php:299
+#: modules/footer/footer.php:341 modules/footer/footer.php:524
+#: modules/footer/footer.php:565 modules/footer/footer.php:746
+#: modules/footer/footer.php:787 modules/footer/footer.php:966
+#: modules/footer/footer.php:1006 modules/header/header.php:1012
+#: modules/header/header.php:1096 modules/header/header.php:1597
+#: modules/pagetitle/pagetitle.php:945 modules/sidebar/sidebar.php:298
+#: modules/sidebar/sidebar.php:526 modules/sidebar/sidebar.php:747
+#: modules/sidebar/sidebar.php:969
+msgid "Yes"
+msgstr ""
+
+#: modules/blog/blog.php:119 modules/footer/footer.php:300
+#: modules/footer/footer.php:340 modules/footer/footer.php:525
+#: modules/footer/footer.php:564 modules/footer/footer.php:747
+#: modules/footer/footer.php:786 modules/footer/footer.php:967
+#: modules/footer/footer.php:1005 modules/header/header.php:1013
+#: modules/header/header.php:1095 modules/header/header.php:1596
+#: modules/pagetitle/pagetitle.php:944 modules/sidebar/sidebar.php:299
+#: modules/sidebar/sidebar.php:378 modules/sidebar/sidebar.php:525
+#: modules/sidebar/sidebar.php:601 modules/sidebar/sidebar.php:748
+#: modules/sidebar/sidebar.php:823 modules/sidebar/sidebar.php:970
+#: modules/sidebar/sidebar.php:1045
+msgid "No"
+msgstr ""
+
+#: modules/blog/blog.php:149
+#: modules/widgets/widgets/class-basement-widget-sharing.php:113
+msgid "Horizontal"
+msgstr ""
+
+#: modules/blog/blog.php:150
+#: modules/widgets/widgets/class-basement-widget-sharing.php:112
+msgid "Dropdown"
+msgstr ""
+
+#: modules/cpt/cpt.php:236 modules/revoslider/revoslider.php:606
+msgid "Parameters"
+msgstr "Параметры"
+
+#: modules/cpt/cpt.php:296
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr "Изменить &#8220;%s&#8221;"
+
+#: modules/ecommerce/woocommerce/woocommerce.php:94
+msgid "Basement Parameters"
+msgstr ""
+
+#: modules/footer/footer.php:99 modules/footer/footer.php:264
+#: modules/widgets/widgets.php:340
+msgid "Footer"
+msgstr ""
+
+#: modules/footer/footer.php:129
+msgid "Footer Parameters"
+msgstr ""
+
+#: modules/footer/footer.php:246
+msgid "Footer for pages"
+msgstr ""
+
+#: modules/footer/footer.php:247
+msgid "Sets settings for the footer on pages."
+msgstr ""
+
+#: modules/footer/footer.php:252
+msgid "Footer for blog"
+msgstr ""
+
+#: modules/footer/footer.php:253
+msgid "Sets settings for the footer on blog."
+msgstr ""
+
+#: modules/footer/footer.php:258
+msgid "Footer for WooCommerce pages"
+msgstr ""
+
+#: modules/footer/footer.php:259
+msgid ""
+"Sets settings for the footer on <a href=\"https://wordpress.org/plugins/"
+"woocommerce/\" target=\"_blank\" style=\"text-decoration: none;"
+"\">WooCommerce</a> pages."
+msgstr ""
+
+#: modules/footer/footer.php:265
+msgid "Sets custom settings for footer."
+msgstr ""
+
+#: modules/footer/footer.php:323 modules/footer/footer.php:547
+#: modules/footer/footer.php:769 modules/footer/footer.php:989
+msgid "Show footer?"
+msgstr ""
+
+#: modules/footer/footer.php:362 modules/footer/footer.php:1027
+msgid "Horizontal lines"
+msgstr ""
+
+#: modules/footer/footer.php:406 modules/footer/footer.php:631
+#: modules/footer/footer.php:852
+msgid "Select the widget area:"
+msgstr ""
+
+#: modules/footer/footer.php:423 modules/footer/footer.php:648
+#: modules/footer/footer.php:869 modules/footer/footer.php:1089
+#: modules/header/header.php:1218 modules/pagetitle/pagetitle.php:630
+#: modules/widgets/widgets/class-basement-widget-twitter.php:102
+msgid "Dark"
+msgstr ""
+
+#: modules/footer/footer.php:424 modules/footer/footer.php:649
+#: modules/footer/footer.php:870 modules/footer/footer.php:1090
+#: modules/header/header.php:1219 modules/pagetitle/pagetitle.php:629
+#: modules/widgets/widgets/class-basement-widget-twitter.php:102
+msgid "Light"
+msgstr ""
+
+#: modules/footer/footer.php:446 modules/footer/footer.php:671
+#: modules/footer/footer.php:892 modules/footer/footer.php:1112
+msgid "Style:"
+msgstr ""
+
+#: modules/footer/footer.php:464 modules/footer/footer.php:687
+#: modules/footer/footer.php:908 modules/footer/footer.php:1129
+#: modules/header/header.php:890 modules/preloader/preloader.php:109
+msgid "Disable"
+msgstr ""
+
+#: modules/footer/footer.php:465 modules/footer/footer.php:688
+#: modules/footer/footer.php:909 modules/footer/footer.php:1130
+#: modules/header/header.php:889 modules/preloader/preloader.php:108
+msgid "Enable"
+msgstr ""
+
+#: modules/footer/footer.php:488 modules/footer/footer.php:711
+#: modules/footer/footer.php:932 modules/footer/footer.php:1153
+msgid "Sticky footer:"
+msgstr ""
+
+#: modules/footer/footer.php:586 modules/footer/footer.php:808
+msgid "Horizontal lines:"
+msgstr ""
+
+#: modules/footer/footer.php:1071 modules/sidebar/sidebar.php:445
+#: modules/sidebar/sidebar.php:667 modules/sidebar/sidebar.php:890
+#: modules/sidebar/sidebar.php:1112
+msgid "Select the widget area"
+msgstr ""
+
+#: modules/form/form.php:197 modules/form/input/input.php:63
+msgid "Input config is broken"
+msgstr "Неверные параметры элемента формы"
+
+#: modules/form/input/audio.php:23
+msgid "Artist"
+msgstr "Исполнитель"
+
+#: modules/form/input/audio.php:26
+msgid "Album"
+msgstr "Альбом"
+
+#: modules/form/input/audio.php:29 modules/pagetitle/pagetitle.php:232
+#: modules/pagetitle/pagetitle.php:685
+#: modules/widgets/other-widgets/class-basement-widget-recent-reviews.php:21
+#: modules/widgets/widgets/class-basement-widget-flickr.php:47
+#: modules/widgets/widgets/class-basement-widget-image.php:72
+msgid "Title"
+msgstr "Заголовок"
+
+#: modules/form/input/audio.php:74
+msgid "Choose audio"
+msgstr "Выберите аудио"
+
+#: modules/form/input/audio.php:78
+msgid "Delete audio"
+msgstr "Удалить аудио"
+
+#: modules/form/input/background.php:11 modules/form/input/shbackground.php:11
+msgid "Background input config is broken"
+msgstr "Неверные параметры полей выбора фона"
+
+#: modules/form/input/background.php:53 modules/form/input/shbackground.php:58
+msgid "Choose Image"
+msgstr "Выберать изображение"
+
+#: modules/form/input/background.php:64 modules/form/input/shbackground.php:69
+msgid "Delete Image"
+msgstr "Удалить изображение"
+
+#: modules/form/input/background.php:79 modules/form/input/shbackground.php:84
+#: modules/header/header.php:1333 modules/header/header.php:1587
+#: modules/pagetitle/pagetitle.php:768 modules/pagetitle/pagetitle.php:853
+#: modules/pagetitle/pagetitle.php:1027 modules/preloader/preloader.php:83
+msgid "Color"
+msgstr "Цвет"
+
+#: modules/form/input/background.php:93 modules/header/header.php:1268
+#: modules/header/header.php:1334 modules/pagetitle/pagetitle.php:854
+msgid "Opacity"
+msgstr "Непрозрачность"
+
+#: modules/form/input/background.php:114
+#: modules/form/input/shbackground.php:130
+msgid "Repeat"
+msgstr "Повторять"
+
+#: modules/form/input/background.php:120 modules/form/input/background.php:151
+#: modules/form/input/background.php:183 modules/form/input/background.php:219
+#: modules/form/input/shbackground.php:136
+#: modules/form/input/shbackground.php:170
+#: modules/form/input/shbackground.php:205
+#: modules/form/input/shbackground.php:244
+msgid "Nope"
+msgstr ""
+
+#: modules/form/input/background.php:121
+#: modules/form/input/shbackground.php:137
+msgid "Do not repeat"
+msgstr "Не повторять"
+
+#: modules/form/input/background.php:122
+#: modules/form/input/shbackground.php:138
+msgid "Tile"
+msgstr "Плитка"
+
+#: modules/form/input/background.php:123
+#: modules/form/input/shbackground.php:139
+msgid "Tile horizontally"
+msgstr "Расположить горизонтально"
+
+#: modules/form/input/background.php:124
+#: modules/form/input/shbackground.php:140
+msgid "Tile vertically"
+msgstr "Расположить вертикально"
+
+#: modules/form/input/background.php:145
+#: modules/form/input/shbackground.php:164
+msgid "Attachment"
+msgstr "Прикрепление"
+
+#: modules/form/input/background.php:152
+#: modules/form/input/shbackground.php:171
+msgid "Scroll"
+msgstr "Прокрутка"
+
+#: modules/form/input/background.php:153
+#: modules/form/input/shbackground.php:172
+msgid "Fixed"
+msgstr "Фиксированный"
+
+#: modules/form/input/background.php:177
+#: modules/form/input/shbackground.php:199 modules/pagetitle/pagetitle.php:993
+msgid "Position"
+msgstr "Позиция"
+
+#: modules/form/input/background.php:184
+#: modules/form/input/shbackground.php:206
+msgid "Left & top"
+msgstr "Слева сверху"
+
+#: modules/form/input/background.php:185
+#: modules/form/input/shbackground.php:207
+msgid "Left & center"
+msgstr "Слева по центру"
+
+#: modules/form/input/background.php:186
+#: modules/form/input/shbackground.php:208
+msgid "Left & bottom"
+msgstr "Слева снизу"
+
+#: modules/form/input/background.php:187
+#: modules/form/input/shbackground.php:209
+msgid "Center & top"
+msgstr "По центру сверху"
+
+#: modules/form/input/background.php:188
+#: modules/form/input/shbackground.php:210
+msgid "Center & center"
+msgstr "В центре"
+
+#: modules/form/input/background.php:189
+#: modules/form/input/shbackground.php:211
+msgid "Center & bottom"
+msgstr "По центру и снизу"
+
+#: modules/form/input/background.php:190
+#: modules/form/input/shbackground.php:212
+msgid "Right & top"
+msgstr "Справа сверху"
+
+#: modules/form/input/background.php:191
+#: modules/form/input/shbackground.php:213
+msgid "Right & center"
+msgstr "Справа по центру"
+
+#: modules/form/input/background.php:192
+#: modules/form/input/shbackground.php:214
+msgid "Right & bottom"
+msgstr "Справа снизу"
+
+#: modules/form/input/background.php:213
+#: modules/form/input/shbackground.php:238
+msgid "Size"
+msgstr "Размер"
+
+#: modules/form/input/background.php:220
+#: modules/form/input/shbackground.php:245
+msgid "Auto"
+msgstr "Авто"
+
+#: modules/form/input/background.php:221
+#: modules/form/input/shbackground.php:246
+msgid "Cover"
+msgstr "Обложка"
+
+#: modules/form/input/background.php:222
+#: modules/form/input/shbackground.php:247
+msgid "Contain"
+msgstr "Вместить"
+
+#: modules/form/input/checkbox/checkbox.php:10
+#: modules/form/input/radio/radio.php:10
+msgid "Checkbox input config is broken"
+msgstr "Неверные параметры элемента \"флажок\""
+
+#: modules/form/input/checkbox/group.php:10
+#: modules/form/input/googlefonts.php:11
+msgid "Checkboxes group config is broken"
+msgstr "Неверные параметры группы флажков"
+
+#: modules/form/input/checkbox/icon/group.php:10
+msgid "Checkboxes icons config is broken"
+msgstr "Неверные параметры полей выбора иконок"
+
+#: modules/form/input/checkbox/icon/icon.php:10
+msgid "Checkboxes icon config is broken"
+msgstr "Неверные параметры выбора иконки"
+
+#: modules/form/input/checkbox/post/list/sortable.php:10
+msgid "Sortable posts list checboxes config is broken"
+msgstr "Неверные параметры сортируемого списка флажков"
+
+#: modules/form/input/checkbox/post/list/sortable.php:43
+msgid "Drag'n'drop to change order"
+msgstr "Перетащите, чтобы изменить порядок"
+
+#: modules/form/input/checkbox/post/list/sortable.php:61
+msgid "Click to select/deselect"
+msgstr "Нажмите для выбора/отмены"
+
+#: modules/form/input/checkbox/post/list/sortable.php:90
+#: modules/form/input/radio/post/list.php:91
+msgid "Will be opened in new tab"
+msgstr "Откроется в новой вкладке"
+
+#: modules/form/input/codeeditor.php:10
+msgid "Code editor config is broken"
+msgstr "Неверные параметры редактора кода"
+
+#: modules/form/input/colorpicker.php:10
+msgid "Color picker group config is broken"
+msgstr "Неверные параметры выбора цвета"
+
+#: modules/form/input/editor.php:10
+msgid "Editor config is broken"
+msgstr "Неверные параметры редактора"
+
+#: modules/form/input/image.php:61
+msgid "Choose image"
+msgstr "Выбрать изображение"
+
+#: modules/form/input/image.php:65
+msgid "Delete image"
+msgstr "Удалить изображение"
+
+#: modules/form/input/input.php:126
+msgid "?"
+msgstr ""
+
+#: modules/form/input/input.php:129
+msgid "Help"
+msgstr ""
+
+#: modules/form/input/media/button/delete.php:13
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:190
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:174
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:248
+msgid "Delete"
+msgstr "Удалить"
+
+#: modules/form/input/media/button/upload.php:13
+msgid "Upload"
+msgstr "Загрузить"
+
+#: modules/form/input/radio/group.php:10
+msgid "Radios group config is broken"
+msgstr "Неверные параметры группы радио-кнопок"
+
+#: modules/form/input/radio/icon/group.php:10
+msgid "Radios icons group config is broken"
+msgstr "Неверные параметры группы иконок"
+
+#: modules/form/input/radio/icon/icon.php:10
+msgid "Radios icons config is broken"
+msgstr "Неверные параметры группы иконок"
+
+#: modules/form/input/radio/post/list.php:10
+msgid "Posts list radios config is broken"
+msgstr "Неверные параметры списка постов"
+
+#: modules/form/input/radio/post/list.php:62
+msgid "Click to select"
+msgstr "Нажмите, чтобы выбрать"
+
+#: modules/form/input/select.php:10 modules/form/input/selectext.php:10
+msgid "Select group config is broken"
+msgstr "Неверные параметры выпадающего списка"
+
+#: modules/form/input/shbackground.php:101
+msgid "Alpha color opacity"
+msgstr ""
+
+#: modules/form/input/shbackground.php:110
+msgid "Only fractional values between 0 and 1 (Example 0.5)"
+msgstr "Только дробные значение между 0 и 1 (Например 0.5)"
+
+#: modules/form/input/textarea.php:10
+msgid "Textarea config is broken"
+msgstr "Неверные параметры текстового поля"
+
+#: modules/header/header.php:53
+msgid "Enable Mega Menu"
+msgstr "Включить мега меню"
+
+#: modules/header/header.php:54
+msgid "Column Title"
+msgstr ""
+
+#: modules/header/header.php:55
+msgid "Columns"
+msgstr ""
+
+#: modules/header/header.php:205
+msgid "As title"
+msgstr ""
+
+#: modules/header/header.php:216
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:199
+msgid "First column"
+msgstr ""
+
+#: modules/header/header.php:224
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:212
+msgid "Second column"
+msgstr ""
+
+#: modules/header/header.php:232
+msgid "Third column"
+msgstr ""
+
+#: modules/header/header.php:240
+msgid "Fourth column"
+msgstr ""
+
+#: modules/header/header.php:295
+msgid "Header Parameters"
+msgstr ""
+
+#: modules/header/header.php:516
+msgid "Conico."
+msgstr ""
+
+#: modules/header/header.php:611 modules/header/header.php:1146
+msgid "Menu"
+msgstr ""
+
+#: modules/header/header.php:612
+msgid "Select the main menu in header."
+msgstr ""
+
+#: modules/header/header.php:617
+msgid "Menu type"
+msgstr ""
+
+#: modules/header/header.php:618
+msgid "Sets the type of menu and show icon or standard menu."
+msgstr ""
+
+#: modules/header/header.php:623 modules/header/header.php:1145
+msgid "Logo Text"
+msgstr ""
+
+#: modules/header/header.php:624
+msgid "Sets logo text in the header."
+msgstr ""
+
+#: modules/header/header.php:629 modules/header/header.php:1144
+msgid "Logo Image"
+msgstr ""
+
+#: modules/header/header.php:630
+msgid "Sets logo image in the header."
+msgstr ""
+
+#: modules/header/header.php:635
+msgid "Logo Link"
+msgstr ""
+
+#: modules/header/header.php:636
+msgid "Sets the link on the logo. By default, the Home page."
+msgstr ""
+
+#: modules/header/header.php:641
+msgid "Logo position"
+msgstr ""
+
+#: modules/header/header.php:642
+msgid "Sets the position of the logo."
+msgstr ""
+
+#: modules/header/header.php:647
+msgid "Disable Header"
+msgstr ""
+
+#: modules/header/header.php:648
+msgid "Completely turn off the header."
+msgstr ""
+
+#: modules/header/header.php:653
+msgid "Sticky header"
+msgstr ""
+
+#: modules/header/header.php:654
+msgid "Sets the sticky header at the top of the page."
+msgstr ""
+
+#: modules/header/header.php:659
+msgid "Header items"
+msgstr ""
+
+#: modules/header/header.php:660
+msgid ""
+"It enables or disables the elements in header.<br/><b><ins>Account &amp; "
+"Shop section</ins> works only if <a href=\"https://wordpress.org/plugins/"
+"woocommerce/\" target=\"_blank\" style=\"text-decoration: none;\" title="
+"\"WooCommerce\">WooCommerce</a> plugin activated.</b><br/><b><ins>Language "
+"Section</ins> works only if <a href=\"https://wpml.org/\" target=\"_blank\" "
+"style=\"text-decoration: none;\" title=\"WPML\">WPML</a> plugin activated.</"
+"b>"
+msgstr ""
+
+#: modules/header/header.php:665
+msgid "Header style"
+msgstr ""
+
+#: modules/header/header.php:666
+msgid "Sets the preset heading style."
+msgstr ""
+
+#: modules/header/header.php:671
+msgid "Header background"
+msgstr ""
+
+#: modules/header/header.php:672
+msgid "Sets the background color for the header."
+msgstr ""
+
+#: modules/header/header.php:677
+msgid "Header border"
+msgstr ""
+
+#: modules/header/header.php:678
+msgid "Sets the color/size bottom border for header."
+msgstr ""
+
+#: modules/header/header.php:683
+msgid "Header padding"
+msgstr ""
+
+#: modules/header/header.php:684
+msgid "Sets the inner padding for the header."
+msgstr ""
+
+#: modules/header/header.php:689
+msgid "Header button"
+msgstr ""
+
+#: modules/header/header.php:690
+msgid "Sets the button for the header."
+msgstr ""
+
+#: modules/header/header.php:695
+msgid "Header global border"
+msgstr ""
+
+#: modules/header/header.php:696
+msgid "Sets the border for the whole page."
+msgstr ""
+
+#: modules/header/header.php:721
+msgid "Header"
+msgstr ""
+
+#: modules/header/header.php:772
+msgid "No menus have been created yet. "
+msgstr ""
+
+#: modules/header/header.php:773
+msgid "Create some"
+msgstr ""
+
+#: modules/header/header.php:790
+msgid "WordPress menu"
+msgstr ""
+
+#: modules/header/header.php:839
+msgid "Default"
+msgstr ""
+
+#: modules/header/header.php:840
+#: modules/widgets/widgets/class-basement-widget-twitter.php:96
+msgid "Simple"
+msgstr ""
+
+#: modules/header/header.php:915 modules/header/header.php:1498
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:165
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:166
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:89
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:90
+msgid "Text"
+msgstr ""
+
+#: modules/header/header.php:926
+msgid "Text size in px"
+msgstr ""
+
+#: modules/header/header.php:940
+msgid "Text color"
+msgstr ""
+
+#: modules/header/header.php:968 modules/header/header.php:970
+#: modules/header/header.php:971
+msgid "Set logotype image"
+msgstr ""
+
+#: modules/header/header.php:969
+msgid "Remove logotype image"
+msgstr ""
+
+#: modules/header/header.php:1007
+msgid "Enable link?"
+msgstr ""
+
+#: modules/header/header.php:1043 modules/pagetitle/pagetitle.php:995
+#: modules/sidebar/sidebar.php:340 modules/sidebar/sidebar.php:379
+#: modules/sidebar/sidebar.php:565 modules/sidebar/sidebar.php:602
+#: modules/sidebar/sidebar.php:787 modules/sidebar/sidebar.php:824
+#: modules/sidebar/sidebar.php:1009 modules/sidebar/sidebar.php:1046
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:214
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:195
+#: modules/widgets/widgets/class-basement-widget-sharing.php:119
+msgid "Left"
+msgstr ""
+
+#: modules/header/header.php:1044 modules/pagetitle/pagetitle.php:996
+#: modules/sidebar/sidebar.php:339 modules/sidebar/sidebar.php:380
+#: modules/sidebar/sidebar.php:564 modules/sidebar/sidebar.php:603
+#: modules/sidebar/sidebar.php:786 modules/sidebar/sidebar.php:825
+#: modules/sidebar/sidebar.php:1008 modules/sidebar/sidebar.php:1047
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:216
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:197
+#: modules/widgets/widgets/class-basement-widget-sharing.php:121
+msgid "Right"
+msgstr ""
+
+#: modules/header/header.php:1045
+msgid "Center (menu on the left)"
+msgstr ""
+
+#: modules/header/header.php:1046
+msgid "Center (menu on the right)"
+msgstr ""
+
+#: modules/header/header.php:1147
+msgid "Search Section"
+msgstr ""
+
+#: modules/header/header.php:1148
+msgid "Button"
+msgstr ""
+
+#: modules/header/header.php:1149
+msgid "Account Section"
+msgstr ""
+
+#: modules/header/header.php:1161
+msgid "Shop Section"
+msgstr ""
+
+#: modules/header/header.php:1169
+msgid "Language Section"
+msgstr ""
+
+#: modules/header/header.php:1187 modules/pagetitle/pagetitle.php:735
+msgid "Select the items to display:"
+msgstr ""
+
+#: modules/header/header.php:1267
+msgid "Background Color"
+msgstr ""
+
+#: modules/header/header.php:1340
+msgid "Border width"
+msgstr ""
+
+#: modules/header/header.php:1342
+msgid "Fullwidth"
+msgstr ""
+
+#: modules/header/header.php:1343
+msgid "Boxed"
+msgstr ""
+
+#: modules/header/header.php:1427 modules/pagetitle/pagetitle.php:1127
+msgid "Padding top"
+msgstr ""
+
+#: modules/header/header.php:1428 modules/pagetitle/pagetitle.php:1128
+msgid "Padding Bottom"
+msgstr ""
+
+#: modules/header/header.php:1499
+msgid "Link"
+msgstr ""
+
+#: modules/header/header.php:1500 modules/pagetitle/pagetitle.php:226
+#: modules/pagetitle/pagetitle.php:684 modules/pagetitle/pagetitle.php:766
+msgid "Icon"
+msgstr ""
+
+#: modules/header/header.php:1540 modules/pagetitle/pagetitle.php:790
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:161
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:207
+msgid "Use only class names from icons library for this field."
+msgstr ""
+
+#: modules/header/header.php:1544
+msgid "e.g.: fa fa-user"
+msgstr ""
+
+#: modules/header/header.php:1588
+msgid "Weight in px"
+msgstr ""
+
+#: modules/header/header.php:1594
+msgid "Enable border:"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:76
+msgid "Page Title Parameters"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:202
+msgid "Alternative title"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:203
+msgid "Sets the alternative title for page."
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:208
+msgid "Placement"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:209
+msgid "Sets the page title position."
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:214
+msgid "Style"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:215
+msgid "Sets the preset style for page title."
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:220
+msgid "Page title elements"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:221
+msgid ""
+"It enables or disables the elements in page title.<br/><b><ins>Breadcrumbs</"
+"ins> section works only if <a href=\"https://wordpress.org/plugins/"
+"breadcrumb-navxt/\" target=\"_blank\" style=\"text-decoration: none;\" title="
+"\"Breadcrumb NavXT\">Breadcrumb NavXT</a> plugin activated.</b>"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:227
+msgid "Sets the icon for page title."
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:233
+msgid "Sets the main title for page title."
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:238 modules/preloader/preloader.php:77
+msgid "Background"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:239
+msgid "Sets the opacity and background color/image for page title."
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:250
+msgid "Padding"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:251
+msgid "Sets the inner padding for the page title."
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:256
+msgid "Disable page title"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:257
+msgid "Completely turn off the page title"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:262
+msgid "Custom title"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:263
+msgid "Sets the custom title for blog and search page."
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:504
+msgid "Page Title"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:537 modules/widgets/widgets-manager.php:460
+msgid "Blog"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:538 modules/pagetitle/pagetitle.php:1894
+msgid "Archives"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:539
+msgid "404"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:579
+msgid "After Header"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:580
+msgid "Under Header "
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:686
+msgid "Separator"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:694
+msgid "Breadcrumbs"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:705 modules/pagetitle/pagetitle.php:711
+msgid "WooCommerce breadcrumbs"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:718
+msgid "Remove end of breadcrumb?"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:767 modules/pagetitle/pagetitle.php:1026
+msgid "Size (in px)"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:794
+msgid "e.g.: fa fa-picture-o"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:878 modules/pagetitle/pagetitle.php:880
+#: modules/pagetitle/pagetitle.php:881
+msgid "Set background image"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:879
+msgid "Remove background image"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:889
+msgid "Sets background color for the layer above the image."
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:900
+msgid "Sets opacity for background color."
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:998
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:215
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:196
+#: modules/widgets/widgets/class-basement-widget-sharing.php:120
+msgid "Center"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:1657
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:1666
+#, php-format
+msgid "%d search results"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:1836 modules/pagetitle/pagetitle.php:1840
+#: modules/pagetitle/pagetitle.php:1849 modules/pagetitle/pagetitle.php:1853
+#: modules/pagetitle/pagetitle.php:1857 modules/pagetitle/pagetitle.php:1861
+#: modules/pagetitle/pagetitle.php:1886
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: modules/pagetitle/pagetitle.php:1891
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: modules/preloader/preloader.php:71 modules/preloader/preloader.php:207
+msgid "Preloader"
+msgstr ""
+
+#: modules/preloader/preloader.php:72
+msgid "Check off to not to show preloader and overlay on page loading."
+msgstr ""
+
+#: modules/preloader/preloader.php:78
+msgid "Sets the background color for preloader."
+msgstr ""
+
+#: modules/preloader/preloader.php:84
+msgid "Sets the color for preloader."
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:59
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:60
+msgid "Enable/Disable Typewriter Effect for the selected Layer"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:66
+msgid "123Use a Blinking Cursor to simulate the typing effect"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:67
+msgid "213Use a Blinking Cursor to simulate the typing effect"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:73
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:74
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:106
+msgid "Allow for multiple/sequenced lines"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:80
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:86
+msgid ""
+"Typing Speed: time in which each character is &quot;typed&quot; (in "
+"milliseconds)"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:98
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:104
+msgid ""
+"Start Delay: time before the typing officially starts (in milliseconds) "
+"after the Layer first appears"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:116
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:117
+msgid ""
+"Enable/Disable Word Delays: add delays between words to further simulate "
+"real-time typing"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:123
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:129
+msgid ""
+"Line-break Delay: add a delay for HTML <br> tags that are included in the "
+"Layer&#39;s text"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:145
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:151
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:95
+msgid "Blinking Speed for the Cursor (in milliseconds)"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:163
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:164
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:87
+msgid ""
+"Use an &quot;underscore&quot; or &quot;vertical bar&quot; for the Blinking "
+"Cursor"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:173
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:174
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:101
+msgid "Hide the Blinking Cursor when typing has completed for the Layer"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:180
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:186
+msgid "Character Deletion Speed (in milliseconds)"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:198
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:204
+msgid ""
+"Deletion Delay: time before the current line begins to erase itself (in "
+"milliseconds)"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:216
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:222
+msgid ""
+"New Line Delay: time before the next sequenced line is &quot;typed&quot; "
+"(once the previous line has been erased)"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:234
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:235
+msgid "Constant Loop: restart the sequence after the last line has been shown"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slide.class.php:245
+msgid "Add a delay (in milliseconds) after a set amount of words"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:73
+msgid "Enable/Disable Typewriter for this Slider"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:73
+msgid "Use Typewriter"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:81
+msgid "Use a Blinking Cursor to simulate the typing effect"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:81
+msgid "Blinking Cursor"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:87
+msgid "Cursor Type"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:95
+msgid "Blinking Speed"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:101
+msgid "Stop when Complete"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:106
+msgid "Sequenced Lines"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:112
+msgid "Character deletion speed (in milliseconds)"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:112
+msgid "Deletion Speed"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:117
+msgid "Time before the current line begins to erase itself (in milliseconds)"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:117
+msgid "Deletion Delay"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:122
+msgid ""
+"Time before the next line is shown (in milliseconds) once the previous line "
+"has been erased"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:122
+msgid "New Line Delay"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:127
+msgid "Restart the sequence after the last line has been shown"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:127
+msgid "Constant Loop"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:133
+msgid ""
+"Time before the typing officially starts (in milliseconds) after the Layer "
+"first appears"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:133
+msgid "Start Delay"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:138
+msgid "Time in which each character is &quot;typed&quot; (in milliseconds)"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:138
+msgid "Typing Speed"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:145
+msgid "Add delays between words to further simulate real-time typing"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:145
+msgid "Word Delays"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:151
+msgid "For every (x) words, delay by (x) milliseconds"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:151
+msgid "Word Delay Pattern"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:157
+msgid ""
+"Add a delay for HTML <br> tags that are included with the Layer&#39;s text"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/admin/includes/slider.class.php:157
+msgid "Line Break Delay"
+msgstr ""
+
+#: modules/revoslider/addons/typewriter/framework/slide.admin.class.php:22
+#: modules/revoslider/addons/typewriter/framework/slider.admin.class.php:19
+msgid "Basement Typewriter"
+msgstr ""
+
+#: modules/revoslider/revoslider.php:143
+msgid "Slider Revolution"
+msgstr ""
+
+#: modules/revoslider/revoslider.php:272
+msgid "Select the slider."
+msgstr ""
+
+#: modules/revoslider/revoslider.php:281
+msgid "--- Choose Slider ---"
+msgstr ""
+
+#: modules/revoslider/revoslider.php:434
+msgid "Select the placement."
+msgstr ""
+
+#: modules/revoslider/revoslider.php:443
+msgid "Above content"
+msgstr ""
+
+#: modules/revoslider/revoslider.php:444
+msgid "Under header"
+msgstr ""
+
+#: modules/revoslider/revoslider.php:471
+msgid "Remove content area"
+msgstr ""
+
+#: modules/revoslider/revoslider.php:478
+msgid "Create your first slider"
+msgstr ""
+
+#: modules/revoslider/revoslider.php:486 modules/revoslider/revoslider.php:604
+msgid "Theme RS Settings"
+msgstr ""
+
+#: modules/revoslider/revoslider.php:486
+msgid "RS Settings"
+msgstr ""
+
+#: modules/settings/theme.php:51 modules/settings/theme.php:52
+msgid "Theme Settings"
+msgstr "Настройки темы"
+
+#: modules/settings/theme.php:64
+msgid "Theme settings"
+msgstr "Настройки темы"
+
+#: modules/sidebar/sidebar.php:68
+msgid "Sidebar Parameters"
+msgstr ""
+
+#: modules/sidebar/sidebar.php:186
+msgid "Sidebar for pages"
+msgstr ""
+
+#: modules/sidebar/sidebar.php:187
+msgid "Sets settings for the sidebar on pages."
+msgstr ""
+
+#: modules/sidebar/sidebar.php:192
+msgid "Sidebar for blog"
+msgstr ""
+
+#: modules/sidebar/sidebar.php:193
+msgid "Sets settings for the sidebar on blog."
+msgstr ""
+
+#: modules/sidebar/sidebar.php:198
+msgid "Sidebar for WooCommerce pages"
+msgstr ""
+
+#: modules/sidebar/sidebar.php:199
+msgid ""
+"Sets settings for the sidebar on <a href=\"https://wordpress.org/plugins/"
+"woocommerce/\" target=\"_blank\" style=\"text-decoration: none;"
+"\">WooCommerce</a> pages."
+msgstr ""
+
+#: modules/sidebar/sidebar.php:264
+msgid "Sidebar"
+msgstr ""
+
+#: modules/sidebar/sidebar.php:322 modules/sidebar/sidebar.php:548
+#: modules/sidebar/sidebar.php:770 modules/sidebar/sidebar.php:992
+msgid "Show sidebar?"
+msgstr ""
+
+#: modules/sidebar/sidebar.php:363 modules/sidebar/sidebar.php:586
+#: modules/sidebar/sidebar.php:808 modules/sidebar/sidebar.php:1030
+msgid "Sidebar position"
+msgstr ""
+
+#: modules/sidebar/sidebar.php:381 modules/sidebar/sidebar.php:604
+#: modules/sidebar/sidebar.php:826 modules/sidebar/sidebar.php:1048
+msgid "Right & Left"
+msgstr ""
+
+#: modules/sidebar/sidebar.php:402 modules/sidebar/sidebar.php:625
+#: modules/sidebar/sidebar.php:847 modules/sidebar/sidebar.php:1069
+msgid "Vertical line"
+msgstr ""
+
+#: modules/sidebar/sidebar.php:462 modules/sidebar/sidebar.php:684
+#: modules/sidebar/sidebar.php:907 modules/sidebar/sidebar.php:1130
+#: modules/widgets/widgets-manager.php:474
+msgid "All devices"
+msgstr ""
+
+#: modules/sidebar/sidebar.php:463 modules/sidebar/sidebar.php:685
+#: modules/sidebar/sidebar.php:908 modules/sidebar/sidebar.php:1131
+msgid "Desktops"
+msgstr ""
+
+#: modules/sidebar/sidebar.php:464 modules/sidebar/sidebar.php:686
+#: modules/sidebar/sidebar.php:909 modules/sidebar/sidebar.php:1132
+msgid "Tablets"
+msgstr ""
+
+#: modules/sidebar/sidebar.php:465 modules/sidebar/sidebar.php:687
+#: modules/sidebar/sidebar.php:910 modules/sidebar/sidebar.php:1133
+msgid "Phones"
+msgstr ""
+
+#: modules/sidebar/sidebar.php:466 modules/sidebar/sidebar.php:688
+#: modules/sidebar/sidebar.php:911 modules/sidebar/sidebar.php:1134
+msgid "Desktops/Tablets"
+msgstr ""
+
+#: modules/sidebar/sidebar.php:467 modules/sidebar/sidebar.php:689
+#: modules/sidebar/sidebar.php:912 modules/sidebar/sidebar.php:1135
+msgid "Tablets/Phones"
+msgstr ""
+
+#: modules/sidebar/sidebar.php:468 modules/sidebar/sidebar.php:690
+#: modules/sidebar/sidebar.php:913 modules/sidebar/sidebar.php:1136
+msgid "Desktops/Phones"
+msgstr ""
+
+#: modules/sidebar/sidebar.php:490 modules/sidebar/sidebar.php:712
+#: modules/sidebar/sidebar.php:935 modules/sidebar/sidebar.php:1158
+msgid "Visible on:"
+msgstr ""
+
+#: modules/sidebar/sidebar.php:1189
+msgid "Background color"
+msgstr ""
+
+#: modules/typography/typography.php:82
+msgid "Google Fonts list"
+msgstr ""
+
+#: modules/typography/typography.php:83
+msgid "Select fonts that are available in the TinyMCE editor of your theme."
+msgstr ""
+
+#: modules/typography/typography.php:88
+msgid "New Google Font"
+msgstr ""
+
+#: modules/typography/typography.php:89
+msgid ""
+"Adds a new <a href=\"https://fonts.google.com/\" target=\"_blank\">Google "
+"Font</a> in the editor."
+msgstr ""
+
+#: modules/typography/typography.php:110
+msgid "URL"
+msgstr ""
+
+#: modules/typography/typography.php:113
+msgid "e.g.: https://fonts.googleapis.com/css?family=Roboto:400,400i,500"
+msgstr ""
+
+#: modules/typography/typography.php:120
+msgid "Add"
+msgstr ""
+
+#: modules/typography/typography.php:255
+msgid "Google Fonts"
+msgstr ""
+
+#: modules/typography/typography.php:437
+msgid "<span style=\"color:green;\">The new font is successfully added.</span>"
+msgstr ""
+
+#: modules/typography/typography.php:454
+#, php-format
+msgid ""
+"<span style=\"color:green;\">The %s font successfully updated (%s).</span>"
+msgstr ""
+
+#: modules/typography/typography.php:462
+msgid "Something went wrong."
+msgstr ""
+
+#: modules/typography/typography.php:526 modules/typography/typography.php:618
+msgid "Something went wrong"
+msgstr ""
+
+#: modules/typography/typography.php:581
+msgid "This font already exists in the list."
+msgstr ""
+
+#: modules/typography/typography.php:647 modules/typography/typography.php:653
+msgid "It's wrong link"
+msgstr ""
+
+#: modules/views/footer-param-meta-box.php:17
+msgid "Use custom settings for Footer?"
+msgstr ""
+
+#: modules/views/header-param-meta-box.php:17
+msgid "Use custom settings for Header?"
+msgstr ""
+
+#: modules/views/pagetitle-param-meta-box.php:17
+msgid "Use custom settings for Page Title?"
+msgstr ""
+
+#: modules/views/sidebar-param-meta-box.php:17
+msgid "Use custom settings for Sidebar?"
+msgstr ""
+
+#: modules/views/sidebar-param-meta-box.php:22
+msgid ""
+"<small style=\"display: block;margin-top: 15px;\">It's works everywhere "
+"except for pages: <strong>Cart</strong>, <strong>Shop</strong>, "
+"<strong>Checkout</strong> and <strong>My Account</strong>.</small>"
+msgstr ""
+
+#: modules/widgets/other-widgets/class-basement-widget-recent-comments.php:28
+msgid "Your site&#8217;s most recent comments."
+msgstr ""
+
+#: modules/widgets/other-widgets/class-basement-widget-recent-comments.php:31
+#: modules/widgets/other-widgets/class-basement-widget-recent-comments.php:78
+msgid "Recent Comments"
+msgstr ""
+
+#: modules/widgets/other-widgets/class-basement-widget-recent-comments.php:159
+#: modules/widgets/widgets/class-basement-widget-cf.php:59
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:136
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:130
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:177
+#: modules/widgets/widgets/class-basement-widget-sharing.php:101
+msgid "Title:"
+msgstr ""
+
+#: modules/widgets/other-widgets/class-basement-widget-recent-comments.php:162
+msgid "Number of comments to show:"
+msgstr ""
+
+#: modules/widgets/other-widgets/class-basement-widget-recent-reviews.php:14
+msgid "Display a list of your most recent reviews on your site."
+msgstr ""
+
+#: modules/widgets/other-widgets/class-basement-widget-recent-reviews.php:16
+msgid "WooCommerce Recent Reviews"
+msgstr ""
+
+#: modules/widgets/other-widgets/class-basement-widget-recent-reviews.php:20
+msgid "Recent Reviews"
+msgstr ""
+
+#: modules/widgets/other-widgets/class-basement-widget-recent-reviews.php:29
+msgid "Number of reviews to show"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:458
+msgid "Custom CSS class"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "Visibility"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "Visible at"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "All pages"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "All pages expecting"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "No pages expecting"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "Select page to add"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "Homepage"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "Page"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "Post"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "Archive"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "Tag"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "Author"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "Search page"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "404 page"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "Page ID/Title/slug"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "Post ID/Title/slug"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "Category ID/Name/slug"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "Tag ID/Name"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "Add page"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "Selected pages"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:460
+msgid "No pages"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:470
+msgid "None"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:475 modules/widgets/widgets.php:390
+#: modules/widgets/widgets.php:557 modules/widgets/widgets.php:607
+#: modules/widgets/widgets.php:707
+msgid "Large devices"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:476
+msgid "Large/Medium devices"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:477
+msgid "Large/Small devices"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:478
+msgid "Large/Extra small devices"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:479
+msgid "Large/Medium/Small devices"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:480
+msgid "Large/Medium/Extra small devices"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:481
+msgid "Large/Small/Extra small devices"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:482
+msgid "Medium/Small/Extra small devices"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:483 modules/widgets/widgets.php:419
+#: modules/widgets/widgets.php:567 modules/widgets/widgets.php:617
+#: modules/widgets/widgets.php:716
+msgid "Medium devices"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:484
+msgid "Medium/Small devices"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:485
+msgid "Medium/Extra small devices"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:486 modules/widgets/widgets.php:450
+#: modules/widgets/widgets.php:579 modules/widgets/widgets.php:629
+#: modules/widgets/widgets.php:727
+msgid "Small devices"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:487
+msgid "Small/Extra small devices"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:488 modules/widgets/widgets.php:479
+#: modules/widgets/widgets.php:589 modules/widgets/widgets.php:639
+#: modules/widgets/widgets.php:736
+msgid "Extra small devices"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:498
+msgid "Visible on"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:507
+msgid "All users"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:508
+msgid "Only guests"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:509
+msgid "Only registered users"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:510
+msgid "Only administrator"
+msgstr ""
+
+#: modules/widgets/widgets-manager.php:513
+msgid "Visible for"
+msgstr ""
+
+#: modules/widgets/widgets.php:283
+msgid "Hide the title?"
+msgstr ""
+
+#: modules/widgets/widgets.php:289
+msgid "Add line below widget?"
+msgstr ""
+
+#: modules/widgets/widgets.php:292
+msgid "Aside"
+msgstr ""
+
+#: modules/widgets/widgets.php:302
+msgid "Widget Field"
+msgstr ""
+
+#: modules/widgets/widgets.php:346
+msgid "Appearance Settings"
+msgstr ""
+
+#: modules/widgets/widgets.php:350
+msgid "Border Settings"
+msgstr ""
+
+#: modules/widgets/widgets.php:356
+msgid "Widget Label"
+msgstr ""
+
+#: modules/widgets/widgets.php:535
+msgid "Height (in px)"
+msgstr ""
+
+#: modules/widgets/widgets.php:552
+msgid "Left border of the widget?"
+msgstr ""
+
+#: modules/widgets/widgets.php:559 modules/widgets/widgets.php:569
+#: modules/widgets/widgets.php:581 modules/widgets/widgets.php:591
+#: modules/widgets/widgets.php:609 modules/widgets/widgets.php:619
+#: modules/widgets/widgets.php:631 modules/widgets/widgets.php:641
+#: modules/widgets/widgets.php:709 modules/widgets/widgets.php:718
+#: modules/widgets/widgets.php:729 modules/widgets/widgets.php:738
+#: modules/widgets/widgets/class-basement-widget-cf.php:76
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:182
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:166
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:240
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: modules/widgets/widgets.php:560 modules/widgets/widgets.php:570
+#: modules/widgets/widgets.php:582 modules/widgets/widgets.php:592
+#: modules/widgets/widgets.php:610 modules/widgets/widgets.php:620
+#: modules/widgets/widgets.php:632 modules/widgets/widgets.php:642
+#: modules/widgets/widgets.php:710 modules/widgets/widgets.php:719
+#: modules/widgets/widgets.php:730 modules/widgets/widgets.php:739
+msgid "Show"
+msgstr ""
+
+#: modules/widgets/widgets.php:561 modules/widgets/widgets.php:571
+#: modules/widgets/widgets.php:583 modules/widgets/widgets.php:593
+#: modules/widgets/widgets.php:611 modules/widgets/widgets.php:621
+#: modules/widgets/widgets.php:633 modules/widgets/widgets.php:643
+#: modules/widgets/widgets.php:711 modules/widgets/widgets.php:720
+#: modules/widgets/widgets.php:731 modules/widgets/widgets.php:740
+msgid "Hide"
+msgstr ""
+
+#: modules/widgets/widgets.php:602
+msgid "Right border of the widget?"
+msgstr ""
+
+#: modules/widgets/widgets.php:747
+msgid "Visibility horizontal separator"
+msgstr ""
+
+#: modules/widgets/widgets.php:784
+msgid "Don't use width"
+msgstr ""
+
+#: modules/widgets/widgets.php:786
+msgid "Width "
+msgstr ""
+
+#: modules/widgets/widgets.php:790
+msgid "Don't use offset"
+msgstr ""
+
+#: modules/widgets/widgets.php:792
+msgid "Offset "
+msgstr ""
+
+#: modules/widgets/widgets.php:796
+msgid "Don't use push"
+msgstr ""
+
+#: modules/widgets/widgets.php:798
+msgid "Push "
+msgstr ""
+
+#: modules/widgets/widgets.php:802
+msgid "Don't use pull"
+msgstr ""
+
+#: modules/widgets/widgets.php:804
+msgid "Pull "
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-cf.php:7
+msgid "Displays contact form 7."
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-cf.php:10
+#: modules/widgets/widgets/class-basement-widget-cf.php:16
+msgid "Contact Form"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-cf.php:73
+msgid "Select Form:"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-cf.php:88
+#, php-format
+msgid "No contact form have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-cf.php:93
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:215
+#: modules/widgets/widgets/class-basement-widget-sharing.php:104
+msgid "Content:"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-cf.php:96
+#: modules/widgets/widgets/class-basement-widget-sharing.php:107
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-flickr.php:7
+msgid "Widget for popular social network Flickr."
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-flickr.php:10
+#: modules/widgets/widgets/class-basement-widget-flickr.php:19
+msgid "Flickr"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-flickr.php:49
+msgid "Flickr ID"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-flickr.php:53
+msgid "Images count"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:7
+msgid "A icon list."
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:12
+msgid "Horizontal Icon List"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:21
+msgid "Horizontal icons"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:140
+msgid "Icon size <small>(in px)</small>:"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:153
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:142
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:196
+msgid "Item:"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:155
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:200
+msgid "Icon:"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:158
+msgid "e.g.: fa fa-envelope"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:162
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:146
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:219
+msgid "Link:"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:164
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:148
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:223
+msgid "Custom Style Class:"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:166
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:150
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:221
+#: modules/widgets/widgets/class-basement-widget-image.php:105
+msgid "Open in new window?"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:167
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:151
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:225
+msgid "Remove"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:175
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:159
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:233
+msgid "Item"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:175
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:159
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:233
+msgid "Position/Action"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:199
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:183
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:257
+msgid "Add New Item"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:205
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:189
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:263
+msgid "Add Item"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-icons.php:213
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:194
+msgid "Alignment list:"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:7
+msgid "A link list."
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:10
+msgid "Horizontal Link List"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:17
+msgid "Horizontal links"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-links.php:144
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:208
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:213
+msgid "Text:"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:8
+msgid "A simple list."
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:11
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:19
+msgid "Horizontal List"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:203
+msgid "e.g.: fa fa-skype"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-horizontal-list.php:217
+msgid "Link title:"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-hr.php:7
+msgid "Displays the horizontal separator in the footer."
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-hr.php:10
+msgid "Horizontal separator"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-image.php:8
+msgid "Displays image and custom text."
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-image.php:12
+#: modules/widgets/widgets/class-basement-widget-image.php:36
+msgid "Image"
+msgstr "Изображение"
+
+#: modules/widgets/widgets/class-basement-widget-image.php:81
+msgid "Image URL"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-image.php:89
+msgid "Banner description"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-image.php:97
+msgid "Link URL"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-image.php:154
+msgid "Select Image"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-instagram.php:6
+msgid "Widget for popular social network Instagram."
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-instagram.php:9
+#: modules/widgets/widgets/class-basement-widget-instagram.php:18
+msgid "Instagram"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-instagram.php:64
+#: modules/widgets/widgets/class-basement-widget-twitter.php:87
+msgid "Widget Title"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-instagram.php:67
+msgid "User Name"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-instagram.php:70
+msgid "Client ID"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-instagram.php:70
+msgid ""
+"Follow this <a href=\"https://smashballoon.com/instagram-feed/find-instagram-"
+"user-id/\" target=\"_blank\">link</a> and get the Client ID."
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-instagram.php:73
+msgid "Access Token"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-instagram.php:73
+msgid ""
+"The Instagram Access Token is a long string of characters unique to your "
+"account that grants other applications access to your Instagram feed. <a "
+"href=\"http://instagram.pixelunion.net/\" target=\"_blank\" title=\"\">Get "
+"Your Instagram Access Token</a>."
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-instagram.php:76
+msgid "Number of displayed images"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-sharing.php:8
+msgid "Displays simple social sharing block."
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-sharing.php:110
+msgid "Set the view of social sharing block:"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-sharing.php:118
+msgid "Alignment the sharing block:"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-twitter.php:8
+msgid "Widget for Twitter embed content."
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-twitter.php:11
+#: modules/widgets/widgets/class-basement-widget-twitter.php:22
+msgid "Twitter"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-twitter.php:38
+msgid "There is some errors. Please check widgets page."
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-twitter.php:60
+msgid "Field is empty"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-twitter.php:63
+msgid "Widget ID can contains only numbers"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-twitter.php:97
+msgid "Embed"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-twitter.php:100
+msgid "Widget ID"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-twitter.php:100
+msgid ""
+"ID of your widget. First of all you need make a new one widget on page "
+"https://twitter.com/settings/widgets/new. After it copy and paste here ID of "
+"widget. You can find it after creating of widget in browser's URL field. It "
+"contents only numbers."
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-twitter.php:102
+msgid "Color Scheme"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-twitter.php:102
+msgid "This option only works for the Embed type."
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-twitter.php:103
+msgid "Tweet limit"
+msgstr ""
+
+#: modules/widgets/widgets/class-basement-widget-twitter.php:103
+msgid ""
+"Number of tweets. Leave blank if you don't want to limit tweet's number."
+msgstr ""
+
+#~ msgid "Image Class"
+#~ msgstr "Класс изображения"
+
+#~ msgid ""
+#~ "This CSS will be printed on every page header. Don't use <style> tags, "
+#~ "fill the field with plain CSS"
+#~ msgstr ""
+#~ "Это CSS будет использоваться в заголовке каждой страницы. Не использовать "
+#~ "теги <style>, вводите только правила CSS"
+
+#~ msgid ""
+#~ "This JavaScript will be printed on every pages footer. It's useful to add "
+#~ "Google Analytics or something like that. Don't use <script> tags, fill "
+#~ "the field with plain JavaScript"
+#~ msgstr ""
+#~ "Этот JavaScript будет выводиться в конце каждой страницы. Это удобно, "
+#~ "чтобы добавить Google Analytics или что-то подобное. Не используйте теги "
+#~ "<script>, вводите только код JavaScript."
+
+#~ msgid "Log out of this account"
+#~ msgstr "Выйти из этой учетной записи"
+
+#~ msgid "Log out"
+#~ msgstr "Выход"
+
+#~ msgid "You are currently logged in as %1$s. %2$s"
+#~ msgstr "Вы вошли как %1$s. %2$s"
+
+#~ msgid "Log In"
+#~ msgstr "Войти"
+
+#~ msgid ""
+#~ "Sorry, something went wrong and we can not complete registration. Please, "
+#~ "try later."
+#~ msgstr ""
+#~ "К сожалению, что-то пошло не так, и мы не можем закончить регистрацию. "
+#~ "Пожалуйста, попробуйте позже."
+
+#~ msgid "Username or email"
+#~ msgstr "Логин или E-mail"
+
+#~ msgid "Password"
+#~ msgstr "Пароль"
+
+#~ msgid "Remember me"
+#~ msgstr "Запомнить"
+
+#~ msgid "Log in"
+#~ msgstr "Вход"
+
+#~ msgid "Lost password?"
+#~ msgstr "Забыли пароль?"
+
+#~ msgid "Form data is expired. Reload the page and try again, please."
+#~ msgstr "Сессия закончилась! Обновите страницу и попробуйте снова"
+
+#~ msgid "Username or email are required."
+#~ msgstr "Требуется ввести имя пользователя или адрес электронной почты."
+
+#~ msgid "Password is required."
+#~ msgstr "Необходимо ввести пароль"
+
+#~ msgid "Sorry, the username you entered is incorrect. Try again, please."
+#~ msgstr ""
+#~ "К сожалению, имя пользователи введено неверно. Попробуйте еще раз, "
+#~ "пожалуйста."
+
+#~ msgid "Name"
+#~ msgstr "Название"
+
+#~ msgid "General name for the post type, usually plural"
+#~ msgstr "Общее название для типа записи, обычно во множественном  числе"
+
+#~ msgid "All projects"
+#~ msgstr "﻿Все проекты"
+
+#~ msgid "Projects categories"
+#~ msgstr "Категории проектов"

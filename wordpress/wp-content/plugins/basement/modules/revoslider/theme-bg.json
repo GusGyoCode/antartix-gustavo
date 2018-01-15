@@ -1,0 +1,295 @@
+[
+  {
+    "id": 5014,
+    "default": true,
+    "name": "Conico background",
+    "handle": "conico-background",
+    "markup": {
+      "arrows": ""
+    },
+    "css": {
+      "arrows": ".conico-background.tparrows{width:##width##px !important;height:##height##px !important;line-height:##height##px !important;background:transparent;opacity:##opacity##;font-size:##size##px;color:rgb(##arrowcolor##)}",
+      "bullets": ".conico-background.tp-bullets .tp-bullet .tp-bullet-inner {display:block;width: 8px;height: 8px;background: rgb(##bordercolor##);text-indent: -9999px;outline: none;font-size: 0;box-shadow: none;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;margin: 0 auto;overflow: hidden;-webkit-transition: all .2s ease;transition: all .2s ease;}.conico-background.tp-bullets .tp-bullet:hover .tp-bullet-inner, .conico-background.tp-bullets .tp-bullet.selected .tp-bullet-inner {background: rgb(##borderhovercolor##);}"
+    },
+    "settings": {
+      "width": {
+        "thumbs": "200",
+        "arrows": "160",
+        "bullets": "160",
+        "tabs": "160"
+      },
+      "height": {
+        "thumbs": "130",
+        "arrows": "160",
+        "bullets": "160",
+        "tabs": "31"
+      },
+      "original": {
+        "css": {
+          "arrows": ".conico-background.tparrows{width:##width##px !important;height:##height##px !important;line-height:##height##px !important;background:transparent;opacity:##opacity##;font-size:##size##px;color:rgb(##arrowcolor##)}",
+          "bullets": ".conico-background.tp-bullets .tp-bullet .tp-bullet-inner {display:block;width: 8px;height: 8px;background: rgb(##bordercolor##);text-indent: -9999px;outline: none;font-size: 0;box-shadow: none;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;margin: 0 auto;overflow: hidden;-webkit-transition: all .2s ease;transition: all .2s ease;}.conico-background.tp-bullets .tp-bullet:hover .tp-bullet-inner, .conico-background.tp-bullets .tp-bullet.selected .tp-bullet-inner {background: rgb(##borderhovercolor##);}"
+        },
+        "markup": {
+          "arrows": "",
+          "bullets": ""
+        }
+      },
+      "placeholders": [
+        {
+          "title": "Arrow size",
+          "handle": "size",
+          "type": "custom",
+          "nav-type": "arrows",
+          "data": {
+            "custom": "60"
+          }
+        },
+        {
+          "title": "Opacity",
+          "handle": "opacity",
+          "type": "custom",
+          "nav-type": "arrows",
+          "data": {
+            "custom": "1"
+          }
+        },
+        {
+          "title": "Width",
+          "handle": "width",
+          "type": "custom",
+          "nav-type": "arrows",
+          "data": {
+            "custom": "60"
+          }
+        },
+        {
+          "title": "Height",
+          "handle": "height",
+          "type": "custom",
+          "nav-type": "arrows",
+          "data": {
+            "custom": "50"
+          }
+        },
+        {
+          "title": "Arrow-Color",
+          "handle": "arrowcolor",
+          "type": "color",
+          "nav-type": "arrows",
+          "data": {
+            "color": "#1a1a1a"
+          }
+        },
+
+
+
+
+        {
+          "title": "Background color",
+          "handle": "bordercolor",
+          "type": "color",
+          "nav-type": "bullets",
+          "data": {
+            "color": "#b3b3b3"
+          }
+        },
+        {
+          "title": "Background hover/active color",
+          "handle": "borderhovercolor",
+          "type": "color",
+          "nav-type": "bullets",
+          "data": {
+            "color": "#da3636"
+          }
+        }
+
+
+
+
+
+      ],
+      "presets": [
+        {
+          "name": "Conico 1",
+          "handle": "theme_1",
+          "type": "arrows",
+          "values": {
+            "ph-conico-background-arrows-size-custom": "60",
+            "ph-conico-background-arrows-arrowcolor-color": "#7f7f7f",
+            "ph-conico-background-arrows-opacity-custom": "0.5"
+          }
+        },
+        {
+          "name": "Conico 2",
+          "handle": "theme_2",
+          "type": "arrows",
+          "values": {
+            "ph-conico-background-arrows-size-custom": "60",
+            "ph-conico-background-arrows-arrowcolor-color": "#ffffff",
+            "ph-conico-background-arrows-opacity-custom": "1"
+          }
+        },
+
+
+
+
+
+
+
+
+
+
+
+        {
+          "name": "Conico 3",
+          "handle": "theme_3",
+          "type": "arrows",
+          "values": {
+            "ph-conico-background-arrows-size-custom": "48",
+            "ph-conico-background-arrows-arrowcolor-color": "#1a1a1a",
+            "ph-conico-background-arrows-opacity-custom": "1",
+            "ph-conico-background-arrows-width-custom": "45",
+            "ph-conico-background-arrows-height-custom": "36"
+          }
+        },
+        {
+          "name": "Conico 4",
+          "handle": "theme_4",
+          "type": "arrows",
+          "values": {
+            "ph-conico-background-arrows-size-custom": "48",
+            "ph-conico-background-arrows-arrowcolor-color": "#7f7f7f",
+            "ph-conico-background-arrows-opacity-custom": "0.5",
+            "ph-conico-background-arrows-width-custom": "45",
+            "ph-conico-background-arrows-height-custom": "36"
+          }
+        },
+        {
+          "name": "Conico 5",
+          "handle": "theme_5",
+          "type": "arrows",
+          "values": {
+            "ph-conico-background-arrows-size-custom": "48",
+            "ph-conico-background-arrows-arrowcolor-color": "#ffffff",
+            "ph-conico-background-arrows-opacity-custom": "1",
+            "ph-conico-background-arrows-width-custom": "45",
+            "ph-conico-background-arrows-height-custom": "36"
+          }
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+          "name": "Conico 6",
+          "handle": "theme_6",
+          "type": "arrows",
+          "values": {
+            "ph-conico-background-arrows-size-custom": "69",
+            "ph-conico-background-arrows-arrowcolor-color": "#1a1a1a",
+            "ph-conico-background-arrows-opacity-custom": "1",
+            "ph-conico-background-arrows-width-custom": "69",
+            "ph-conico-background-arrows-height-custom": "55"
+          }
+        },
+        {
+          "name": "Conico 7",
+          "handle": "theme_7",
+          "type": "arrows",
+          "values": {
+            "ph-conico-background-arrows-size-custom": "69",
+            "ph-conico-background-arrows-arrowcolor-color": "#7f7f7f",
+            "ph-conico-background-arrows-opacity-custom": "0.5",
+            "ph-conico-background-arrows-width-custom": "69",
+            "ph-conico-background-arrows-height-custom": "55"
+          }
+        },
+        {
+          "name": "Conico 8",
+          "handle": "theme_8",
+          "type": "arrows",
+          "values": {
+            "ph-conico-background-arrows-size-custom": "69",
+            "ph-conico-background-arrows-arrowcolor-color": "#ffffff",
+            "ph-conico-background-arrows-opacity-custom": "1",
+            "ph-conico-background-arrows-width-custom": "69",
+            "ph-conico-background-arrows-height-custom": "55"
+          }
+        },
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+        {
+          "name": "Conico 1",
+          "handle": "theme_1",
+          "type": "bullets",
+          "values": {
+            "ph-conico-bg-bullets-bordercolor-color": "#e6e6e6",
+            "ph-conico-bg-bullets-borderhovercolor-color": "#da3636"
+          }
+        },
+        {
+          "name": "Conico 2",
+          "handle": "theme_2",
+          "type": "bullets",
+          "values": {
+            "ph-conico-bg-bullets-bordercolor-color": "#b3b3b3",
+            "ph-conico-bg-bullets-borderhovercolor-color": "#da3636"
+          }
+        },
+        {
+          "name": "Conico 3",
+          "handle": "theme_3",
+          "type": "bullets",
+          "values": {
+            "ph-conico-bg-bullets-bordercolor-color": "#808080",
+            "ph-conico-bg-bullets-borderhovercolor-color": "#da3636"
+          }
+        }
+      ]
+    }
+  }
+]

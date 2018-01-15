@@ -1,0 +1,593 @@
+.basement-carousel-wrap-block
+  .basement-carousel-container
+    position: relative
+  .basement-carousel-merge-controls
+    position: relative
+    .basement-carousel-arrows
+      .basement-carousel-paginate-dots
+        padding: 0 0 0 0
+      .basement-carousel-paginate-number
+        padding: 0 0 1px 0
+      .basement-carousel-paginate-dots,
+      .basement-carousel-paginate-number
+        margin: 0 19px
+        width: auto !important
+        text-align: center !important
+        display: inline-block !important
+        float: none !important
+        *display: inline
+        zoom: 1
+        vertical-align: middle
+        @media (max-width: 768px)
+          margin: 0 5px
+  .basement-carousel-inline-controls
+    position: relative
+    overflow: hidden
+    min-height: 55px
+    .basement-vertical-controls
+      top: 50% !important
+      float: none !important
+      position: absolute !important
+      -webkit-transform: translateY(-50%)
+      -ms-transform: translateY(-50%)
+      transform: translateY(-50%)
+  .basement-carousel-row[data-stretch="strow_cont"]
+    .basement-carousel-help-row
+      &.basement-help-outside.basement-help-side.basement-help-small.basement-help-bg,
+      &.basement-help-inside.basement-help-side.basement-help-small.basement-help-bg
+        padding-left: 46px
+        padding-right: 46px
+      &.basement-help-outside.basement-help-side.basement-help-medium.basement-help-bg,
+      &.basement-help-inside.basement-help-side.basement-help-medium.basement-help-bg
+        padding-left: 60px
+        padding-right: 60px
+      &.basement-help-outside.basement-help-side.basement-help-large.basement-help-bg,
+      &.basement-help-inside.basement-help-side.basement-help-large.basement-help-bg
+        padding-left: 75px
+        padding-right: 75px
+      &.basement-help-outside.basement-help-side.basement-help-small.basement-help-wobg,
+      &.basement-help-inside.basement-help-side.basement-help-small.basement-help-wobg
+        padding-left: 46px
+        padding-right: 46px
+      &.basement-help-outside.basement-help-side.basement-help-medium.basement-help-wobg,
+      &.basement-help-inside.basement-help-side.basement-help-medium.basement-help-wobg
+        padding-left: 60px
+        padding-right: 60px
+      &.basement-help-outside.basement-help-side.basement-help-large.basement-help-wobg,
+      &.basement-help-inside.basement-help-side.basement-help-large.basement-help-wobg
+        padding-left: 75px
+        padding-right: 75px
+  .basement-carousel-help-row
+    &.basement-help-outside.basement-help-side
+      position: relative
+    &.basement-help-inside.basement-help-side
+      position: relative
+    &.basement-help-inrow
+      position: relative
+    &.basement-help-inrow.basement-help-small.basement-help-bg
+      padding-left: 46px
+      padding-right: 46px
+    &.basement-help-inrow.basement-help-medium.basement-help-bg
+      padding-left: 60px
+      padding-right: 60px
+    &.basement-help-inrow.basement-help-large.basement-help-bg
+      padding-left: 75px
+      padding-right: 75px
+    &.basement-help-inrow.basement-help-small.basement-help-wobg
+      padding-left: 46px
+      padding-right: 46px
+    &.basement-help-inrow.basement-help-medium.basement-help-wobg
+      padding-left: 60px
+      padding-right: 60px
+    &.basement-help-inrow.basement-help-large.basement-help-wobg
+      padding-left: 75px
+      padding-right: 75px
+  .basement-carousel
+    display: block
+    position: relative
+    >div
+      float: left
+      display: block
+      margin: 0
+      padding: 25px 0
+      position: relative
+      overflow: hidden
+      >.row
+        margin-left: 0
+        margin-right: 0
+        &:nth-last-child(2)
+          margin-bottom: 0
+        >div[class*="col-"]
+          @media (min-width: 768px)
+            margin-bottom: 0
+  /*-- Arrow controls --*/
+  .basement-full-width-inside-side
+    //height: 4px
+  .basement-carousel-arrows
+    font-size: 0
+    line-height: 0
+    padding: 15px 0 15px 0
+    >a
+      display: inline-block
+      *display: inline
+      zoom: 1
+      vertical-align: middle
+      z-index: 3
+      text-align: center
+      background-color: transparent
+      cursor: pointer
+      font-weight: normal !important
+      white-space: nowrap
+      border: 0
+      position: relative
+      transition: none !important
+      border: none
+      &:after
+        font-family: "aiscon"
+
+      &:first-child:after
+        content: '\41'
+        //left: 48%
+        margin-top: 1px
+      &:last-child:after
+        content: '\42'
+        //left: 52%
+        margin-top: 1px
+      &:first-child
+        margin-right: 17px
+        @media (max-width: 768px)
+          margin-right: 15px
+        @media (max-width: 400px)
+          //display: none !important
+      &:last-child
+        margin-left: 17px
+        @media (max-width: 768px)
+          margin-left: 15px
+        @media (max-width: 400px)
+          //display: none !important
+      &:hover:before
+        opacity: 1
+      &:hover:after
+        //color: #fff !important
+    //&.basement-carousel-arrow-outside.basement-carousel-arrow-side
+      >a.basement-carousel-arrow-prev
+        -webkit-border-radius: 0 2px 2px 0
+        -moz-border-radius: 0 2px 2px 0
+        border-radius: 0 2px 2px 0
+      >a.basement-carousel-arrow-next
+        -webkit-border-radius: 2px 0 0 2px
+        -moz-border-radius: 2px 0 0 2px
+        border-radius: 2px 0 0 2px
+    &.basement-carousel-arrow-outside.basement-carousel-arrow-side
+      padding: 0
+      position: absolute
+      width: 100%
+      left: 0
+      right: 0
+      top: 50%
+      height: 1px
+      z-index: 1
+      //-webkit-transform: translateY(-50%)
+      //-ms-transform: translateY(-50%)
+      //transform: translateY(-50%)
+      >a
+        //-webkit-transform: translateY(-50%) translateZ(0) scale(1.0, 1.0)
+        //-ms-transform: translateY(-50%)
+        //transform: translateY(-50%)  translateZ(0) scale(1.0, 1.0)
+        //-webkit-backface-visibility: hidden
+        //-moz-backface-visibility: hidden
+        //-ms-backface-visibility: hidden
+        //backface-visibility: hidden
+        &:first-child
+          float: left
+          margin-left: 17px
+        &:last-child
+          margin-right: 17px
+          float: right
+    &.basement-carousel-arrow-inside.basement-carousel-arrow-side
+      padding: 0
+      position: absolute
+      width: 100%
+      left: 0
+      height: 1px
+      right: 0
+      top: 50%
+      z-index: 77
+      //-webkit-transform: translateY(-50%)
+      //-ms-transform: translateY(-50%)
+      //transform: translateY(-50%)
+      >a
+        //-webkit-transform: translateY(-50%) translateZ(0) scale(1.0, 1.0)
+        //-ms-transform: translateY(-50%)
+        //transform: translateY(-50%)  translateZ(0) scale(1.0, 1.0)
+        //-webkit-backface-visibility: hidden
+        //-moz-backface-visibility: hidden
+        //-ms-backface-visibility: hidden
+        //backface-visibility: hidden
+        &:first-child
+          float: left
+          margin-left: 17px
+        &:last-child
+          margin-right: 17px
+          float: right
+    &.basement-carousel-arrow-inrow
+      padding: 0
+      >a
+        display: block
+        position: absolute
+        top: 50%
+        //-webkit-transform: translateY(-50%) translateZ(0) scale(1.0, 1.0)
+        //-ms-transform: translateY(-50%)
+        //transform: translateY(-50%)  translateZ(0) scale(1.0, 1.0)
+        //-webkit-backface-visibility: hidden
+        //-moz-backface-visibility: hidden
+        //-ms-backface-visibility: hidden
+        //backface-visibility: hidden
+        &:first-child
+          left: 0
+        &:last-child
+          right: 0
+    &.basement-carousel-arrow-left
+      float: left
+      left: 0
+      z-index: 2
+      //padding-left: 21px
+      position: relative
+    &.basement-carousel-arrow-right
+      float: right
+      right: 0
+      //padding-right: 21px
+      z-index: 2
+      position: relative
+    &.basement-carousel-arrow-center
+      text-align: center
+      width: 100%
+    &.basement-carousel-arrow-nobg > a,
+    &.basement-carousel-arrow-nobg > a:after
+      -webkit-transition: all .2s ease
+      transition: all .2s ease
+    &.basement-carousel-arrow-nobg > a:before
+      display: none !important
+    &.basement-carousel-arrow-nobg > a:after
+      left: 50% !important
+    &.basement-carousel-arrow-nobg > a:hover:after
+      //color: rgb(237, 85, 45) !important
+    &.basement-carousel-arrow-nobg > a:first-child:after
+      content: '\47'
+    &.basement-carousel-arrow-nobg > a:last-child:after
+      content: '\44'
+    &.basement-carousel-arrow-nobg.basement-carousel-arrow-small,
+    &.basement-carousel-arrow-nobg.basement-carousel-arrow-medium,
+    &.basement-carousel-arrow-nobg.basement-carousel-arrow-large
+      >a
+        &:after
+          position: static
+          -webkit-transform: translate(0,0)
+          transform: translate(0,0)
+
+
+
+    &.basement-carousel-arrow-nobg.basement-carousel-arrow-small
+      >a
+        height: 20px
+        width: 52px
+        line-height: 20px !important
+        font-size: 45px
+        overflow: hidden
+    &.basement-carousel-arrow-nobg.basement-carousel-arrow-medium
+      >a
+        height: 25px
+        width: 56px
+        line-height: 25px !important
+        font-size: 56px
+        overflow: hidden
+    &.basement-carousel-arrow-nobg.basement-carousel-arrow-large
+      >a
+        height: 27px
+        width: 70px
+        line-height: 26px !important
+        font-size: 70px
+        overflow: hidden
+
+
+
+
+    &.basement-carousel-arrow-light
+      >a
+        color: rgba(127,127,127,0.5)
+        //&:hover
+          background-color: #da3636
+          color: #fff
+    &.basement-carousel-arrow-nobg.basement-carousel-arrow-light
+      >a
+        color: rgba(127,127,127,0.5)
+        //&:hover
+          color: #da3636
+    &.basement-carousel-arrow-standart
+      >a
+        color: #1a1a1a
+        //&:hover
+          background-color: #da36361a1a1a
+          color: #fff
+    &.basement-carousel-arrow-nobg.basement-carousel-arrow-standart
+      >a
+        color: #1a1a1a
+        //&:hover
+          color: #da3636
+    &.basement-carousel-arrow-dark
+      >a
+        color: #fff
+        //&:hover
+          background-color: #da3636
+          color: #fff
+    &.basement-carousel-arrow-nobg.basement-carousel-arrow-dark
+      >a
+        color: #fff
+        //&:hover
+          color: #da3636
+
+
+
+    &.basement-carousel-arrow-small
+      >a
+        height: 20px
+        width: 53px
+        line-height: 20px
+        font-size: 52px
+        overflow: hidden
+    &.basement-carousel-arrow-medium
+      >a
+        height: 25px
+        width: 61px
+        line-height: 25px
+        font-size: 60px
+        overflow: hidden
+    &.basement-carousel-arrow-large
+      >a
+        height: 27px
+        width: 71px
+        line-height: 26px
+        font-size: 70px
+        overflow: hidden
+
+
+  .basement-carousel-merge-controls > div.basement-carousel-dots-number
+    white-space: nowrap !important
+
+  //.basement-carousel-merge-controls > div:not(.basement-carousel-dots-number)
+    a[class*="basement-carousel-arrow-"]
+      @media (max-width: 400px)
+        display: none !important
+
+
+  //.basement-carousel-inline-controls
+    a[class*="basement-carousel-arrow-"]
+      @media (max-width: 400px)
+        opacity: 0 !important
+        visibility: hidden !important
+        width: 0 !important
+
+  /*-- Number controls --*/
+  .basement-carousel-paginate-number
+    padding: 12px 0 13px 0
+    line-height: 1
+    font-size: 8px
+    span
+      margin: 0 6px 0
+      display: inline-block
+      vertical-align: middle
+    ins
+      text-decoration: none
+      display: inline-block
+      vertical-align: middle
+      position: relative
+      font-size: 17px
+      font-weight: 700
+      top: -1px
+    &.basement-carousel-paginate-small
+      ins
+        font-size: 16px
+
+
+
+    &.basement-carousel-paginate-light
+      color: rgba(127,127,127,0.5)
+    &.basement-carousel-paginate-standart
+      color: #1a1a1a
+    &.basement-carousel-paginate-dark
+      color: rgba(255,255,255,1)
+
+
+
+    &.basement-carousel-paginate-small span
+      font-size: 16px
+    &.basement-carousel-paginate-medium span
+      font-size: 18px
+    &.basement-carousel-paginate-large span
+      font-size: 19px
+
+
+
+    &.basement-carousel-paginate-left
+      float: left
+      left: 0
+      //padding-left: 25px
+      z-index: 2
+      position: relative
+    &.basement-carousel-paginate-right
+      right: 0
+      z-index: 2
+      //padding-right: 25px
+      position: relative
+      float: right
+    &.basement-carousel-paginate-center
+      text-align: center
+      width: 100%
+
+
+
+
+  /*-- Dots controls --*/
+  .basement-carousel-paginate-dots
+    padding: 15px 0 15px 0
+    >a
+      text-indent: -9999px
+      outline: none
+      font-size: 0
+      box-shadow: none
+      position: relative
+      -webkit-border-radius: 50%
+      -moz-border-radius: 50%
+      border-radius: 50%
+      margin: 0 9px
+      display: inline-block
+      *display: inline
+      zoom: 1
+      transition: none !important
+      vertical-align: middle
+      border: 2px solid transparent
+      @media (max-width: 768px)
+        margin: 0 8px
+      &:after
+        display: none
+        position: absolute
+        font-family: "aiscon"
+        left: 50%
+        top: 50%
+        text-indent: 0
+        -ms-transform: translate(-50%, -50%)
+        transform: translate(-50%, -50%)
+        content: "\4e"
+      &.selected
+        border: transparent
+        &:after
+          display: block
+
+
+
+    &.basement-carousel-paginate-light
+      >a
+        color: rgba(127,127,127,0.5)
+        border-color: rgba(127,127,127,0.5)
+    &.basement-carousel-paginate-standart
+      >a
+        color: rgba(26,26,26,1)
+        border-color: rgba(26,26,26,1)
+    &.basement-carousel-paginate-dark
+      >a
+        color: rgba(255,255,255,1)
+        border-color: rgba(255,255,255,1)
+
+
+
+
+
+
+    &.basement-carousel-paginate-small
+      >a
+        font-size: 10px
+        width: 10px
+        height: 10px
+        //&.selected
+          top: -1px
+          width: 16px
+          height: 16px
+    &.basement-carousel-paginate-medium
+      >a
+        font-size: 12px
+        width: 12px
+        height: 12px
+        //&.selected
+          width: 19px
+          height: 19px
+    &.basement-carousel-paginate-large
+      >a
+        font-size: 13px
+        width: 14px
+        height: 14px
+
+
+
+    &.basement-carousel-paginate-left
+      float: left
+      left: 0
+      //padding-left: 25px
+      z-index: 2
+      position: relative
+    &.basement-carousel-paginate-right
+      float: right
+      right: 0
+      //padding-right: 25px
+      z-index: 2
+      position: relative
+    &.basement-carousel-paginate-center
+      text-align: center
+      width: 100%
+
+
+
+.basement-carousel-arrow-nobg
+  >a:first-child + a
+    margin-left: 25px !important
+
+
+.basement-carousel-arrow-bg
+  >a:first-child + a
+    margin-left: 10px !important
+
+
+.basement-carousel-wrap-block.basement-carousel-stretched
+  .basement-carousel-arrows
+    &.basement-carousel-arrow-left
+      padding-left: 21px
+    &.basement-carousel-arrow-right
+      padding-right: 21px
+  .basement-carousel-paginate-dots:first-child,
+  .basement-carousel-paginate-dots:last-child
+    &.basement-carousel-paginate-left
+      padding-left: 25px
+    &.basement-carousel-paginate-right
+      padding-right: 25px
+  .basement-carousel-paginate-number:first-child,
+  .basement-carousel-paginate-number:last-child
+    &.basement-carousel-paginate-left
+      padding-left: 25px
+    &.basement-carousel-paginate-right
+      padding-right: 25px
+
+
+
+.basement-carousel-wrap-block:not(.basement-carousel-stretched)
+  .basement-carousel-paginate-dots
+    &.basement-carousel-paginate-left
+      a:first-child
+        margin-left: 0
+    &.basement-carousel-paginate-right
+      a:last-child
+        margin-right: 0
+  .basement-carousel-paginate-number
+    &.basement-carousel-paginate-left
+      span:first-child
+        margin-left: 0
+      span:last-child
+        margin-right: 0
+    &.basement-carousel-paginate-right
+      span:first-child
+        margin-left: 0
+      span:last-child
+        margin-right: 0
+  .basement-carousel-merge-controls
+    .basement-carousel-paginate-dots
+      &.basement-carousel-paginate-left
+        a:last-child
+          margin-right: 0 !important
+
+
+//.is-firefox .basement-carousel-wrap-block .basement-carousel-paginate-dots > a::after
+  margin-top: -2px
+
+
+
+@import "components/control-visibility"
+
+

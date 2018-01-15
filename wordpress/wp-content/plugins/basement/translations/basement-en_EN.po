@@ -1,0 +1,493 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Basement Framework\n"
+"POT-Creation-Date: 2015-01-31 17:30+0300\n"
+"PO-Revision-Date: 2015-01-31 17:30+0300\n"
+"Last-Translator: Maks Sherstobitow <maksim.sherstobitow@gmail.com>\n"
+"Language-Team: Basement <maksim.sherstobitow@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr__;esc_attr_x;esc_html__;esc_html_e;esc_html_x\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: draft/draft.php:22
+msgid "Image Class"
+msgstr "Image Class"
+
+#: modules/admin/admin.php:53
+msgid "You do not have sufficient permissions to access this page."
+msgstr "You do not have sufficient permissions to access this page."
+
+#: modules/admin/admin.php:62
+msgid "Sorry, the page is not found."
+msgstr "Sorry, the page is not found."
+
+#: modules/asset/asset.php:118
+msgid "Inline assets"
+msgstr "Inline assets"
+
+#: modules/asset/asset.php:121
+msgid "Inline CSS"
+msgstr "Inline CSS"
+
+#: modules/asset/asset.php:122
+msgid "This CSS will be printed on every page header. Don't use <style> tags, fill the field with plain CSS"
+msgstr "This CSS will be printed on every page header. Don't use <style> tags, fill the field with plain CSS"
+
+#: modules/asset/asset.php:133
+msgid "Inline JavaScript"
+msgstr "Inline JavaScript"
+
+#: modules/asset/asset.php:134
+msgid "This JavaScript will be printed on every pages footer. It's useful to add Google Analytics or something like that. Don't use <script> tags, fill the field with plain JavaScript"
+msgstr "This JavaScript will be printed on every pages footer. It's useful to add Google Analytics or something like that. Don't use <script> tags, fill the field with plain JavaScript"
+
+#: modules/comments/comments.php:35 modules/comments/comments.php:69
+msgid "One comment"
+msgstr "One comment"
+
+#: modules/cpt/cpt.php:122
+msgid "Parameters"
+msgstr "Parameters"
+
+#: modules/cpt/cpt.php:182
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr "Edit &#8220;%s&#8221;"
+
+#: modules/form/form.php:175 modules/form/input/input.php:63
+msgid "Input config is broken"
+msgstr "Input config is broken"
+
+#: modules/form/input/audio.php:23
+msgid "Artist"
+msgstr "Artist"
+
+#: modules/form/input/audio.php:26
+msgid "Album"
+msgstr "Album"
+
+#: modules/form/input/audio.php:29
+msgid "Title"
+msgstr "Title"
+
+#: modules/form/input/audio.php:74
+msgid "Choose audio"
+msgstr "Choose audio"
+
+#: modules/form/input/audio.php:78
+msgid "Delete audio"
+msgstr "Delete audio"
+
+#: modules/form/input/background.php:11
+msgid "Background input config is broken"
+msgstr "Background input config is broken"
+
+#: modules/form/input/background.php:53
+msgid "Choose Image"
+msgstr "Choose Image"
+
+#: modules/form/input/background.php:64
+msgid "Delete Image"
+msgstr "Delete Image"
+
+#: modules/form/input/background.php:79
+msgid "Color"
+msgstr "Color"
+
+#: modules/form/input/background.php:93
+msgid "Opacity"
+msgstr "Opacity"
+
+#: modules/form/input/background.php:114
+msgid "Repeat"
+msgstr "Repeat"
+
+#: modules/form/input/background.php:120
+msgid "Do not repeat"
+msgstr "Do not repeat"
+
+#: modules/form/input/background.php:121
+msgid "Tile"
+msgstr "Tile"
+
+#: modules/form/input/background.php:122
+msgid "Tile horizontally"
+msgstr "Tile horizontally"
+
+#: modules/form/input/background.php:123
+msgid "Tile vertically"
+msgstr "Tile vertically"
+
+#: modules/form/input/background.php:144
+msgid "Attachment"
+msgstr "Attachment"
+
+#: modules/form/input/background.php:150
+msgid "Scroll"
+msgstr "Scroll"
+
+#: modules/form/input/background.php:151
+msgid "Fixed"
+msgstr "Fixed"
+
+#: modules/form/input/background.php:175
+msgid "Position"
+msgstr "Position"
+
+#: modules/form/input/background.php:181
+msgid "Left & top"
+msgstr "Left & top"
+
+#: modules/form/input/background.php:182
+msgid "Left & center"
+msgstr "Left & center"
+
+#: modules/form/input/background.php:183
+msgid "Left & bottom"
+msgstr "Left & bottom"
+
+#: modules/form/input/background.php:184
+msgid "Center & top"
+msgstr "Center & top"
+
+#: modules/form/input/background.php:185
+msgid "Center & center"
+msgstr "Center & center"
+
+#: modules/form/input/background.php:186
+msgid "Center & bottom"
+msgstr "Center & bottom"
+
+#: modules/form/input/background.php:187
+msgid "Right & top"
+msgstr "Right & top"
+
+#: modules/form/input/background.php:188
+msgid "Right & center"
+msgstr "Right & center"
+
+#: modules/form/input/background.php:189
+msgid "Right & bottom"
+msgstr "Right & bottom"
+
+#: modules/form/input/background.php:210
+msgid "Size"
+msgstr "Size"
+
+#: modules/form/input/background.php:216
+msgid "Auto"
+msgstr "Auto"
+
+#: modules/form/input/background.php:217
+msgid "Cover"
+msgstr "Cover"
+
+#: modules/form/input/background.php:218
+msgid "Contain"
+msgstr "Contain"
+
+#: modules/form/input/checkbox/checkbox.php:10
+#: modules/form/input/radio/radio.php:10
+msgid "Checkbox input config is broken"
+msgstr "Checkbox input config is broken"
+
+#: modules/form/input/checkbox/group.php:10
+msgid "Checkboxes group config is broken"
+msgstr "Checkboxes group config is broken"
+
+#: modules/form/input/checkbox/icon/group.php:10
+msgid "Checkboxes icons config is broken"
+msgstr "Checkboxes icons config is broken"
+
+#: modules/form/input/checkbox/icon/icon.php:10
+msgid "Checkboxes icon config is broken"
+msgstr "Checkboxes icon config is broken"
+
+#: modules/form/input/checkbox/post/list/sortable.php:10
+msgid "Sortable posts list checboxes config is broken"
+msgstr "Sortable posts list checboxes config is broken"
+
+#: modules/form/input/checkbox/post/list/sortable.php:43
+msgid "Drag'n'drop to change order"
+msgstr "Drag'n'drop to change order"
+
+#: modules/form/input/checkbox/post/list/sortable.php:61
+msgid "Click to select/deselect"
+msgstr "Click to select/deselect"
+
+#: modules/form/input/checkbox/post/list/sortable.php:90
+#: modules/form/input/radio/post/list.php:91
+msgid "Will be opened in new tab"
+msgstr "Will be opened in new tab"
+
+#: modules/form/input/codeeditor.php:10
+msgid "Code editor config is broken"
+msgstr "Code editor config is broken"
+
+#: modules/form/input/colorpicker.php:10
+msgid "Color picker group config is broken"
+msgstr "Color picker group config is broken"
+
+#: modules/form/input/editor.php:10
+msgid "Editor config is broken"
+msgstr "Editor config is broken"
+
+#: modules/form/input/image.php:61
+msgid "Choose image"
+msgstr "Choose image"
+
+#: modules/form/input/image.php:65
+msgid "Delete image"
+msgstr "Delete image"
+
+#: modules/form/input/media/button/delete.php:13
+msgid "Delete"
+msgstr "Delete"
+
+#: modules/form/input/media/button/upload.php:13
+msgid "Upload"
+msgstr "Upload"
+
+#: modules/form/input/radio/group.php:10
+msgid "Radios group config is broken"
+msgstr "Radios group config is broken"
+
+#: modules/form/input/radio/icon/group.php:10
+msgid "Radios icons group config is broken"
+msgstr "Radios icons group config is broken"
+
+#: modules/form/input/radio/icon/icon.php:10
+msgid "Radios icons config is broken"
+msgstr "Radios icons config is broken"
+
+#: modules/form/input/radio/post/list.php:10
+msgid "Posts list radios config is broken"
+msgstr "Posts list radios config is broken"
+
+#: modules/form/input/radio/post/list.php:62
+msgid "Click to select"
+msgstr "Click to select"
+
+#: modules/form/input/select.php:10
+msgid "Select group config is broken"
+msgstr "Select group config is broken"
+
+#: modules/form/input/textarea.php:10
+msgid "Textarea config is broken"
+msgstr "Textarea config is broken"
+
+#: modules/settings/theme.php:51 modules/settings/theme.php:52
+msgid "Theme Settings"
+msgstr "Theme Settings"
+
+#: modules/settings/theme.php:64
+msgid "Theme settings"
+msgstr "Theme settings"
+
+#~ msgid "Image"
+#~ msgstr "Image"
+
+#~ msgid "Basement"
+#~ msgstr "Basement"
+
+#~ msgid "Log out of this account"
+#~ msgstr "Log out of this account"
+
+#~ msgid "Log out"
+#~ msgstr "Log out"
+
+#~ msgid "You are currently logged in as %1$s. %2$s"
+#~ msgstr "You are currently logged in as %1$s. %2$s"
+
+#~ msgid "Log In"
+#~ msgstr "Log In"
+
+#~ msgid "Sorry, something sent wrong and we can not complete registration. Please, try later."
+#~ msgstr "Sorry, something sent wrong and we can not complete registration. Please, try later."
+
+#~ msgid "Username or email"
+#~ msgstr "Username or email"
+
+#~ msgid "Password"
+#~ msgstr "Password"
+
+#~ msgid "Remember me"
+#~ msgstr "Remember me"
+
+#~ msgid "Log in"
+#~ msgstr "Log in"
+
+#~ msgid "Lost password?"
+#~ msgstr "Lost password?"
+
+#~ msgid "Form data is expired. Reload the page and try again, please."
+#~ msgstr "Form data is expired. Reload the page and try again, please."
+
+#~ msgid "Username or email are required."
+#~ msgstr "Username or email are required."
+
+#~ msgid "Password is required."
+#~ msgstr "Password is required."
+
+#~ msgid "Sorry, the username you entered is incorrect. Try again, please."
+#~ msgstr "Sorry, the username you entered is incorrect. Try again, please."
+
+#~ msgid "Sorry, the password you entered is incorrect. Try again, please."
+#~ msgstr "Sorry, the password you entered is incorrect. Try again, please."
+
+#~ msgid "The e-mail could not be sent."
+#~ msgstr "The e-mail could not be sent."
+
+#~ msgid "Possible reason: your host may have disabled the mail() function."
+#~ msgstr "Possible reason: your host may have disabled the mail() function."
+
+#~ msgid "Sorry, the user with login or email you provided wasn't found."
+#~ msgstr "Sorry, the user with login or email you provided wasn't found."
+
+#~ msgid "Sorry, your request didn't pass a security check."
+#~ msgstr "Sorry, your request didn't pass a security check."
+
+#~ msgid "Sorry, it is not allowed to reset password."
+#~ msgstr "Sorry, it is not allowed to reset password."
+
+#~ msgid "Sorry, undefined error occured"
+#~ msgstr "Sorry, undefined error occured"
+
+#~ msgid "To reset your password use the link from letter sent to your email"
+#~ msgstr "To reset your password use the link from letter sent to your email"
+
+#~ msgid "Username or E-mail:"
+#~ msgstr "Username or E-mail:"
+
+#~ msgid "Get New Password"
+#~ msgstr "Get New Password"
+
+#~ msgid "Sorry, the link data is broken. Try to request new password reset link, please."
+#~ msgstr "Sorry, the link data is broken. Try to request new password reset link, please."
+
+#~ msgid "Fill poth password fields, please."
+#~ msgstr "Fill poth password fields, please."
+
+#~ msgid "Passwords you've entered are not identical."
+#~ msgstr "Passwords you've entered are not identical."
+
+#~ msgid "Your password is successfully changed."
+#~ msgstr "Your password is successfully changed."
+
+#~ msgid "New password:"
+#~ msgstr "New password:"
+
+#~ msgid "Repeat password:"
+#~ msgstr "Repeat password:"
+
+#~ msgid "Set New Password"
+#~ msgstr "Set New Password"
+
+#~ msgid "Someone requested that the password be reset for the following account:"
+#~ msgstr "Someone requested that the password be reset for the following account:"
+
+#~ msgid "Username: %s"
+#~ msgstr "Username: %s"
+
+#~ msgid "If this was a mistake, just ignore this email and nothing will happen."
+#~ msgstr "If this was a mistake, just ignore this email and nothing will happen."
+
+#~ msgid "To reset your password, visit the following address:"
+#~ msgstr "To reset your password, visit the following address:"
+
+#~ msgid "[%s] Password Reset"
+#~ msgstr "[%s] Password Reset"
+
+#~ msgid "Sorry, the link data is not correct. Please, try to register again."
+#~ msgstr "Sorry, the link data is not correct. Please, try to register again."
+
+#~ msgid "Sorry, it seems your activation is expired. Please, try to register again."
+#~ msgstr "Sorry, it seems your activation is expired. Please, try to register again."
+
+#~ msgid "Sorry, email is not correct. Please, try to register again."
+#~ msgstr "Sorry, email is not correct. Please, try to register again."
+
+#~ msgid "Sorry, email is already exists. Please, try to register again with another email."
+#~ msgstr "Sorry, email is already exists. Please, try to register again with another email."
+
+#~ msgid "Sorry, username is already exists. Please, try to register again with another username."
+#~ msgstr "Sorry, username is already exists. Please, try to register again with another username."
+
+#~ msgid "Sorry, something went wrong on user creation. Please, try to register again with another username."
+#~ msgstr "Sorry, something went wrong on user creation. Please, try to register again with another username."
+
+#~ msgid "Your account is activated! Use your email or username and a password you've entered"
+#~ msgstr "Your account is activated! Use your email or username and a password you've entered"
+
+#~ msgid "Check you email to activate you account, please."
+#~ msgstr "Check you email to activate you account, please."
+
+#~ msgid "User name"
+#~ msgstr "User name"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Register"
+#~ msgstr "Register"
+
+#~ msgid "Error from filter."
+#~ msgstr "Error from filter."
+
+#~ msgid "Username is required."
+#~ msgstr "Username is required."
+
+#~ msgid "Username exists."
+#~ msgstr "Username exists."
+
+#~ msgid "Email is required."
+#~ msgstr "Email is required."
+
+#~ msgid "Enter valid email."
+#~ msgstr "Enter valid email."
+
+#~ msgid "Email exists."
+#~ msgstr "Email exists."
+
+#~ msgid "You have registered to \"%s\" website"
+#~ msgstr "You have registered to \"%s\" website"
+
+#~ msgid "Username: your email or login name you have entered"
+#~ msgstr "Username: your email or login name you have entered"
+
+#~ msgid "Password: %s"
+#~ msgstr "Password: %s"
+
+#~ msgid "To activate your account, visit the following address:"
+#~ msgstr "To activate your account, visit the following address:"
+
+#~ msgid "Basement latest items tiles"
+#~ msgstr "Basement latest items tiles"
+
+#~ msgid "Latest items tiles of post type"
+#~ msgstr "Latest items tiles of post type"
+
+#~ msgid "Title link"
+#~ msgstr "Title link"
+
+#~ msgid "Post type"
+#~ msgstr "Post type"
+
+#~ msgid "Count"
+#~ msgstr "Count"
+
+#~ msgid "Basement simple text"
+#~ msgstr "Basement simple text"
+
+#~ msgid "A simple text widget with header"
+#~ msgstr "A simple text widget with header"
+
+#~ msgid "Text"
+#~ msgstr "Text"
