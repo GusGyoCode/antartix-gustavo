@@ -65,7 +65,7 @@ define( 'WP_MAX_MEMORY_LIMIT', '512M' );
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_1';
+$table_prefix  = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.
